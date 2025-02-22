@@ -48,7 +48,7 @@ entity
      30 .ci/update-github-milestone.sh
      59 .ci/util.sh
      58 .ci/validation.cmd
-   1238 .ci/validation.sh
+   1239 .ci/validation.sh
     295 .circleci/config.yml
      61 .cirrus.yml
      23 .gitattributes
@@ -124,7 +124,7 @@ entity
     142 config/checkstyle-examples-checks.xml
     160 config/checkstyle-examples-suppressions.xml
      35 config/checkstyle-input-checks.xml
-    360 config/checkstyle-input-suppressions.xml
+    336 config/checkstyle-input-suppressions.xml
     166 config/checkstyle-non-main-files-checks.xml
     308 config/checkstyle-non-main-files-suppressions.xml
      46 config/checkstyle-resources-checks.xml
@@ -144,7 +144,7 @@ entity
      18 config/java-regexp.header
      18 config/java.header
      32 config/jsoref-spellchecker/exclude.pl
-   1553 config/jsoref-spellchecker/whitelist.words
+   1554 config/jsoref-spellchecker/whitelist.words
    1507 config/linkcheck-suppressions.txt
      12 config/markdownlint.rb
     144 config/org.eclipse.jdt.core.prefs
@@ -1340,7 +1340,7 @@ entity
     102 src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/AbstractImportRule.java
      35 src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/AccessResult.java
     208 src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/AvoidStarImportCheck.java
- 160558 total
+ 160536 total
      185 src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/AvoidStaticImportCheck.java
       65 src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/ClassImportRule.java
      967 src/main/java/com/puppycrawl/tools/checkstyle/checks/imports/CustomImportOrderCheck.java
@@ -1430,7 +1430,7 @@ entity
      153 src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/utils/InlineTagUtil.java
       86 src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/utils/TagInfo.java
       23 src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/utils/package-info.java
-     492 src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractClassCouplingCheck.java
+     496 src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/AbstractClassCouplingCheck.java
      322 src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheck.java
      170 src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheck.java
      141 src/main/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassFanOutComplexityCheck.java
@@ -2746,8 +2746,8 @@ entity
      141 src/test/java/com/puppycrawl/tools/checkstyle/checks/javadoc/utils/BlockTagUtilTest.java
      147 src/test/java/com/puppycrawl/tools/checkstyle/checks/javadoc/utils/InlineTagUtilTest.java
      153 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/BooleanExpressionComplexityCheckTest.java
-     206 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheckTest.java
-     400 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassFanOutComplexityCheckTest.java
+     207 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassDataAbstractionCouplingCheckTest.java
+     401 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/ClassFanOutComplexityCheckTest.java
      194 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/CyclomaticComplexityCheckTest.java
      220 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/JavaNCSSCheckTest.java
      464 src/test/java/com/puppycrawl/tools/checkstyle/checks/metrics/NPathComplexityCheckTest.java
@@ -2997,7 +2997,7 @@ entity
       99 src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/coding/finallocalvariable/InputFinalLocalVariableCheckSwitchAssignment.java
      208 src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/coding/finallocalvariable/InputFinalLocalVariableCheckSwitchExpressions.java
       58 src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/coding/finallocalvariable/InputFinalLocalVariableValidateUnnamedVariablesFalse.java
-  310541 total
+  310547 total
      58 src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/coding/finallocalvariable/InputFinalLocalVariableValidateUnnamedVariablesTrue.java
      35 src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/coding/hiddenfield/InputHiddenFieldClassNestedInRecord.java
      44 src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/coding/hiddenfield/InputHiddenFieldEnhancedInstanceof.java
@@ -4871,7 +4871,7 @@ entity
      69 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCoupling2.java
      59 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCoupling3.java
      59 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCoupling4.java
-     24 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCoupling5.java
+     26 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCoupling5.java
      42 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCouplingExcludedPackagesAllIgnored.java
      40 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCouplingExcludedPackagesCommonPackage.java
      40 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classdataabstractioncoupling/InputClassDataAbstractionCouplingExcludedPackagesDirectPackages.java
@@ -4891,7 +4891,7 @@ entity
      26 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityExtends.java
      25 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityImplements.java
      33 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityImplementsAndNestedCount.java
-     36 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityLambdaNew.java
+     38 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityLambdaNew.java
      51 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityMultiCatchBitwiseOr.java
      27 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityMultiDimensionalArray.java
      29 src/test/resources/com/puppycrawl/tools/checkstyle/checks/metrics/classfanoutcomplexity/InputClassFanOutComplexityPackageName.java
@@ -5107,7 +5107,7 @@ entity
      15 src/test/resources/com/puppycrawl/tools/checkstyle/checks/regexp/regexp/InputRegexpCheckB3.java
      14 src/test/resources/com/puppycrawl/tools/checkstyle/checks/regexp/regexp/InputRegexpCheckB4.java
      16 src/test/resources/com/puppycrawl/tools/checkstyle/checks/regexp/regexp/InputRegexpCheckDefault.java
-  65852 total
+  65856 total
      13 src/test/resources/com/puppycrawl/tools/checkstyle/checks/regexp/regexp/InputRegexpCheckEmptyLine2.java
    1996 src/test/resources/com/puppycrawl/tools/checkstyle/checks/regexp/regexp/InputRegexpCheckStopEarly.java
     230 src/test/resources/com/puppycrawl/tools/checkstyle/checks/regexp/regexp/InputRegexpSemantic.java

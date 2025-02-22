@@ -22230,14 +22230,14 @@
 1825	0	src/org/apache/xerces/impl/validation/Grammar.java
 183	0	src/org/apache/xerces/impl/validation/GrammarPool.java
 108	0	src/org/apache/xerces/impl/validation/InvalidDatatypeFacetException.java
-139	0	src/org/apache/xerces/impl/validation/InvalidDatatypeValueException.java
+62	49	src/org/apache/xerces/{dom/DeferredCommentImpl.java => impl/validation/InvalidDatatypeValueException.java}
 107	0	src/org/apache/xerces/impl/validation/XMLAttributeDecl.java
 330	0	src/org/apache/xerces/impl/validation/XMLContentSpec.java
 138	0	src/org/apache/xerces/impl/validation/XMLElementDecl.java
-57	54	src/org/apache/xerces/{dom/DeferredProcessingInstructionImpl.java => impl/validation/XMLEntityDecl.java}
+132	0	src/org/apache/xerces/impl/validation/XMLEntityDecl.java
 105	0	src/org/apache/xerces/impl/validation/XMLNotationDecl.java
 201	0	src/org/apache/xerces/impl/validation/XMLSimpleType.java
-58	45	src/org/apache/xerces/{dom/DeferredCommentImpl.java => impl/validation/datatypes/AbstractDatatypeValidator.java}
+58	48	src/org/apache/xerces/{dom/DeferredProcessingInstructionImpl.java => impl/validation/datatypes/AbstractDatatypeValidator.java}
 201	0	src/org/apache/xerces/impl/validation/datatypes/DatatypeMessageProvider.java
 588	0	src/org/apache/xerces/impl/validation/datatypes/DatatypeValidatorFactoryImpl.java
 221	0	src/org/apache/xerces/impl/validation/datatypes/ENTITYDatatypeValidator.java

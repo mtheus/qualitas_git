@@ -1982,7 +1982,7 @@ entity
     1004 core/src/com/biglybt/pifimpl/local/peers/PeerManagerImpl.java
      131 core/src/com/biglybt/pifimpl/local/peers/PeerManagerStatsImpl.java
      215 core/src/com/biglybt/pifimpl/local/peers/PeerStatsImpl.java
-     154 core/src/com/biglybt/pifimpl/local/sharing/ShareConfigImpl.java
+     160 core/src/com/biglybt/pifimpl/local/sharing/ShareConfigImpl.java
      152 core/src/com/biglybt/pifimpl/local/sharing/ShareItemImpl.java
     1336 core/src/com/biglybt/pifimpl/local/sharing/ShareManagerImpl.java
      610 core/src/com/biglybt/pifimpl/local/sharing/ShareResourceDirContentsImpl.java
@@ -2076,7 +2076,7 @@ entity
      340 core/src/com/biglybt/pifimpl/local/utils/resourcedownloader/ResourceDownloaderFactoryImpl.java
      249 core/src/com/biglybt/pifimpl/local/utils/resourcedownloader/ResourceDownloaderFileImpl.java
      355 core/src/com/biglybt/pifimpl/local/utils/resourcedownloader/ResourceDownloaderMetaRefreshImpl.java
-  784747 total
+  784753 total
      266 core/src/com/biglybt/pifimpl/local/utils/resourcedownloader/ResourceDownloaderRetryImpl.java
      355 core/src/com/biglybt/pifimpl/local/utils/resourcedownloader/ResourceDownloaderTimeoutImpl.java
      752 core/src/com/biglybt/pifimpl/local/utils/resourcedownloader/ResourceDownloaderTorrentImpl.java

@@ -26985,98 +26985,6 @@
 0	98	itext/src/ant/pom.xml
 0	185	itext/src/ant/release.xml
 0	58	itext/src/build.xml
-0	73	itext/src/core/com/itextpdf/text/FontProvider.java
-0	125	itext/src/core/com/itextpdf/text/ImgJBIG2.java
-0	233	itext/src/core/com/itextpdf/text/Jpeg2000.java
-0	79	itext/src/core/com/itextpdf/text/LargeElement.java
-0	386	itext/src/core/com/itextpdf/text/RectangleReadOnly.java
-0	54	itext/src/core/com/itextpdf/text/RtfElementInterface.java
-0	64	itext/src/core/com/itextpdf/text/exceptions/BadPasswordException.java
-0	62	itext/src/core/com/itextpdf/text/exceptions/IllegalPdfSyntaxException.java
-0	65	itext/src/core/com/itextpdf/text/exceptions/InvalidPdfException.java
-0	66	itext/src/core/com/itextpdf/text/exceptions/UnsupportedPdfException.java
-0	117	itext/src/core/com/itextpdf/text/factories/GreekAlphabetFactory.java
-0	367	itext/src/core/com/itextpdf/text/html/HtmlUtilities.java
-0	215	itext/src/core/com/itextpdf/text/html/simpleparser/CellWrapper.java
-0	165	itext/src/core/com/itextpdf/text/html/simpleparser/ChainedProperties.java
-0	461	itext/src/core/com/itextpdf/text/html/simpleparser/ElementFactory.java
-0	76	itext/src/core/com/itextpdf/text/html/simpleparser/HTMLTagProcessor.java
-0	443	itext/src/core/com/itextpdf/text/html/simpleparser/HTMLTagProcessors.java
-0	68	itext/src/core/com/itextpdf/text/html/simpleparser/ImageProcessor.java
-0	53	itext/src/core/com/itextpdf/text/html/simpleparser/ImageProvider.java
-0	58	itext/src/core/com/itextpdf/text/html/simpleparser/ImageStore.java
-0	60	itext/src/core/com/itextpdf/text/html/simpleparser/LinkProcessor.java
-0	198	itext/src/core/com/itextpdf/text/html/simpleparser/TableWrapper.java
-0	231	itext/src/core/com/itextpdf/text/pdf/CMapAwareDocumentFont.java
-0	101	itext/src/core/com/itextpdf/text/pdf/DefaultSplitCharacter.java
-0	56	itext/src/core/com/itextpdf/text/pdf/OcspClient.java
-0	182	itext/src/core/com/itextpdf/text/pdf/OcspClientBouncyCastle.java
-0	104	itext/src/core/com/itextpdf/text/pdf/PdfCopyFormsImp.java
-0	120	itext/src/core/com/itextpdf/text/pdf/PdfDeveloperExtension.java
-0	173	itext/src/core/com/itextpdf/text/pdf/PdfEFStream.java
-0	127	itext/src/core/com/itextpdf/text/pdf/PdfVisibilityExpression.java
-0	73	itext/src/core/com/itextpdf/text/pdf/TSAClient.java
-0	225	itext/src/core/com/itextpdf/text/pdf/TSAClientBouncyCastle.java
-0	1699	itext/src/core/com/itextpdf/text/pdf/codec/Base64.java
-0	113	itext/src/core/com/itextpdf/text/pdf/codec/JBIG2Image.java
-0	436	itext/src/core/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java
-0	176	itext/src/core/com/itextpdf/text/pdf/codec/PngWriter.java
-0	87	itext/src/core/com/itextpdf/text/pdf/draw/DottedLineSeparator.java
-0	66	itext/src/core/com/itextpdf/text/pdf/draw/DrawInterface.java
-0	197	itext/src/core/com/itextpdf/text/pdf/draw/LineSeparator.java
-0	170	itext/src/core/com/itextpdf/text/pdf/draw/VerticalPositionMark.java
-0	162	itext/src/core/com/itextpdf/text/pdf/fonts/cmaps/CMap.java
-0	501	itext/src/core/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java
-0	89	itext/src/core/com/itextpdf/text/pdf/fonts/cmaps/CodespaceRange.java
-0	126	itext/src/core/com/itextpdf/text/pdf/parser/ContentByteUtils.java
-0	65	itext/src/core/com/itextpdf/text/pdf/parser/ContentOperator.java
-0	110	itext/src/core/com/itextpdf/text/pdf/parser/FilteredRenderListener.java
-0	74	itext/src/core/com/itextpdf/text/pdf/parser/FilteredTextRenderListener.java
-0	198	itext/src/core/com/itextpdf/text/pdf/parser/GraphicsState.java
-0	148	itext/src/core/com/itextpdf/text/pdf/parser/ImageRenderInfo.java
-0	354	itext/src/core/com/itextpdf/text/pdf/parser/InlineImageUtils.java
-0	118	itext/src/core/com/itextpdf/text/pdf/parser/LineSegment.java
-0	280	itext/src/core/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategy.java
-0	93	itext/src/core/com/itextpdf/text/pdf/parser/MarkedContentInfo.java
-0	71	itext/src/core/com/itextpdf/text/pdf/parser/MarkedContentRenderFilter.java
-0	244	itext/src/core/com/itextpdf/text/pdf/parser/Matrix.java
-0	263	itext/src/core/com/itextpdf/text/pdf/parser/PdfContentReaderTool.java
-0	852	itext/src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java
-0	304	itext/src/core/com/itextpdf/text/pdf/parser/PdfImageObject.java
-0	45	itext/src/core/com/itextpdf/text/pdf/parser/PdfReaderContentParser.java
-0	91	itext/src/core/com/itextpdf/text/pdf/parser/PdfTextExtractor.java
-0	83	itext/src/core/com/itextpdf/text/pdf/parser/RegionTextRenderFilter.java
-0	70	itext/src/core/com/itextpdf/text/pdf/parser/RenderFilter.java
-0	83	itext/src/core/com/itextpdf/text/pdf/parser/RenderListener.java
-0	155	itext/src/core/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategy.java
-0	259	itext/src/core/com/itextpdf/text/pdf/parser/TaggedPdfReaderTool.java
-0	56	itext/src/core/com/itextpdf/text/pdf/parser/TextExtractionStrategy.java
-0	139	itext/src/core/com/itextpdf/text/pdf/parser/TextMarginFinder.java
-0	218	itext/src/core/com/itextpdf/text/pdf/parser/TextRenderInfo.java
-0	237	itext/src/core/com/itextpdf/text/pdf/parser/Vector.java
-0	55	itext/src/core/com/itextpdf/text/pdf/parser/XObjectDoHandler.java
-0	175	itext/src/core/com/itextpdf/text/pdf/qrcode/BitArray.java
-0	191	itext/src/core/com/itextpdf/text/pdf/qrcode/BitMatrix.java
-0	584	itext/src/core/com/itextpdf/text/pdf/qrcode/Version.java
-0	111	itext/src/core/com/itextpdf/text/pdf/richmedia/CuePoint.java
-0	134	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaActivation.java
-0	100	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaAnimation.java
-0	265	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaAnnotation.java
-0	80	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaCommand.java
-0	96	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaConfiguration.java
-0	78	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaDeactivation.java
-0	82	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaExecuteAction.java
-0	99	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaInstance.java
-0	111	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaParams.java
-0	107	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaPosition.java
-0	132	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaPresentation.java
-0	111	itext/src/core/com/itextpdf/text/pdf/richmedia/RichMediaWindow.java
-0	141	itext/src/core/com/itextpdf/text/xml/XMLUtil.java
-0	22	itext/src/core/com/itextpdf/text/xml/simpleparser/NewLineHandler.java
-0	44	itext/src/core/com/itextpdf/text/xml/simpleparser/handler/HTMLNewLineHandler.java
-0	27	itext/src/core/com/itextpdf/text/xml/simpleparser/handler/NeverNewLineHandler.java
-0	82	itext/src/core/com/itextpdf/text/xml/xmp/PdfA1Schema.java
-0	205	itext/src/core/com/itextpdf/text/xml/xmp/XmpReader.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Anchor.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Annotation.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/BadElementException.java
@@ -27094,18 +27002,18 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Font.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/FontFactory.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/FontFactoryImp.java
-73	0	itext/src/main/java/com/itextpdf/text/FontProvider.java
+73	73	itext/src/{core => main/java}/com/itextpdf/text/FontProvider.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/GreekList.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Header.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Image.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ImgCCITT.java
-125	0	itext/src/main/java/com/itextpdf/text/ImgJBIG2.java
+125	125	itext/src/{core => main/java}/com/itextpdf/text/ImgJBIG2.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ImgRaw.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ImgTemplate.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ImgWMF.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Jpeg.java
-233	0	itext/src/main/java/com/itextpdf/text/Jpeg2000.java
-79	0	itext/src/main/java/com/itextpdf/text/LargeElement.java
+233	233	itext/src/{core => main/java}/com/itextpdf/text/Jpeg2000.java
+79	79	itext/src/{core => main/java}/com/itextpdf/text/LargeElement.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/List.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ListItem.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/MarkedObject.java
@@ -27115,9 +27023,9 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Paragraph.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Phrase.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Rectangle.java
-386	0	itext/src/main/java/com/itextpdf/text/RectangleReadOnly.java
+386	386	itext/src/{core => main/java}/com/itextpdf/text/RectangleReadOnly.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/RomanList.java
-54	0	itext/src/main/java/com/itextpdf/text/RtfElementInterface.java
+53	53	itext/src/{core => main/java}/com/itextpdf/text/RtfElementInterface.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/Section.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/SpecialSymbol.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/SplitCharacter.java
@@ -27126,29 +27034,29 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ZapfDingbatsList.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/ZapfDingbatsNumberList.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/error_messages/MessageLocalization.java
-64	0	itext/src/main/java/com/itextpdf/text/exceptions/BadPasswordException.java
-62	0	itext/src/main/java/com/itextpdf/text/exceptions/IllegalPdfSyntaxException.java
-65	0	itext/src/main/java/com/itextpdf/text/exceptions/InvalidPdfException.java
-66	0	itext/src/main/java/com/itextpdf/text/exceptions/UnsupportedPdfException.java
-117	0	itext/src/main/java/com/itextpdf/text/factories/GreekAlphabetFactory.java
+64	64	itext/src/{core => main/java}/com/itextpdf/text/exceptions/BadPasswordException.java
+62	62	itext/src/{core => main/java}/com/itextpdf/text/exceptions/IllegalPdfSyntaxException.java
+65	65	itext/src/{core => main/java}/com/itextpdf/text/exceptions/InvalidPdfException.java
+66	66	itext/src/{core => main/java}/com/itextpdf/text/exceptions/UnsupportedPdfException.java
+117	117	itext/src/{core => main/java}/com/itextpdf/text/factories/GreekAlphabetFactory.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/factories/RomanAlphabetFactory.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/factories/RomanNumberFactory.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/html/HtmlEncoder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/html/HtmlTags.java
-367	0	itext/src/main/java/com/itextpdf/text/html/HtmlUtilities.java
+366	366	itext/src/{core => main/java}/com/itextpdf/text/html/HtmlUtilities.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/html/WebColors.java
-215	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/CellWrapper.java
-165	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/ChainedProperties.java
-461	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/ElementFactory.java
-76	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/HTMLTagProcessor.java
-443	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/HTMLTagProcessors.java
+214	214	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/CellWrapper.java
+165	165	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/ChainedProperties.java
+461	461	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/ElementFactory.java
+76	76	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/HTMLTagProcessor.java
+443	443	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/HTMLTagProcessors.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/HTMLWorker.java
-68	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/ImageProcessor.java
-53	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/ImageProvider.java
-58	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/ImageStore.java
-60	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/LinkProcessor.java
+67	67	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/ImageProcessor.java
+53	53	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/ImageProvider.java
+58	58	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/ImageStore.java
+60	60	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/LinkProcessor.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/StyleSheet.java
-198	0	itext/src/main/java/com/itextpdf/text/html/simpleparser/TableWrapper.java
+198	198	itext/src/{core => main/java}/com/itextpdf/text/html/simpleparser/TableWrapper.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/AcroFields.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/ArabicLigaturizer.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/AsianFontMapper.java
@@ -27173,11 +27081,11 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/CFFFontSubset.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/CJKFont.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/CMYKColor.java
-231	0	itext/src/main/java/com/itextpdf/text/pdf/CMapAwareDocumentFont.java
+231	231	itext/src/{core => main/java}/com/itextpdf/text/pdf/CMapAwareDocumentFont.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/ColorDetails.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/ColumnText.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/DefaultFontMapper.java
-101	0	itext/src/main/java/com/itextpdf/text/pdf/DefaultSplitCharacter.java
+101	101	itext/src/{core => main/java}/com/itextpdf/text/pdf/DefaultSplitCharacter.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/DocumentFont.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/EnumerateTTC.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/ExtendedColor.java
@@ -27196,8 +27104,8 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/LZWDecoder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/MappedRandomAccessFile.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/MultiColumnText.java
-56	0	itext/src/main/java/com/itextpdf/text/pdf/OcspClient.java
-182	0	itext/src/main/java/com/itextpdf/text/pdf/OcspClientBouncyCastle.java
+56	56	itext/src/{core => main/java}/com/itextpdf/text/pdf/OcspClient.java
+182	182	itext/src/{core => main/java}/com/itextpdf/text/pdf/OcspClientBouncyCastle.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/OutputStreamCounter.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/OutputStreamEncryption.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PRAcroForm.java
@@ -27223,14 +27131,14 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfCopyFields.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfCopyFieldsImp.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfCopyForms.java
-104	0	itext/src/main/java/com/itextpdf/text/pdf/PdfCopyFormsImp.java
+104	104	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfCopyFormsImp.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfDashPattern.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfDate.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfDestination.java
-120	0	itext/src/main/java/com/itextpdf/text/pdf/PdfDeveloperExtension.java
+120	120	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfDeveloperExtension.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfDictionary.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfDocument.java
-173	0	itext/src/main/java/com/itextpdf/text/pdf/PdfEFStream.java
+173	173	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfEFStream.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfEncodings.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfEncryption.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfEncryptor.java
@@ -27303,7 +27211,7 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfTextArray.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfTransition.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfTransparencyGroup.java
-127	0	itext/src/main/java/com/itextpdf/text/pdf/PdfVisibilityExpression.java
+127	127	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfVisibilityExpression.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfWriter.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/PdfXConformanceException.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/Pfm2afm.java
@@ -27317,8 +27225,8 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/SpotColor.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/StampContent.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/StandardDecryption.java
-73	0	itext/src/main/java/com/itextpdf/text/pdf/TSAClient.java
-225	0	itext/src/main/java/com/itextpdf/text/pdf/TSAClientBouncyCastle.java
+72	72	itext/src/{core => main/java}/com/itextpdf/text/pdf/TSAClient.java
+225	225	itext/src/{core => main/java}/com/itextpdf/text/pdf/TSAClientBouncyCastle.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/TextField.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/TrueTypeFont.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/TrueTypeFontSubSet.java
@@ -27329,17 +27237,17 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/VerticalText.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/XfaForm.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/XfdfReader.java
-1699	0	itext/src/main/java/com/itextpdf/text/pdf/codec/Base64.java
+1699	1699	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/Base64.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/BitFile.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/BmpImage.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/CCITTG4Encoder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/GifImage.java
-113	0	itext/src/main/java/com/itextpdf/text/pdf/codec/JBIG2Image.java
-436	0	itext/src/main/java/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java
+113	113	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/JBIG2Image.java
+436	436	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/LZWCompressor.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/LZWStringTable.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/PngImage.java
-176	0	itext/src/main/java/com/itextpdf/text/pdf/codec/PngWriter.java
+176	176	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/PngWriter.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/TIFFConstants.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/TIFFDirectory.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/codec/TIFFFaxDecoder.java
@@ -27365,19 +27273,19 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/crypto/AESCipher.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/crypto/ARCFOUREncryption.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/crypto/IVGenerator.java
-87	0	itext/src/main/java/com/itextpdf/text/pdf/draw/DottedLineSeparator.java
-66	0	itext/src/main/java/com/itextpdf/text/pdf/draw/DrawInterface.java
-197	0	itext/src/main/java/com/itextpdf/text/pdf/draw/LineSeparator.java
-170	0	itext/src/main/java/com/itextpdf/text/pdf/draw/VerticalPositionMark.java
+86	86	itext/src/{core => main/java}/com/itextpdf/text/pdf/draw/DottedLineSeparator.java
+65	65	itext/src/{core => main/java}/com/itextpdf/text/pdf/draw/DrawInterface.java
+196	196	itext/src/{core => main/java}/com/itextpdf/text/pdf/draw/LineSeparator.java
+170	170	itext/src/{core => main/java}/com/itextpdf/text/pdf/draw/VerticalPositionMark.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/events/FieldPositioningEvents.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/events/IndexEvents.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/events/PdfPCellEventForwarder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/events/PdfPTableEventForwarder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/events/PdfPageEventForwarder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/fonts/FontsResourceAnchor.java
-162	0	itext/src/main/java/com/itextpdf/text/pdf/fonts/cmaps/CMap.java
-501	0	itext/src/main/java/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java
-89	0	itext/src/main/java/com/itextpdf/text/pdf/fonts/cmaps/CodespaceRange.java
+162	162	itext/src/{core => main/java}/com/itextpdf/text/pdf/fonts/cmaps/CMap.java
+501	501	itext/src/{core => main/java}/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java
+88	88	itext/src/{core => main/java}/com/itextpdf/text/pdf/fonts/cmaps/CodespaceRange.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/hyphenation/ByteVector.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/hyphenation/CharVector.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/hyphenation/Hyphen.java
@@ -27402,35 +27310,35 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/internal/PdfXConformanceImp.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/internal/PolylineShape.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/internal/PolylineShapeIterator.java
-126	0	itext/src/main/java/com/itextpdf/text/pdf/parser/ContentByteUtils.java
-65	0	itext/src/main/java/com/itextpdf/text/pdf/parser/ContentOperator.java
-110	0	itext/src/main/java/com/itextpdf/text/pdf/parser/FilteredRenderListener.java
-74	0	itext/src/main/java/com/itextpdf/text/pdf/parser/FilteredTextRenderListener.java
-198	0	itext/src/main/java/com/itextpdf/text/pdf/parser/GraphicsState.java
-148	0	itext/src/main/java/com/itextpdf/text/pdf/parser/ImageRenderInfo.java
-354	0	itext/src/main/java/com/itextpdf/text/pdf/parser/InlineImageUtils.java
-118	0	itext/src/main/java/com/itextpdf/text/pdf/parser/LineSegment.java
-280	0	itext/src/main/java/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategy.java
-93	0	itext/src/main/java/com/itextpdf/text/pdf/parser/MarkedContentInfo.java
-71	0	itext/src/main/java/com/itextpdf/text/pdf/parser/MarkedContentRenderFilter.java
-244	0	itext/src/main/java/com/itextpdf/text/pdf/parser/Matrix.java
-263	0	itext/src/main/java/com/itextpdf/text/pdf/parser/PdfContentReaderTool.java
-852	0	itext/src/main/java/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java
-304	0	itext/src/main/java/com/itextpdf/text/pdf/parser/PdfImageObject.java
-45	0	itext/src/main/java/com/itextpdf/text/pdf/parser/PdfReaderContentParser.java
-91	0	itext/src/main/java/com/itextpdf/text/pdf/parser/PdfTextExtractor.java
-83	0	itext/src/main/java/com/itextpdf/text/pdf/parser/RegionTextRenderFilter.java
-70	0	itext/src/main/java/com/itextpdf/text/pdf/parser/RenderFilter.java
-83	0	itext/src/main/java/com/itextpdf/text/pdf/parser/RenderListener.java
-155	0	itext/src/main/java/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategy.java
-259	0	itext/src/main/java/com/itextpdf/text/pdf/parser/TaggedPdfReaderTool.java
-56	0	itext/src/main/java/com/itextpdf/text/pdf/parser/TextExtractionStrategy.java
-139	0	itext/src/main/java/com/itextpdf/text/pdf/parser/TextMarginFinder.java
-218	0	itext/src/main/java/com/itextpdf/text/pdf/parser/TextRenderInfo.java
-237	0	itext/src/main/java/com/itextpdf/text/pdf/parser/Vector.java
-55	0	itext/src/main/java/com/itextpdf/text/pdf/parser/XObjectDoHandler.java
-175	0	itext/src/main/java/com/itextpdf/text/pdf/qrcode/BitArray.java
-191	0	itext/src/main/java/com/itextpdf/text/pdf/qrcode/BitMatrix.java
+126	126	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/ContentByteUtils.java
+65	65	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/ContentOperator.java
+109	109	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/FilteredRenderListener.java
+73	73	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/FilteredTextRenderListener.java
+198	198	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/GraphicsState.java
+148	148	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/ImageRenderInfo.java
+354	354	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/InlineImageUtils.java
+118	118	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/LineSegment.java
+280	280	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategy.java
+93	93	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/MarkedContentInfo.java
+71	71	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/MarkedContentRenderFilter.java
+244	244	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/Matrix.java
+263	263	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/PdfContentReaderTool.java
+852	852	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java
+304	304	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/PdfImageObject.java
+45	45	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/PdfReaderContentParser.java
+91	91	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/PdfTextExtractor.java
+83	83	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/RegionTextRenderFilter.java
+69	69	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/RenderFilter.java
+82	82	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/RenderListener.java
+155	155	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategy.java
+259	259	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/TaggedPdfReaderTool.java
+56	56	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/TextExtractionStrategy.java
+139	139	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/TextMarginFinder.java
+218	218	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/TextRenderInfo.java
+237	237	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/Vector.java
+55	55	itext/src/{core => main/java}/com/itextpdf/text/pdf/parser/XObjectDoHandler.java
+174	174	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/BitArray.java
+191	191	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/BitMatrix.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/BitVector.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/BlockPair.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/ByteArray.java
@@ -27449,40 +27357,40 @@
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/QRCodeWriter.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/ReedSolomonEncoder.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/ReedSolomonException.java
-584	0	itext/src/main/java/com/itextpdf/text/pdf/qrcode/Version.java
+584	584	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/Version.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/pdf/qrcode/WriterException.java
-111	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/CuePoint.java
-134	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaActivation.java
-100	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaAnimation.java
-265	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaAnnotation.java
-80	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaCommand.java
-96	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaConfiguration.java
-78	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaDeactivation.java
-82	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaExecuteAction.java
-99	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaInstance.java
-111	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaParams.java
-107	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaPosition.java
-132	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaPresentation.java
-111	0	itext/src/main/java/com/itextpdf/text/pdf/richmedia/RichMediaWindow.java
-141	0	itext/src/main/java/com/itextpdf/text/xml/XMLUtil.java
+111	111	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/CuePoint.java
+134	134	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaActivation.java
+100	100	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaAnimation.java
+265	265	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaAnnotation.java
+80	80	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaCommand.java
+96	96	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaConfiguration.java
+78	78	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaDeactivation.java
+82	82	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaExecuteAction.java
+99	99	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaInstance.java
+111	111	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaParams.java
+107	107	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaPosition.java
+132	132	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaPresentation.java
+111	111	itext/src/{core => main/java}/com/itextpdf/text/pdf/richmedia/RichMediaWindow.java
+141	141	itext/src/{core => main/java}/com/itextpdf/text/xml/XMLUtil.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/XmlDomWriter.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/EntitiesToSymbol.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/EntitiesToUnicode.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/IanaEncodings.java
-22	0	itext/src/main/java/com/itextpdf/text/xml/simpleparser/NewLineHandler.java
+22	22	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/NewLineHandler.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/SimpleXMLDocHandler.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/SimpleXMLDocHandlerComment.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/SimpleXMLParser.java
-44	0	itext/src/main/java/com/itextpdf/text/xml/simpleparser/handler/HTMLNewLineHandler.java
-27	0	itext/src/main/java/com/itextpdf/text/xml/simpleparser/handler/NeverNewLineHandler.java
+44	44	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/handler/HTMLNewLineHandler.java
+27	27	itext/src/{core => main/java}/com/itextpdf/text/xml/simpleparser/handler/NeverNewLineHandler.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/DublinCoreSchema.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/LangAlt.java
-82	0	itext/src/main/java/com/itextpdf/text/xml/xmp/PdfA1Schema.java
+81	81	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/PdfA1Schema.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/PdfSchema.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/XmpArray.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/XmpBasicSchema.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/XmpMMSchema.java
-205	0	itext/src/main/java/com/itextpdf/text/xml/xmp/XmpReader.java
+205	205	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/XmpReader.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/XmpSchema.java
 0	0	itext/src/{core => main/java}/com/itextpdf/text/xml/xmp/XmpWriter.java
 0	0	itext/src/{ => main}/resources/com/itextpdf/text/AGPL.txt
@@ -27492,30 +27400,30 @@
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Adobe-GB1-UCS2.cmap
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Adobe-Japan1-UCS2.cmap
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Adobe-Korea1-UCS2.cmap
-342	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Courier-Bold.afm
-342	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Courier-BoldOblique.afm
-342	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Courier-Oblique.afm
-342	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Courier.afm
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/HYGoThic-Medium.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/HYSMyeongJo-Medium.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/HYSMyeongJoStd-Medium.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/HeiseiKakuGo-W5.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/HeiseiMin-W3.properties
-2827	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Helvetica-Bold.afm
-2827	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Helvetica-BoldOblique.afm
-3051	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Helvetica-Oblique.afm
-3051	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Helvetica.afm
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/KozMinPro-Regular.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/MHei-Medium.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/MSung-Light.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/MSungStd-Light.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/STSong-Light.properties
-13	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/STSongStd-Light.properties
-213	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Symbol.afm
-2588	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Times-Bold.afm
-2384	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Times-BoldItalic.afm
-2667	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Times-Italic.afm
-2419	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/Times-Roman.afm
+342	342	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Courier-Bold.afm
+342	342	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Courier-BoldOblique.afm
+342	342	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Courier-Oblique.afm
+342	342	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Courier.afm
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/HYGoThic-Medium.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/HYSMyeongJo-Medium.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/HYSMyeongJoStd-Medium.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/HeiseiKakuGo-W5.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/HeiseiMin-W3.properties
+2827	2827	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Helvetica-Bold.afm
+2827	2827	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Helvetica-BoldOblique.afm
+3051	3051	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Helvetica-Oblique.afm
+3051	3051	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Helvetica.afm
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/KozMinPro-Regular.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/MHei-Medium.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/MSung-Light.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/MSungStd-Light.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/STSong-Light.properties
+13	13	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/STSongStd-Light.properties
+213	213	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Symbol.afm
+2588	2588	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Times-Bold.afm
+2384	2384	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Times-BoldItalic.afm
+2667	2667	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Times-Italic.afm
+2419	2419	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/Times-Roman.afm
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/UniCNS-UCS2-H.cmap
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/UniCNS-UCS2-V.cmap
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/UniGB-UCS2-H.cmap
@@ -27526,367 +27434,181 @@
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/UniJIS-UCS2-V.cmap
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/UniKS-UCS2-H.cmap
 -	-	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/UniKS-UCS2-V.cmap
-225	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/ZapfDingbats.afm
-15	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cjkencodings.properties
+225	225	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/ZapfDingbats.afm
+15	15	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cjkencodings.properties
 0	0	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cjkfonts.properties
-107	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmap_info.txt
-708	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78-EUC-H
-86	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78-EUC-V
-700	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78-H
-710	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78-RKSJ-H
-86	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78-RKSJ-V
-86	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78-V
-800	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78ms-RKSJ-H
-137	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/78ms-RKSJ-V
-296	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/83pv-RKSJ-H
-241	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/90ms-RKSJ-H
-138	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/90ms-RKSJ-V
-239	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/90msp-RKSJ-H
-137	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/90msp-RKSJ-V
-337	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/90pv-RKSJ-H
-111	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/90pv-RKSJ-V
-709	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-H
-720	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-RKSJ-H
-117	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-RKSJ-V
-117	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-V
-315	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/B5-H
-72	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/B5-V
-319	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/B5pc-H
-72	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/B5pc-V
-472	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS-EUC-H
-520	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS-EUC-V
-219	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS1-H
-72	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS1-V
-142	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS2-H
-58	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS2-V
-1300	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/ETHK-B5-H
-72	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/ETHK-B5-V
-325	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/ETen-B5-H
-73	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/ETen-B5-V
-189	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/EUC-H
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/EUC-V
-739	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-H
-750	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-RKSJ-H
-99	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-RKSJ-V
-99	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-V
-155	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-EUC-H
-80	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-EUC-V
-148	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-H
-80	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-V
-4255	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK-EUC-H
-79	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK-EUC-V
-5177	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK2K-H
-100	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK2K-V
-4254	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBKp-EUC-H
-79	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBKp-EUC-V
-2414	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-EUC-H
-80	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-EUC-V
-2407	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-H
-80	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-V
-2416	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBTpc-EUC-H
-80	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBTpc-EUC-V
-157	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBpc-EUC-H
-80	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/GBpc-EUC-V
-182	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/H
-1116	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdla-B5-H
-71	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdla-B5-V
-998	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdlb-B5-H
-71	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdlb-B5-V
-631	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKgccs-B5-H
-71	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKgccs-B5-V
-621	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm314-B5-H
-71	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm314-B5-V
-771	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm471-B5-H
-71	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm471-B5-V
-1303	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKscs-B5-H
-72	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/HKscs-B5-V
-70	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Hankaku
-68	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Hiragana
-544	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-EUC-H
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-EUC-V
-538	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-H
-4327	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-Johab-H
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-Johab-V
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-V
-758	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-H
-757	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-HW-H
-75	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-HW-V
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-V
-590	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCpc-EUC-H
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCpc-EUC-V
-62	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Katakana
-839	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/NWP-H
-107	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/NWP-V
-192	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/RKSJ-H
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/RKSJ-V
-61	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/Roman
-16974	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UCS2-H
-72	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UCS2-V
-18825	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF16-H
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF16-V
-18823	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF32-H
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF32-V
-18888	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF8-H
-76	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF8-V
-14303	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UCS2-H
-83	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UCS2-V
-14335	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF16-H
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF16-V
-14333	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF32-H
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF32-V
-14522	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF8-H
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF8-V
-8852	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-H
-63	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-HW-H
-261	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-HW-V
-257	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-V
-12493	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF16-H
-282	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF16-V
-12491	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF32-H
-282	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF32-V
-12516	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF8-H
-283	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF8-V
-269	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UCS2-HW-V
-262	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UCS2-V
-266	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UTF8-V
-12482	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISX0213-UTF32-H
-283	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISX0213-UTF32-V
-8707	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UCS2-H
-77	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UCS2-V
-8873	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF16-H
-81	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF16-V
-8871	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF32-H
-81	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF32-V
-8966	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF8-H
-81	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF8-V
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/V
-87	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/cmaps/WP-Symbol
-5430	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/glyphlist.txt
-16	0	itext/src/main/resources/com/itextpdf/text/pdf/fonts/mustRead.html
-415	0	itext/src/main/resources/l10n/error/en.lng
-408	0	itext/src/main/resources/l10n/error/nl.lng
-7	0	itext/src/main/resources/l10n/error/pt.lng
-0	342	itext/src/resources/com/itextpdf/text/pdf/fonts/Courier-Bold.afm
-0	342	itext/src/resources/com/itextpdf/text/pdf/fonts/Courier-BoldOblique.afm
-0	342	itext/src/resources/com/itextpdf/text/pdf/fonts/Courier-Oblique.afm
-0	342	itext/src/resources/com/itextpdf/text/pdf/fonts/Courier.afm
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/HYGoThic-Medium.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/HYSMyeongJo-Medium.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/HYSMyeongJoStd-Medium.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/HeiseiKakuGo-W5.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/HeiseiMin-W3.properties
-0	2827	itext/src/resources/com/itextpdf/text/pdf/fonts/Helvetica-Bold.afm
-0	2827	itext/src/resources/com/itextpdf/text/pdf/fonts/Helvetica-BoldOblique.afm
-0	3051	itext/src/resources/com/itextpdf/text/pdf/fonts/Helvetica-Oblique.afm
-0	3051	itext/src/resources/com/itextpdf/text/pdf/fonts/Helvetica.afm
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/KozMinPro-Regular.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/MHei-Medium.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/MSung-Light.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/MSungStd-Light.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/STSong-Light.properties
-0	13	itext/src/resources/com/itextpdf/text/pdf/fonts/STSongStd-Light.properties
-0	213	itext/src/resources/com/itextpdf/text/pdf/fonts/Symbol.afm
-0	2588	itext/src/resources/com/itextpdf/text/pdf/fonts/Times-Bold.afm
-0	2384	itext/src/resources/com/itextpdf/text/pdf/fonts/Times-BoldItalic.afm
-0	2667	itext/src/resources/com/itextpdf/text/pdf/fonts/Times-Italic.afm
-0	2419	itext/src/resources/com/itextpdf/text/pdf/fonts/Times-Roman.afm
-0	225	itext/src/resources/com/itextpdf/text/pdf/fonts/ZapfDingbats.afm
-0	15	itext/src/resources/com/itextpdf/text/pdf/fonts/cjkencodings.properties
-0	107	itext/src/resources/com/itextpdf/text/pdf/fonts/cmap_info.txt
-0	708	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78-EUC-H
-0	86	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78-EUC-V
-0	700	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78-H
-0	710	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78-RKSJ-H
-0	86	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78-RKSJ-V
-0	86	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78-V
-0	800	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78ms-RKSJ-H
-0	137	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/78ms-RKSJ-V
-0	296	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/83pv-RKSJ-H
-0	241	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/90ms-RKSJ-H
-0	138	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/90ms-RKSJ-V
-0	239	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/90msp-RKSJ-H
-0	137	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/90msp-RKSJ-V
-0	337	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/90pv-RKSJ-H
-0	111	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/90pv-RKSJ-V
-0	709	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-H
-0	720	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-RKSJ-H
-0	117	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-RKSJ-V
-0	117	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-V
-0	315	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/B5-H
-0	72	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/B5-V
-0	319	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/B5pc-H
-0	72	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/B5pc-V
-0	472	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS-EUC-H
-0	520	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS-EUC-V
-0	219	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS1-H
-0	72	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS1-V
-0	142	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS2-H
-0	58	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS2-V
-0	1300	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/ETHK-B5-H
-0	72	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/ETHK-B5-V
-0	325	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/ETen-B5-H
-0	73	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/ETen-B5-V
-0	189	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/EUC-H
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/EUC-V
-0	739	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-H
-0	750	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-RKSJ-H
-0	99	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-RKSJ-V
-0	99	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-V
-0	155	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-EUC-H
-0	80	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-EUC-V
-0	148	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-H
-0	80	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-V
-0	4255	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK-EUC-H
-0	79	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK-EUC-V
-0	5177	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK2K-H
-0	100	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK2K-V
-0	4254	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBKp-EUC-H
-0	79	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBKp-EUC-V
-0	2414	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-EUC-H
-0	80	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-EUC-V
-0	2407	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-H
-0	80	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-V
-0	2416	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBTpc-EUC-H
-0	80	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBTpc-EUC-V
-0	157	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBpc-EUC-H
-0	80	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/GBpc-EUC-V
-0	182	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/H
-0	1116	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdla-B5-H
-0	71	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdla-B5-V
-0	998	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdlb-B5-H
-0	71	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdlb-B5-V
-0	631	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKgccs-B5-H
-0	71	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKgccs-B5-V
-0	621	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm314-B5-H
-0	71	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm314-B5-V
-0	771	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm471-B5-H
-0	71	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm471-B5-V
-0	1303	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKscs-B5-H
-0	72	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/HKscs-B5-V
-0	70	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Hankaku
-0	68	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Hiragana
-0	544	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-EUC-H
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-EUC-V
-0	538	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-H
-0	4327	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-Johab-H
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-Johab-V
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-V
-0	758	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-H
-0	757	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-HW-H
-0	75	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-HW-V
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-V
-0	590	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCpc-EUC-H
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCpc-EUC-V
-0	62	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Katakana
-0	839	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/NWP-H
-0	107	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/NWP-V
-0	192	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/RKSJ-H
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/RKSJ-V
-0	61	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/Roman
-0	16974	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UCS2-H
-0	72	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UCS2-V
-0	18825	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF16-H
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF16-V
-0	18823	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF32-H
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF32-V
-0	18888	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF8-H
-0	76	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF8-V
-0	14303	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UCS2-H
-0	83	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UCS2-V
-0	14335	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF16-H
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF16-V
-0	14333	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF32-H
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF32-V
-0	14522	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF8-H
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF8-V
-0	8852	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-H
-0	63	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-HW-H
-0	261	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-HW-V
-0	257	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-V
-0	12493	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF16-H
-0	282	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF16-V
-0	12491	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF32-H
-0	282	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF32-V
-0	12516	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF8-H
-0	283	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF8-V
-0	269	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UCS2-HW-V
-0	262	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UCS2-V
-0	266	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UTF8-V
-0	12482	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISX0213-UTF32-H
-0	283	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISX0213-UTF32-V
-0	8707	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UCS2-H
-0	77	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UCS2-V
-0	8873	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF16-H
-0	81	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF16-V
-0	8871	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF32-H
-0	81	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF32-V
-0	8966	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF8-H
-0	81	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF8-V
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/V
-0	87	itext/src/resources/com/itextpdf/text/pdf/fonts/cmaps/WP-Symbol
-0	5430	itext/src/resources/com/itextpdf/text/pdf/fonts/glyphlist.txt
-0	16	itext/src/resources/com/itextpdf/text/pdf/fonts/mustRead.html
-0	415	itext/src/resources/l10n/error/en.lng
-0	408	itext/src/resources/l10n/error/nl.lng
-0	7	itext/src/resources/l10n/error/pt.lng
-30	0	itext/src/test/java/com/itextpdf/testutils/ClearOutTempFilesDuringTest.java
-176	0	itext/src/test/java/com/itextpdf/testutils/TestResourceUtils.java
-46	0	itext/src/test/java/com/itextpdf/text/error_messsage/ErrorMessageTest.java
-67	0	itext/src/test/java/com/itextpdf/text/html/WebColorTest.java
-38	0	itext/src/test/java/com/itextpdf/text/html/parser/HtmlWorkerLinkTest.java
-120	0	itext/src/test/java/com/itextpdf/text/html/parser/HtmlWorkerParagraphTest.java
-37	0	itext/src/test/java/com/itextpdf/text/html/parser/HtmlWorkerWhitSpaceTest.java
-81	0	itext/src/test/java/com/itextpdf/text/html/parser/HtmlXFAWorkerTest.java
+106	106	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmap_info.txt
+708	708	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78-EUC-H
+86	86	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78-EUC-V
+700	700	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78-H
+710	710	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78-RKSJ-H
+86	86	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78-RKSJ-V
+86	86	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78-V
+800	800	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78ms-RKSJ-H
+137	137	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/78ms-RKSJ-V
+296	296	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/83pv-RKSJ-H
+241	241	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/90ms-RKSJ-H
+138	138	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/90ms-RKSJ-V
+239	239	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/90msp-RKSJ-H
+137	137	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/90msp-RKSJ-V
+337	337	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/90pv-RKSJ-H
+111	111	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/90pv-RKSJ-V
+709	709	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-H
+720	720	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-RKSJ-H
+117	117	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-RKSJ-V
+117	117	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Add-V
+315	315	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/B5-H
+72	72	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/B5-V
+319	319	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/B5pc-H
+72	72	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/B5pc-V
+472	472	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS-EUC-H
+520	520	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS-EUC-V
+219	219	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS1-H
+72	72	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS1-V
+142	142	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS2-H
+58	58	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/CNS2-V
+1300	1300	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/ETHK-B5-H
+72	72	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/ETHK-B5-V
+325	325	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/ETen-B5-H
+73	73	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/ETen-B5-V
+189	189	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/EUC-H
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/EUC-V
+739	739	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-H
+750	750	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-RKSJ-H
+99	99	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-RKSJ-V
+99	99	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Ext-V
+155	155	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-EUC-H
+80	80	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-EUC-V
+148	148	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-H
+80	80	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GB-V
+4255	4255	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK-EUC-H
+79	79	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK-EUC-V
+5177	5177	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK2K-H
+100	100	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBK2K-V
+4254	4254	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBKp-EUC-H
+79	79	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBKp-EUC-V
+2414	2414	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-EUC-H
+80	80	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-EUC-V
+2407	2407	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-H
+80	80	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBT-V
+2416	2416	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBTpc-EUC-H
+80	80	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBTpc-EUC-V
+157	157	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBpc-EUC-H
+80	80	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/GBpc-EUC-V
+182	182	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/H
+1116	1116	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdla-B5-H
+71	71	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdla-B5-V
+998	998	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdlb-B5-H
+71	71	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKdlb-B5-V
+631	631	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKgccs-B5-H
+71	71	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKgccs-B5-V
+621	621	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm314-B5-H
+71	71	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm314-B5-V
+771	771	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm471-B5-H
+71	71	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKm471-B5-V
+1303	1303	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKscs-B5-H
+72	72	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/HKscs-B5-V
+70	70	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Hankaku
+68	68	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Hiragana
+544	544	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-EUC-H
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-EUC-V
+538	538	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-H
+4327	4327	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-Johab-H
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-Johab-V
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSC-V
+758	758	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-H
+757	757	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-HW-H
+75	75	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-HW-V
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCms-UHC-V
+590	590	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCpc-EUC-H
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/KSCpc-EUC-V
+62	62	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Katakana
+839	839	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/NWP-H
+107	107	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/NWP-V
+192	192	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/RKSJ-H
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/RKSJ-V
+61	61	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/Roman
+16974	16974	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UCS2-H
+72	72	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UCS2-V
+18825	18825	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF16-H
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF16-V
+18823	18823	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF32-H
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF32-V
+18888	18888	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF8-H
+76	76	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniCNS-UTF8-V
+14303	14303	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UCS2-H
+83	83	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UCS2-V
+14335	14335	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF16-H
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF16-V
+14333	14333	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF32-H
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF32-V
+14522	14522	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF8-H
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniGB-UTF8-V
+8852	8852	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-H
+63	63	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-HW-H
+261	261	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-HW-V
+257	257	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UCS2-V
+12493	12493	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF16-H
+282	282	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF16-V
+12491	12491	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF32-H
+282	282	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF32-V
+12516	12516	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF8-H
+283	283	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJIS-UTF8-V
+269	269	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UCS2-HW-V
+262	262	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UCS2-V
+266	266	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISPro-UTF8-V
+12482	12482	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISX0213-UTF32-H
+283	283	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniJISX0213-UTF32-V
+8707	8707	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UCS2-H
+77	77	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UCS2-V
+8873	8873	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF16-H
+81	81	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF16-V
+8871	8871	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF32-H
+81	81	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF32-V
+8966	8966	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF8-H
+81	81	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/UniKS-UTF8-V
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/V
+87	87	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/cmaps/WP-Symbol
+5430	5430	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/glyphlist.txt
+15	15	itext/src/{ => main}/resources/com/itextpdf/text/pdf/fonts/mustRead.html
+414	414	itext/src/{ => main}/resources/l10n/error/en.lng
+408	408	itext/src/{ => main}/resources/l10n/error/nl.lng
+7	7	itext/src/{ => main}/resources/l10n/error/pt.lng
+30	30	itext/{test/core => src/test/java}/com/itextpdf/testutils/ClearOutTempFilesDuringTest.java
+176	176	itext/{test/core => src/test/java}/com/itextpdf/testutils/TestResourceUtils.java
+46	46	itext/{test/core => src/test/java}/com/itextpdf/text/error_messsage/ErrorMessageTest.java
+67	67	itext/{test/core => src/test/java}/com/itextpdf/text/html/WebColorTest.java
+38	38	itext/{test/core => src/test/java}/com/itextpdf/text/html/parser/HtmlWorkerLinkTest.java
+120	120	itext/{test/core => src/test/java}/com/itextpdf/text/html/parser/HtmlWorkerParagraphTest.java
+37	37	itext/{test/core => src/test/java}/com/itextpdf/text/html/parser/HtmlWorkerWhitSpaceTest.java
+81	81	itext/{test/core => src/test/java}/com/itextpdf/text/html/parser/HtmlXFAWorkerTest.java
 0	0	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/AcroFieldsTest.java
 0	0	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/BookmarksTest.java
-56	0	itext/src/test/java/com/itextpdf/text/pdf/DocumentFontTest.java
+56	56	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/DocumentFontTest.java
 0	0	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/MetaDataTest.java
-91	0	itext/src/test/java/com/itextpdf/text/pdf/PdfCopyTest.java
+91	91	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/PdfCopyTest.java
 0	0	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/PdfReaderTest.java
-37	0	itext/src/test/java/com/itextpdf/text/pdf/PdfRectangleTest.java
-206	0	itext/src/test/java/com/itextpdf/text/pdf/TestPdfCopyAndStamp.java
+37	37	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/PdfRectangleTest.java
+206	206	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/TestPdfCopyAndStamp.java
 0	0	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/UnbalancedOperatorsTest.java
-48	0	itext/src/test/java/com/itextpdf/text/pdf/fonts/cmaps/CMapTest.java
-85	0	itext/src/test/java/com/itextpdf/text/pdf/parser/FilteredTextRenderListenerTest.java
-297	0	itext/src/test/java/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategyTest.java
-43	0	itext/src/test/java/com/itextpdf/text/pdf/parser/MatrixTest.java
-134	0	itext/src/test/java/com/itextpdf/text/pdf/parser/PdfContentStreamProcessorTest.java
-159	0	itext/src/test/java/com/itextpdf/text/pdf/parser/PdfTextExtractorEncodingsTest.java
-287	0	itext/src/test/java/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategyTest.java
-99	0	itext/src/test/java/com/itextpdf/text/pdf/parser/TextMarginFinderTest.java
-38	0	itext/src/test/java/com/itextpdf/text/pdf/parser/VectorTest.java
+48	48	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/fonts/cmaps/CMapTest.java
+85	85	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/FilteredTextRenderListenerTest.java
+297	297	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategyTest.java
+43	43	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/MatrixTest.java
+134	134	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/PdfContentStreamProcessorTest.java
+159	159	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/PdfTextExtractorEncodingsTest.java
+287	287	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategyTest.java
+99	99	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/TextMarginFinderTest.java
+38	38	itext/{test/core => src/test/java}/com/itextpdf/text/pdf/parser/VectorTest.java
 -	-	itext/{ => src}/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/SimpleRegistrationForm.pdf
-19	0	itext/src/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/list_register.xfdf
-18	0	itext/src/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/register.xfdf
+18	18	itext/{ => src}/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/list_register.xfdf
+17	17	itext/{ => src}/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/register.xfdf
 -	-	itext/{ => src}/test/resources/com/itextpdf/text/pdf/DocumentFontTest/type0FontWithoutToUnicodeMap.pdf
 -	-	itext/{ => src}/test/resources/com/itextpdf/text/pdf/PdfReaderTest/RomeoJuliet.pdf
 -	-	itext/{ => src}/test/resources/com/itextpdf/text/pdf/PdfReaderTest/getLinkTest1.pdf
 -	-	itext/{ => src}/test/resources/com/itextpdf/text/pdf/PdfReaderTest/getLinkTest2.pdf
 -	-	itext/{ => src}/test/resources/com/itextpdf/text/pdf/parser/PdfContentStreamProcessorTest/yaxiststar.pdf
 42	0	itext/src/test/resources/html/snippet/xfa-support-snippet.html
-0	30	itext/test/core/com/itextpdf/testutils/ClearOutTempFilesDuringTest.java
-0	176	itext/test/core/com/itextpdf/testutils/TestResourceUtils.java
-0	46	itext/test/core/com/itextpdf/text/error_messsage/ErrorMessageTest.java
-0	67	itext/test/core/com/itextpdf/text/html/WebColorTest.java
-0	38	itext/test/core/com/itextpdf/text/html/parser/HtmlWorkerLinkTest.java
-0	120	itext/test/core/com/itextpdf/text/html/parser/HtmlWorkerParagraphTest.java
-0	37	itext/test/core/com/itextpdf/text/html/parser/HtmlWorkerWhitSpaceTest.java
-0	81	itext/test/core/com/itextpdf/text/html/parser/HtmlXFAWorkerTest.java
-0	56	itext/test/core/com/itextpdf/text/pdf/DocumentFontTest.java
-0	91	itext/test/core/com/itextpdf/text/pdf/PdfCopyTest.java
-0	37	itext/test/core/com/itextpdf/text/pdf/PdfRectangleTest.java
-0	206	itext/test/core/com/itextpdf/text/pdf/TestPdfCopyAndStamp.java
-0	48	itext/test/core/com/itextpdf/text/pdf/fonts/cmaps/CMapTest.java
-0	85	itext/test/core/com/itextpdf/text/pdf/parser/FilteredTextRenderListenerTest.java
-0	297	itext/test/core/com/itextpdf/text/pdf/parser/LocationTextExtractionStrategyTest.java
-0	43	itext/test/core/com/itextpdf/text/pdf/parser/MatrixTest.java
-0	134	itext/test/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessorTest.java
-0	159	itext/test/core/com/itextpdf/text/pdf/parser/PdfTextExtractorEncodingsTest.java
-0	287	itext/test/core/com/itextpdf/text/pdf/parser/SimpleTextExtractionStrategyTest.java
-0	99	itext/test/core/com/itextpdf/text/pdf/parser/TextMarginFinderTest.java
-0	38	itext/test/core/com/itextpdf/text/pdf/parser/VectorTest.java
-0	19	itext/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/list_register.xfdf
-0	18	itext/test/resources/com/itextpdf/text/pdf/AcroFieldsTest/register.xfdf
 0	17	itext/test/resources/html/snippet/xfa-support-snippet.html
 
 [f3b12d74c] Bruno Lowagie 2011-02-04 09:46:17 +0000 Merge tag '5.0.6' into develop
@@ -29702,308 +29424,308 @@
 
 [1e253b788] Bruno Lowagie 2009-12-01 11:08:59 +0000 Moving from com.lowagie to com.itextpdf
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/AGPL.txt
-300	0	itext/src/core/com/itextpdf/text/Anchor.java
-595	0	itext/src/core/com/itextpdf/text/Annotation.java
-81	0	itext/src/core/com/itextpdf/text/BadElementException.java
-847	0	itext/src/core/com/itextpdf/text/Cell.java
-129	0	itext/src/core/com/itextpdf/text/Chapter.java
-121	0	itext/src/core/com/itextpdf/text/ChapterAutoNumber.java
-900	0	itext/src/core/com/itextpdf/text/Chunk.java
-161	0	itext/src/core/com/itextpdf/text/DocListener.java
-482	0	itext/src/core/com/itextpdf/text/DocWriter.java
-912	0	itext/src/core/com/itextpdf/text/Document.java
-85	0	itext/src/core/com/itextpdf/text/DocumentException.java
-348	0	itext/src/core/com/itextpdf/text/Element.java
-68	0	itext/src/core/com/itextpdf/text/ElementListener.java
-513	0	itext/src/core/com/itextpdf/text/ElementTags.java
-160	0	itext/src/core/com/itextpdf/text/ExceptionConverter.java
-784	0	itext/src/core/com/itextpdf/text/Font.java
-441	0	itext/src/core/com/itextpdf/text/FontFactory.java
-695	0	itext/src/core/com/itextpdf/text/FontFactoryImp.java
-74	0	itext/src/core/com/itextpdf/text/FontProvider.java
-126	0	itext/src/core/com/itextpdf/text/GreekList.java
-91	0	itext/src/core/com/itextpdf/text/Header.java
-197	0	itext/src/core/com/itextpdf/text/HeaderFooter.java
-2031	0	itext/src/core/com/itextpdf/text/Image.java
-97	0	itext/src/core/com/itextpdf/text/ImgCCITT.java
-125	0	itext/src/core/com/itextpdf/text/ImgJBIG2.java
-91	0	itext/src/core/com/itextpdf/text/ImgRaw.java
-87	0	itext/src/core/com/itextpdf/text/ImgTemplate.java
-185	0	itext/src/core/com/itextpdf/text/ImgWMF.java
-345	0	itext/src/core/com/itextpdf/text/Jpeg.java
-233	0	itext/src/core/com/itextpdf/text/Jpeg2000.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/Anchor.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/Annotation.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/BadElementException.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/Cell.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/Chapter.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/ChapterAutoNumber.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/Chunk.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/DocListener.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/DocWriter.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/Document.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/DocumentException.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/Element.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/ElementListener.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/ElementTags.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/ExceptionConverter.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/Font.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/FontFactory.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/FontFactoryImp.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/FontProvider.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/GreekList.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/Header.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/HeaderFooter.java
+24	24	itext/src/core/com/{lowagie => itextpdf}/text/Image.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/ImgCCITT.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/ImgJBIG2.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/ImgRaw.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/ImgTemplate.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/ImgWMF.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/Jpeg.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/Jpeg2000.java
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/LICENSE.txt
-79	0	itext/src/core/com/itextpdf/text/LargeElement.java
-582	0	itext/src/core/com/itextpdf/text/List.java
-248	0	itext/src/core/com/itextpdf/text/ListItem.java
-144	0	itext/src/core/com/itextpdf/text/MarkedObject.java
-275	0	itext/src/core/com/itextpdf/text/MarkedSection.java
-223	0	itext/src/core/com/itextpdf/text/Meta.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/LargeElement.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/List.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/ListItem.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/MarkedObject.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/MarkedSection.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/Meta.java
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/NOTICE.txt
-241	0	itext/src/core/com/itextpdf/text/PageSize.java
-496	0	itext/src/core/com/itextpdf/text/Paragraph.java
-584	0	itext/src/core/com/itextpdf/text/Phrase.java
-870	0	itext/src/core/com/itextpdf/text/Rectangle.java
-352	0	itext/src/core/com/itextpdf/text/RectangleReadOnly.java
-115	0	itext/src/core/com/itextpdf/text/RomanList.java
-376	0	itext/src/core/com/itextpdf/text/Row.java
-54	0	itext/src/core/com/itextpdf/text/RtfElementInterface.java
-751	0	itext/src/core/com/itextpdf/text/Section.java
-529	0	itext/src/core/com/itextpdf/text/SimpleCell.java
-350	0	itext/src/core/com/itextpdf/text/SimpleTable.java
-204	0	itext/src/core/com/itextpdf/text/SpecialSymbol.java
-90	0	itext/src/core/com/itextpdf/text/SplitCharacter.java
-1487	0	itext/src/core/com/itextpdf/text/Table.java
-67	0	itext/src/core/com/itextpdf/text/TextElementArray.java
-337	0	itext/src/core/com/itextpdf/text/Utilities.java
-131	0	itext/src/core/com/itextpdf/text/ZapfDingbatsList.java
-142	0	itext/src/core/com/itextpdf/text/ZapfDingbatsNumberList.java
-258	0	itext/src/core/com/itextpdf/text/error_messages/MessageLocalization.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/PageSize.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/Paragraph.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/Phrase.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/Rectangle.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/RectangleReadOnly.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/RomanList.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/Row.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/RtfElementInterface.java
+7	7	itext/src/core/com/{lowagie => itextpdf}/text/Section.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/SimpleCell.java
+11	11	itext/src/core/com/{lowagie => itextpdf}/text/SimpleTable.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/SpecialSymbol.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/SplitCharacter.java
+8	8	itext/src/core/com/{lowagie => itextpdf}/text/Table.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/TextElementArray.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/Utilities.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/ZapfDingbatsList.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/ZapfDingbatsNumberList.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/error_messages/MessageLocalization.java
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/error_messages/en.lng
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/error_messages/nl.lng
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/error_messages/pt.lng
-64	0	itext/src/core/com/itextpdf/text/exceptions/BadPasswordException.java
-62	0	itext/src/core/com/itextpdf/text/exceptions/IllegalPdfSyntaxException.java
-65	0	itext/src/core/com/itextpdf/text/exceptions/InvalidPdfException.java
-66	0	itext/src/core/com/itextpdf/text/exceptions/UnsupportedPdfException.java
-620	0	itext/src/core/com/itextpdf/text/factories/ElementFactory.java
-126	0	itext/src/core/com/itextpdf/text/factories/GreekAlphabetFactory.java
-124	0	itext/src/core/com/itextpdf/text/factories/RomanAlphabetFactory.java
-180	0	itext/src/core/com/itextpdf/text/factories/RomanNumberFactory.java
-204	0	itext/src/core/com/itextpdf/text/html/HtmlEncoder.java
-186	0	itext/src/core/com/itextpdf/text/html/HtmlParser.java
-105	0	itext/src/core/com/itextpdf/text/html/HtmlPeer.java
-293	0	itext/src/core/com/itextpdf/text/html/HtmlTagMap.java
-331	0	itext/src/core/com/itextpdf/text/html/HtmlTags.java
-1124	0	itext/src/core/com/itextpdf/text/html/HtmlWriter.java
-484	0	itext/src/core/com/itextpdf/text/html/Markup.java
-270	0	itext/src/core/com/itextpdf/text/html/SAXmyHtmlHandler.java
-257	0	itext/src/core/com/itextpdf/text/html/WebColors.java
-53	0	itext/src/core/com/itextpdf/text/html/simpleparser/ALink.java
-130	0	itext/src/core/com/itextpdf/text/html/simpleparser/ChainedProperties.java
-408	0	itext/src/core/com/itextpdf/text/html/simpleparser/FactoryProperties.java
-731	0	itext/src/core/com/itextpdf/text/html/simpleparser/HTMLWorker.java
-52	0	itext/src/core/com/itextpdf/text/html/simpleparser/ImageProvider.java
-57	0	itext/src/core/com/itextpdf/text/html/simpleparser/Img.java
-141	0	itext/src/core/com/itextpdf/text/html/simpleparser/IncCell.java
-119	0	itext/src/core/com/itextpdf/text/html/simpleparser/IncTable.java
-106	0	itext/src/core/com/itextpdf/text/html/simpleparser/StyleSheet.java
-2630	0	itext/src/core/com/itextpdf/text/pdf/AcroFields.java
-770	0	itext/src/core/com/itextpdf/text/pdf/ArabicLigaturizer.java
-97	0	itext/src/core/com/itextpdf/text/pdf/AsianFontMapper.java
-80	0	itext/src/core/com/itextpdf/text/pdf/BadPdfFormatException.java
-474	0	itext/src/core/com/itextpdf/text/pdf/Barcode.java
-822	0	itext/src/core/com/itextpdf/text/pdf/Barcode128.java
-389	0	itext/src/core/com/itextpdf/text/pdf/Barcode39.java
-342	0	itext/src/core/com/itextpdf/text/pdf/BarcodeCodabar.java
-1283	0	itext/src/core/com/itextpdf/text/pdf/BarcodeDatamatrix.java
-717	0	itext/src/core/com/itextpdf/text/pdf/BarcodeEAN.java
-152	0	itext/src/core/com/itextpdf/text/pdf/BarcodeEANSUPP.java
-335	0	itext/src/core/com/itextpdf/text/pdf/BarcodeInter25.java
-1610	0	itext/src/core/com/itextpdf/text/pdf/BarcodePDF417.java
-231	0	itext/src/core/com/itextpdf/text/pdf/BarcodePostnet.java
-676	0	itext/src/core/com/itextpdf/text/pdf/BaseField.java
-1558	0	itext/src/core/com/itextpdf/text/pdf/BaseFont.java
-942	0	itext/src/core/com/itextpdf/text/pdf/BidiLine.java
-1291	0	itext/src/core/com/itextpdf/text/pdf/BidiOrder.java
-616	0	itext/src/core/com/itextpdf/text/pdf/ByteBuffer.java
-1183	0	itext/src/core/com/itextpdf/text/pdf/CFFFont.java
-1637	0	itext/src/core/com/itextpdf/text/pdf/CFFFontSubset.java
-664	0	itext/src/core/com/itextpdf/text/pdf/CJKFont.java
-123	0	itext/src/core/com/itextpdf/text/pdf/CMYKColor.java
-220	0	itext/src/core/com/itextpdf/text/pdf/CMapAwareDocumentFont.java
-93	0	itext/src/core/com/itextpdf/text/pdf/ColorDetails.java
-1636	0	itext/src/core/com/itextpdf/text/pdf/ColumnText.java
-308	0	itext/src/core/com/itextpdf/text/pdf/DefaultFontMapper.java
-101	0	itext/src/core/com/itextpdf/text/pdf/DefaultSplitCharacter.java
-678	0	itext/src/core/com/itextpdf/text/pdf/DocumentFont.java
-113	0	itext/src/core/com/itextpdf/text/pdf/EnumerateTTC.java
-116	0	itext/src/core/com/itextpdf/text/pdf/ExtendedColor.java
-79	0	itext/src/core/com/itextpdf/text/pdf/ExtraEncoding.java
-211	0	itext/src/core/com/itextpdf/text/pdf/FdfReader.java
-354	0	itext/src/core/com/itextpdf/text/pdf/FdfWriter.java
-301	0	itext/src/core/com/itextpdf/text/pdf/FontDetails.java
-76	0	itext/src/core/com/itextpdf/text/pdf/FontMapper.java
-145	0	itext/src/core/com/itextpdf/text/pdf/FontSelector.java
-117	0	itext/src/core/com/itextpdf/text/pdf/GlyphList.java
-80	0	itext/src/core/com/itextpdf/text/pdf/GrayColor.java
-121	0	itext/src/core/com/itextpdf/text/pdf/HyphenationAuto.java
-74	0	itext/src/core/com/itextpdf/text/pdf/HyphenationEvent.java
-476	0	itext/src/core/com/itextpdf/text/pdf/IntHashtable.java
-244	0	itext/src/core/com/itextpdf/text/pdf/LZWDecoder.java
-219	0	itext/src/core/com/itextpdf/text/pdf/MappedRandomAccessFile.java
-604	0	itext/src/core/com/itextpdf/text/pdf/MultiColumnText.java
-56	0	itext/src/core/com/itextpdf/text/pdf/OcspClient.java
-179	0	itext/src/core/com/itextpdf/text/pdf/OcspClientBouncyCastle.java
-167	0	itext/src/core/com/itextpdf/text/pdf/OutputStreamCounter.java
-213	0	itext/src/core/com/itextpdf/text/pdf/OutputStreamEncryption.java
-203	0	itext/src/core/com/itextpdf/text/pdf/PRAcroForm.java
-96	0	itext/src/core/com/itextpdf/text/pdf/PRIndirectReference.java
-234	0	itext/src/core/com/itextpdf/text/pdf/PRStream.java
-589	0	itext/src/core/com/itextpdf/text/pdf/PRTokeniser.java
-187	0	itext/src/core/com/itextpdf/text/pdf/PageResources.java
-77	0	itext/src/core/com/itextpdf/text/pdf/PatternColor.java
-735	0	itext/src/core/com/itextpdf/text/pdf/PdfAcroForm.java
-587	0	itext/src/core/com/itextpdf/text/pdf/PdfAction.java
-913	0	itext/src/core/com/itextpdf/text/pdf/PdfAnnotation.java
-172	0	itext/src/core/com/itextpdf/text/pdf/PdfAppearance.java
-547	0	itext/src/core/com/itextpdf/text/pdf/PdfArray.java
-129	0	itext/src/core/com/itextpdf/text/pdf/PdfBoolean.java
-75	0	itext/src/core/com/itextpdf/text/pdf/PdfBorderArray.java
-95	0	itext/src/core/com/itextpdf/text/pdf/PdfBorderDictionary.java
-904	0	itext/src/core/com/itextpdf/text/pdf/PdfCell.java
-848	0	itext/src/core/com/itextpdf/text/pdf/PdfChunk.java
-73	0	itext/src/core/com/itextpdf/text/pdf/PdfColor.java
-3124	0	itext/src/core/com/itextpdf/text/pdf/PdfContentByte.java
-199	0	itext/src/core/com/itextpdf/text/pdf/PdfContentParser.java
-148	0	itext/src/core/com/itextpdf/text/pdf/PdfContents.java
-770	0	itext/src/core/com/itextpdf/text/pdf/PdfCopy.java
-236	0	itext/src/core/com/itextpdf/text/pdf/PdfCopyFields.java
-659	0	itext/src/core/com/itextpdf/text/pdf/PdfCopyFieldsImp.java
-236	0	itext/src/core/com/itextpdf/text/pdf/PdfCopyForms.java
-101	0	itext/src/core/com/itextpdf/text/pdf/PdfCopyFormsImp.java
-135	0	itext/src/core/com/itextpdf/text/pdf/PdfDashPattern.java
-248	0	itext/src/core/com/itextpdf/text/pdf/PdfDate.java
-234	0	itext/src/core/com/itextpdf/text/pdf/PdfDestination.java
-120	0	itext/src/core/com/itextpdf/text/pdf/PdfDeveloperExtension.java
-517	0	itext/src/core/com/itextpdf/text/pdf/PdfDictionary.java
-3137	0	itext/src/core/com/itextpdf/text/pdf/PdfDocument.java
-173	0	itext/src/core/com/itextpdf/text/pdf/PdfEFStream.java
-794	0	itext/src/core/com/itextpdf/text/pdf/PdfEncodings.java
-597	0	itext/src/core/com/itextpdf/text/pdf/PdfEncryption.java
-312	0	itext/src/core/com/itextpdf/text/pdf/PdfEncryptor.java
-81	0	itext/src/core/com/itextpdf/text/pdf/PdfException.java
-305	0	itext/src/core/com/itextpdf/text/pdf/PdfFileSpecification.java
-181	0	itext/src/core/com/itextpdf/text/pdf/PdfFont.java
-344	0	itext/src/core/com/itextpdf/text/pdf/PdfFormField.java
-93	0	itext/src/core/com/itextpdf/text/pdf/PdfFormXObject.java
-140	0	itext/src/core/com/itextpdf/text/pdf/PdfFunction.java
-149	0	itext/src/core/com/itextpdf/text/pdf/PdfGState.java
-1663	0	itext/src/core/com/itextpdf/text/pdf/PdfGraphics2D.java
-99	0	itext/src/core/com/itextpdf/text/pdf/PdfICCBased.java
-289	0	itext/src/core/com/itextpdf/text/pdf/PdfImage.java
-161	0	itext/src/core/com/itextpdf/text/pdf/PdfImportedPage.java
-160	0	itext/src/core/com/itextpdf/text/pdf/PdfIndirectObject.java
-126	0	itext/src/core/com/itextpdf/text/pdf/PdfIndirectReference.java
-309	0	itext/src/core/com/itextpdf/text/pdf/PdfLayer.java
-135	0	itext/src/core/com/itextpdf/text/pdf/PdfLayerMembership.java
-537	0	itext/src/core/com/itextpdf/text/pdf/PdfLine.java
-181	0	itext/src/core/com/itextpdf/text/pdf/PdfLister.java
-104	0	itext/src/core/com/itextpdf/text/pdf/PdfLiteral.java
-60	0	itext/src/core/com/itextpdf/text/pdf/PdfMediaClipData.java
-1927	0	itext/src/core/com/itextpdf/text/pdf/PdfName.java
-157	0	itext/src/core/com/itextpdf/text/pdf/PdfNameTree.java
-81	0	itext/src/core/com/itextpdf/text/pdf/PdfNull.java
-156	0	itext/src/core/com/itextpdf/text/pdf/PdfNumber.java
-153	0	itext/src/core/com/itextpdf/text/pdf/PdfNumberTree.java
-64	0	itext/src/core/com/itextpdf/text/pdf/PdfOCG.java
-56	0	itext/src/core/com/itextpdf/text/pdf/PdfOCProperties.java
-393	0	itext/src/core/com/itextpdf/text/pdf/PdfObject.java
-535	0	itext/src/core/com/itextpdf/text/pdf/PdfOutline.java
-1008	0	itext/src/core/com/itextpdf/text/pdf/PdfPCell.java
-71	0	itext/src/core/com/itextpdf/text/pdf/PdfPCellEvent.java
-1693	0	itext/src/core/com/itextpdf/text/pdf/PdfPKCS7.java
-669	0	itext/src/core/com/itextpdf/text/pdf/PdfPRow.java
-98	0	itext/src/core/com/itextpdf/text/pdf/PdfPSXObject.java
-1586	0	itext/src/core/com/itextpdf/text/pdf/PdfPTable.java
-87	0	itext/src/core/com/itextpdf/text/pdf/PdfPTableEvent.java
-190	0	itext/src/core/com/itextpdf/text/pdf/PdfPage.java
-71	0	itext/src/core/com/itextpdf/text/pdf/PdfPageElement.java
-183	0	itext/src/core/com/itextpdf/text/pdf/PdfPageEvent.java
-195	0	itext/src/core/com/itextpdf/text/pdf/PdfPageEventHelper.java
-292	0	itext/src/core/com/itextpdf/text/pdf/PdfPageLabels.java
-203	0	itext/src/core/com/itextpdf/text/pdf/PdfPages.java
-96	0	itext/src/core/com/itextpdf/text/pdf/PdfPattern.java
-400	0	itext/src/core/com/itextpdf/text/pdf/PdfPatternPainter.java
-66	0	itext/src/core/com/itextpdf/text/pdf/PdfPrinterGraphics2D.java
-77	0	itext/src/core/com/itextpdf/text/pdf/PdfPublicKeyRecipient.java
-273	0	itext/src/core/com/itextpdf/text/pdf/PdfPublicKeySecurityHandler.java
-3585	0	itext/src/core/com/itextpdf/text/pdf/PdfReader.java
-184	0	itext/src/core/com/itextpdf/text/pdf/PdfReaderInstance.java
-307	0	itext/src/core/com/itextpdf/text/pdf/PdfRectangle.java
-58	0	itext/src/core/com/itextpdf/text/pdf/PdfRendition.java
-84	0	itext/src/core/com/itextpdf/text/pdf/PdfResources.java
-259	0	itext/src/core/com/itextpdf/text/pdf/PdfShading.java
-117	0	itext/src/core/com/itextpdf/text/pdf/PdfShadingPattern.java
-228	0	itext/src/core/com/itextpdf/text/pdf/PdfSigGenericPKCS.java
-93	0	itext/src/core/com/itextpdf/text/pdf/PdfSignature.java
-1451	0	itext/src/core/com/itextpdf/text/pdf/PdfSignatureAppearance.java
-220	0	itext/src/core/com/itextpdf/text/pdf/PdfSmartCopy.java
-113	0	itext/src/core/com/itextpdf/text/pdf/PdfSpotColor.java
-759	0	itext/src/core/com/itextpdf/text/pdf/PdfStamper.java
-1686	0	itext/src/core/com/itextpdf/text/pdf/PdfStamperImp.java
-380	0	itext/src/core/com/itextpdf/text/pdf/PdfStream.java
-237	0	itext/src/core/com/itextpdf/text/pdf/PdfString.java
-127	0	itext/src/core/com/itextpdf/text/pdf/PdfStructureElement.java
-142	0	itext/src/core/com/itextpdf/text/pdf/PdfStructureTreeRoot.java
-306	0	itext/src/core/com/itextpdf/text/pdf/PdfTable.java
-290	0	itext/src/core/com/itextpdf/text/pdf/PdfTemplate.java
-127	0	itext/src/core/com/itextpdf/text/pdf/PdfTextArray.java
-249	0	itext/src/core/com/itextpdf/text/pdf/PdfTransition.java
-82	0	itext/src/core/com/itextpdf/text/pdf/PdfTransparencyGroup.java
-3191	0	itext/src/core/com/itextpdf/text/pdf/PdfWriter.java
-65	0	itext/src/core/com/itextpdf/text/pdf/PdfXConformanceException.java
-805	0	itext/src/core/com/itextpdf/text/pdf/Pfm2afm.java
-655	0	itext/src/core/com/itextpdf/text/pdf/PushbuttonField.java
-415	0	itext/src/core/com/itextpdf/text/pdf/RadioCheckField.java
-643	0	itext/src/core/com/itextpdf/text/pdf/RandomAccessFileOrArray.java
-314	0	itext/src/core/com/itextpdf/text/pdf/SequenceList.java
-80	0	itext/src/core/com/itextpdf/text/pdf/ShadingColor.java
-750	0	itext/src/core/com/itextpdf/text/pdf/SimpleBookmark.java
-336	0	itext/src/core/com/itextpdf/text/pdf/SimpleNamedDestination.java
-80	0	itext/src/core/com/itextpdf/text/pdf/SpotColor.java
-78	0	itext/src/core/com/itextpdf/text/pdf/StampContent.java
-105	0	itext/src/core/com/itextpdf/text/pdf/StandardDecryption.java
-73	0	itext/src/core/com/itextpdf/text/pdf/TSAClient.java
-225	0	itext/src/core/com/itextpdf/text/pdf/TSAClientBouncyCastle.java
-788	0	itext/src/core/com/itextpdf/text/pdf/TextField.java
-1526	0	itext/src/core/com/itextpdf/text/pdf/TrueTypeFont.java
-423	0	itext/src/core/com/itextpdf/text/pdf/TrueTypeFontSubSet.java
-487	0	itext/src/core/com/itextpdf/text/pdf/TrueTypeFontUnicode.java
-822	0	itext/src/core/com/itextpdf/text/pdf/Type1Font.java
-324	0	itext/src/core/com/itextpdf/text/pdf/Type3Font.java
-91	0	itext/src/core/com/itextpdf/text/pdf/Type3Glyph.java
-344	0	itext/src/core/com/itextpdf/text/pdf/VerticalText.java
-1135	0	itext/src/core/com/itextpdf/text/pdf/XfaForm.java
-235	0	itext/src/core/com/itextpdf/text/pdf/XfdfReader.java
-1697	0	itext/src/core/com/itextpdf/text/pdf/codec/Base64.java
-1299	0	itext/src/core/com/itextpdf/text/pdf/codec/BmpImage.java
-595	0	itext/src/core/com/itextpdf/text/pdf/codec/CCITTG4Encoder.java
-603	0	itext/src/core/com/itextpdf/text/pdf/codec/GifImage.java
-113	0	itext/src/core/com/itextpdf/text/pdf/codec/JBIG2Image.java
-440	0	itext/src/core/com/itextpdf/text/pdf/codec/JBIG2SegmentReader.java
-993	0	itext/src/core/com/itextpdf/text/pdf/codec/PngImage.java
-280	0	itext/src/core/com/itextpdf/text/pdf/codec/TIFFConstants.java
-673	0	itext/src/core/com/itextpdf/text/pdf/codec/TIFFDirectory.java
-1508	0	itext/src/core/com/itextpdf/text/pdf/codec/TIFFFaxDecoder.java
-489	0	itext/src/core/com/itextpdf/text/pdf/codec/TIFFField.java
-271	0	itext/src/core/com/itextpdf/text/pdf/codec/TIFFLZWDecoder.java
-575	0	itext/src/core/com/itextpdf/text/pdf/codec/TiffImage.java
-107	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/InputMeta.java
-87	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/MetaBrush.java
-762	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/MetaDo.java
-206	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/MetaFont.java
-64	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/MetaObject.java
-84	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/MetaPen.java
-366	0	itext/src/core/com/itextpdf/text/pdf/codec/wmf/MetaState.java
-109	0	itext/src/core/com/itextpdf/text/pdf/collection/PdfCollection.java
-173	0	itext/src/core/com/itextpdf/text/pdf/collection/PdfCollectionField.java
-162	0	itext/src/core/com/itextpdf/text/pdf/collection/PdfCollectionItem.java
-65	0	itext/src/core/com/itextpdf/text/pdf/collection/PdfCollectionSchema.java
-113	0	itext/src/core/com/itextpdf/text/pdf/collection/PdfCollectionSort.java
-136	0	itext/src/core/com/itextpdf/text/pdf/collection/PdfTargetDictionary.java
-99	0	itext/src/core/com/itextpdf/text/pdf/crypto/AESCipher.java
-100	0	itext/src/core/com/itextpdf/text/pdf/crypto/ARCFOUREncryption.java
-86	0	itext/src/core/com/itextpdf/text/pdf/crypto/IVGenerator.java
-87	0	itext/src/core/com/itextpdf/text/pdf/draw/DottedLineSeparator.java
-66	0	itext/src/core/com/itextpdf/text/pdf/draw/DrawInterface.java
-197	0	itext/src/core/com/itextpdf/text/pdf/draw/LineSeparator.java
-170	0	itext/src/core/com/itextpdf/text/pdf/draw/VerticalPositionMark.java
-182	0	itext/src/core/com/itextpdf/text/pdf/events/FieldPositioningEvents.java
-391	0	itext/src/core/com/itextpdf/text/pdf/events/IndexEvents.java
-84	0	itext/src/core/com/itextpdf/text/pdf/events/PdfPCellEventForwarder.java
-83	0	itext/src/core/com/itextpdf/text/pdf/events/PdfPTableEventForwarder.java
-305	0	itext/src/core/com/itextpdf/text/pdf/events/PdfPageEventForwarder.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/exceptions/BadPasswordException.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/exceptions/IllegalPdfSyntaxException.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/exceptions/InvalidPdfException.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/exceptions/UnsupportedPdfException.java
+22	22	itext/src/core/com/{lowagie => itextpdf}/text/factories/ElementFactory.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/factories/GreekAlphabetFactory.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/factories/RomanAlphabetFactory.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/factories/RomanNumberFactory.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/html/HtmlEncoder.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/html/HtmlParser.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/html/HtmlPeer.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/html/HtmlTagMap.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/html/HtmlTags.java
+29	29	itext/src/core/com/{lowagie => itextpdf}/text/html/HtmlWriter.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/html/Markup.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/html/SAXmyHtmlHandler.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/html/WebColors.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/ALink.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/ChainedProperties.java
+14	14	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/FactoryProperties.java
+27	27	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/HTMLWorker.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/ImageProvider.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/Img.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/IncCell.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/IncTable.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/html/simpleparser/StyleSheet.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/pdf/AcroFields.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ArabicLigaturizer.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/AsianFontMapper.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BadPdfFormatException.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Barcode.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Barcode128.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Barcode39.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodeCodabar.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodeDatamatrix.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodeEAN.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodeEANSUPP.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodeInter25.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodePDF417.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BarcodePostnet.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BaseField.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BaseFont.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BidiLine.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/BidiOrder.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ByteBuffer.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/CFFFont.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/CFFFontSubset.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/CJKFont.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/CMYKColor.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/CMapAwareDocumentFont.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ColorDetails.java
+16	16	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ColumnText.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/DefaultFontMapper.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/DefaultSplitCharacter.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/DocumentFont.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/EnumerateTTC.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ExtendedColor.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ExtraEncoding.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/FdfReader.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/FdfWriter.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/FontDetails.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/FontMapper.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/FontSelector.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/GlyphList.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/GrayColor.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/HyphenationAuto.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/HyphenationEvent.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/IntHashtable.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/LZWDecoder.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/MappedRandomAccessFile.java
+11	11	itext/src/core/com/{lowagie => itextpdf}/text/pdf/MultiColumnText.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/OcspClient.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/OcspClientBouncyCastle.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/OutputStreamCounter.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/OutputStreamEncryption.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PRAcroForm.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PRIndirectReference.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PRStream.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PRTokeniser.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PageResources.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PatternColor.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfAcroForm.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfAction.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfAnnotation.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfAppearance.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfArray.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfBoolean.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfBorderArray.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfBorderDictionary.java
+15	15	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfCell.java
+8	8	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfChunk.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfColor.java
+14	14	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfContentByte.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfContentParser.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfContents.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfCopy.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfCopyFields.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfCopyFieldsImp.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfCopyForms.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfCopyFormsImp.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfDashPattern.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfDate.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfDestination.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfDeveloperExtension.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfDictionary.java
+35	35	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfDocument.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfEFStream.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfEncodings.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfEncryption.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfEncryptor.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfException.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfFileSpecification.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfFont.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfFormField.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfFormXObject.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfFunction.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfGState.java
+8	8	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfGraphics2D.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfICCBased.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfImage.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfImportedPage.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfIndirectObject.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfIndirectReference.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfLayer.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfLayerMembership.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfLine.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfLister.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfLiteral.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfMediaClipData.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfName.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfNameTree.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfNull.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfNumber.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfNumberTree.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfOCG.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfOCProperties.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfObject.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfOutline.java
+10	10	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPCell.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPCellEvent.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPKCS7.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPRow.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPSXObject.java
+17	17	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPTable.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPTableEvent.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPage.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPageElement.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPageEvent.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPageEventHelper.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPageLabels.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPages.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPattern.java
+30	30	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPatternPainter.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPrinterGraphics2D.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPublicKeyRecipient.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfPublicKeySecurityHandler.java
+13	13	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfReader.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfReaderInstance.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfRectangle.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfRendition.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfResources.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfShading.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfShadingPattern.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfSigGenericPKCS.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfSignature.java
+20	20	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfSignatureAppearance.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfSmartCopy.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfSpotColor.java
+11	11	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfStamper.java
+18	18	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfStamperImp.java
+7	7	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfStream.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfString.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfStructureElement.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfStructureTreeRoot.java
+10	10	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfTable.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfTemplate.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfTextArray.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfTransition.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfTransparencyGroup.java
+49	49	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfWriter.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PdfXConformanceException.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Pfm2afm.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/PushbuttonField.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/RadioCheckField.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/RandomAccessFileOrArray.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/SequenceList.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/ShadingColor.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/SimpleBookmark.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/SimpleNamedDestination.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/SpotColor.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/StampContent.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/StandardDecryption.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/TSAClient.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/TSAClientBouncyCastle.java
+7	7	itext/src/core/com/{lowagie => itextpdf}/text/pdf/TextField.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/TrueTypeFont.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/TrueTypeFontSubSet.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/TrueTypeFontUnicode.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Type1Font.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Type3Font.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/Type3Glyph.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/VerticalText.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/XfaForm.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/XfdfReader.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/Base64.java
+12	12	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/BmpImage.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/CCITTG4Encoder.java
+11	11	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/GifImage.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/JBIG2Image.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/JBIG2SegmentReader.java
+15	15	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/PngImage.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/TIFFConstants.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/TIFFDirectory.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/TIFFFaxDecoder.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/TIFFField.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/TIFFLZWDecoder.java
+11	11	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/TiffImage.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/InputMeta.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/MetaBrush.java
+7	7	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/MetaDo.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/MetaFont.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/MetaObject.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/MetaPen.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/codec/wmf/MetaState.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/collection/PdfCollection.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/pdf/collection/PdfCollectionField.java
+8	8	itext/src/core/com/{lowagie => itextpdf}/text/pdf/collection/PdfCollectionItem.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/collection/PdfCollectionSchema.java
+7	7	itext/src/core/com/{lowagie => itextpdf}/text/pdf/collection/PdfCollectionSort.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/collection/PdfTargetDictionary.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/crypto/AESCipher.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/crypto/ARCFOUREncryption.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/crypto/IVGenerator.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/draw/DottedLineSeparator.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/draw/DrawInterface.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/draw/LineSeparator.java
+12	12	itext/src/core/com/{lowagie => itextpdf}/text/pdf/draw/VerticalPositionMark.java
+17	17	itext/src/core/com/{lowagie => itextpdf}/text/pdf/events/FieldPositioningEvents.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/pdf/events/IndexEvents.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/events/PdfPCellEventForwarder.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/events/PdfPTableEventForwarder.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/events/PdfPageEventForwarder.java
 -	-	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/Adobe-CNS1-UCS2.cmap
 -	-	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/Adobe-GB1-UCS2.cmap
 -	-	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/Adobe-Japan1-UCS2.cmap
@@ -30012,7 +29734,7 @@
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/Courier-BoldOblique.afm
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/Courier-Oblique.afm
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/Courier.afm
-59	0	itext/src/core/com/itextpdf/text/pdf/fonts/FontsResourceAnchor.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/FontsResourceAnchor.java
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/HYGoThic-Medium.properties
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/HYSMyeongJo-Medium.properties
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/HYSMyeongJoStd-Medium.properties
@@ -30070,15 +29792,15 @@
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/B5-V
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/B5pc-H
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/B5pc-V
-162	0	itext/src/core/com/itextpdf/text/pdf/fonts/cmaps/CMap.java
-491	0	itext/src/core/com/itextpdf/text/pdf/fonts/cmaps/CMapParser.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CMap.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CMapParser.java
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CNS-EUC-H
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CNS-EUC-V
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CNS1-H
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CNS1-V
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CNS2-H
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CNS2-V
-89	0	itext/src/core/com/itextpdf/text/pdf/fonts/cmaps/CodespaceRange.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/CodespaceRange.java
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/ETHK-B5-H
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/ETHK-B5-V
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/ETen-B5-H
@@ -30183,435 +29905,70 @@
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/cmaps/WP-Symbol
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/glyphlist.txt
 0	0	itext/src/core/com/{lowagie => itextpdf}/text/pdf/fonts/mustRead.html
-125	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/ByteVector.java
-135	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/CharVector.java
-69	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/Hyphen.java
-83	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/Hyphenation.java
-30	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/HyphenationException.java
-455	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/HyphenationTree.java
-239	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/Hyphenator.java
-55	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/PatternConsumer.java
-285	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/SimplePatternParser.java
-669	0	itext/src/core/com/itextpdf/text/pdf/hyphenation/TernaryTree.java
-78	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfAnnotations.java
-83	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfDocumentActions.java
-92	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfEncryptionSettings.java
-77	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfPageActions.java
-58	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfRunDirection.java
-91	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfVersion.java
-194	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfViewerPreferences.java
-67	0	itext/src/core/com/itextpdf/text/pdf/interfaces/PdfXConformance.java
-240	0	itext/src/core/com/itextpdf/text/pdf/internal/PdfAnnotationsImp.java
-200	0	itext/src/core/com/itextpdf/text/pdf/internal/PdfVersionImp.java
-356	0	itext/src/core/com/itextpdf/text/pdf/internal/PdfViewerPreferencesImp.java
-265	0	itext/src/core/com/itextpdf/text/pdf/internal/PdfXConformanceImp.java
-184	0	itext/src/core/com/itextpdf/text/pdf/internal/PolylineShape.java
-161	0	itext/src/core/com/itextpdf/text/pdf/internal/PolylineShapeIterator.java
-63	0	itext/src/core/com/itextpdf/text/pdf/parser/ContentOperator.java
-108	0	itext/src/core/com/itextpdf/text/pdf/parser/GraphicsState.java
-215	0	itext/src/core/com/itextpdf/text/pdf/parser/Matrix.java
-225	0	itext/src/core/com/itextpdf/text/pdf/parser/PdfContentReaderTool.java
-573	0	itext/src/core/com/itextpdf/text/pdf/parser/PdfContentStreamProcessor.java
-162	0	itext/src/core/com/itextpdf/text/pdf/parser/PdfTextExtractor.java
-62	0	itext/src/core/com/itextpdf/text/pdf/parser/RenderListener.java
-156	0	itext/src/core/com/itextpdf/text/pdf/parser/SimpleTextExtractingPdfContentRenderListener.java
-55	0	itext/src/core/com/itextpdf/text/pdf/parser/TextProvidingRenderListener.java
-139	0	itext/src/core/com/itextpdf/text/pdf/parser/TextRenderInfo.java
-175	0	itext/src/core/com/itextpdf/text/pdf/parser/Vector.java
-893	0	itext/src/core/com/itextpdf/text/xml/SAXiTextHandler.java
-114	0	itext/src/core/com/itextpdf/text/xml/SAXmyHandler.java
-213	0	itext/src/core/com/itextpdf/text/xml/TagMap.java
-358	0	itext/src/core/com/itextpdf/text/xml/XmlDomWriter.java
-356	0	itext/src/core/com/itextpdf/text/xml/XmlParser.java
-176	0	itext/src/core/com/itextpdf/text/xml/XmlPeer.java
-374	0	itext/src/core/com/itextpdf/text/xml/simpleparser/EntitiesToSymbol.java
-431	0	itext/src/core/com/itextpdf/text/xml/simpleparser/EntitiesToUnicode.java
-283	0	itext/src/core/com/itextpdf/text/xml/simpleparser/IanaEncodings.java
-77	0	itext/src/core/com/itextpdf/text/xml/simpleparser/SimpleXMLDocHandler.java
-56	0	itext/src/core/com/itextpdf/text/xml/simpleparser/SimpleXMLDocHandlerComment.java
-761	0	itext/src/core/com/itextpdf/text/xml/simpleparser/SimpleXMLParser.java
-181	0	itext/src/core/com/itextpdf/text/xml/xmp/DublinCoreSchema.java
-99	0	itext/src/core/com/itextpdf/text/xml/xmp/LangAlt.java
-82	0	itext/src/core/com/itextpdf/text/xml/xmp/PdfA1Schema.java
-95	0	itext/src/core/com/itextpdf/text/xml/xmp/PdfSchema.java
-93	0	itext/src/core/com/itextpdf/text/xml/xmp/XmpArray.java
-131	0	itext/src/core/com/itextpdf/text/xml/xmp/XmpBasicSchema.java
-86	0	itext/src/core/com/itextpdf/text/xml/xmp/XmpMMSchema.java
-180	0	itext/src/core/com/itextpdf/text/xml/xmp/XmpReader.java
-165	0	itext/src/core/com/itextpdf/text/xml/xmp/XmpSchema.java
-299	0	itext/src/core/com/itextpdf/text/xml/xmp/XmpWriter.java
-200	0	itext/src/core/com/itextpdf/tools/BuildTutorial.java
-123	0	itext/src/core/com/itextpdf/tools/ConcatPdf.java
-123	0	itext/src/core/com/itextpdf/tools/EncryptPdf.java
-315	0	itext/src/core/com/itextpdf/tools/Executable.java
-153	0	itext/src/core/com/itextpdf/tools/HandoutPdf.java
-137	0	itext/src/core/com/itextpdf/tools/SplitPdf.java
-75	0	itext/src/core/com/itextpdf/tools/ToolboxAvailable.java
-0	300	itext/src/core/com/lowagie/text/Anchor.java
-0	595	itext/src/core/com/lowagie/text/Annotation.java
-0	81	itext/src/core/com/lowagie/text/BadElementException.java
-0	847	itext/src/core/com/lowagie/text/Cell.java
-0	129	itext/src/core/com/lowagie/text/Chapter.java
-0	121	itext/src/core/com/lowagie/text/ChapterAutoNumber.java
-0	900	itext/src/core/com/lowagie/text/Chunk.java
-0	161	itext/src/core/com/lowagie/text/DocListener.java
-0	482	itext/src/core/com/lowagie/text/DocWriter.java
-0	912	itext/src/core/com/lowagie/text/Document.java
-0	85	itext/src/core/com/lowagie/text/DocumentException.java
-0	348	itext/src/core/com/lowagie/text/Element.java
-0	68	itext/src/core/com/lowagie/text/ElementListener.java
-0	513	itext/src/core/com/lowagie/text/ElementTags.java
-0	160	itext/src/core/com/lowagie/text/ExceptionConverter.java
-0	784	itext/src/core/com/lowagie/text/Font.java
-0	441	itext/src/core/com/lowagie/text/FontFactory.java
-0	695	itext/src/core/com/lowagie/text/FontFactoryImp.java
-0	74	itext/src/core/com/lowagie/text/FontProvider.java
-0	126	itext/src/core/com/lowagie/text/GreekList.java
-0	91	itext/src/core/com/lowagie/text/Header.java
-0	197	itext/src/core/com/lowagie/text/HeaderFooter.java
-0	2031	itext/src/core/com/lowagie/text/Image.java
-0	97	itext/src/core/com/lowagie/text/ImgCCITT.java
-0	125	itext/src/core/com/lowagie/text/ImgJBIG2.java
-0	91	itext/src/core/com/lowagie/text/ImgRaw.java
-0	87	itext/src/core/com/lowagie/text/ImgTemplate.java
-0	185	itext/src/core/com/lowagie/text/ImgWMF.java
-0	345	itext/src/core/com/lowagie/text/Jpeg.java
-0	233	itext/src/core/com/lowagie/text/Jpeg2000.java
-0	79	itext/src/core/com/lowagie/text/LargeElement.java
-0	582	itext/src/core/com/lowagie/text/List.java
-0	248	itext/src/core/com/lowagie/text/ListItem.java
-0	144	itext/src/core/com/lowagie/text/MarkedObject.java
-0	275	itext/src/core/com/lowagie/text/MarkedSection.java
-0	223	itext/src/core/com/lowagie/text/Meta.java
-0	241	itext/src/core/com/lowagie/text/PageSize.java
-0	496	itext/src/core/com/lowagie/text/Paragraph.java
-0	584	itext/src/core/com/lowagie/text/Phrase.java
-0	870	itext/src/core/com/lowagie/text/Rectangle.java
-0	352	itext/src/core/com/lowagie/text/RectangleReadOnly.java
-0	115	itext/src/core/com/lowagie/text/RomanList.java
-0	376	itext/src/core/com/lowagie/text/Row.java
-0	54	itext/src/core/com/lowagie/text/RtfElementInterface.java
-0	751	itext/src/core/com/lowagie/text/Section.java
-0	529	itext/src/core/com/lowagie/text/SimpleCell.java
-0	350	itext/src/core/com/lowagie/text/SimpleTable.java
-0	204	itext/src/core/com/lowagie/text/SpecialSymbol.java
-0	90	itext/src/core/com/lowagie/text/SplitCharacter.java
-0	1487	itext/src/core/com/lowagie/text/Table.java
-0	67	itext/src/core/com/lowagie/text/TextElementArray.java
-0	337	itext/src/core/com/lowagie/text/Utilities.java
-0	131	itext/src/core/com/lowagie/text/ZapfDingbatsList.java
-0	142	itext/src/core/com/lowagie/text/ZapfDingbatsNumberList.java
-0	258	itext/src/core/com/lowagie/text/error_messages/MessageLocalization.java
-0	64	itext/src/core/com/lowagie/text/exceptions/BadPasswordException.java
-0	62	itext/src/core/com/lowagie/text/exceptions/IllegalPdfSyntaxException.java
-0	65	itext/src/core/com/lowagie/text/exceptions/InvalidPdfException.java
-0	66	itext/src/core/com/lowagie/text/exceptions/UnsupportedPdfException.java
-0	620	itext/src/core/com/lowagie/text/factories/ElementFactory.java
-0	126	itext/src/core/com/lowagie/text/factories/GreekAlphabetFactory.java
-0	124	itext/src/core/com/lowagie/text/factories/RomanAlphabetFactory.java
-0	180	itext/src/core/com/lowagie/text/factories/RomanNumberFactory.java
-0	204	itext/src/core/com/lowagie/text/html/HtmlEncoder.java
-0	186	itext/src/core/com/lowagie/text/html/HtmlParser.java
-0	105	itext/src/core/com/lowagie/text/html/HtmlPeer.java
-0	293	itext/src/core/com/lowagie/text/html/HtmlTagMap.java
-0	331	itext/src/core/com/lowagie/text/html/HtmlTags.java
-0	1124	itext/src/core/com/lowagie/text/html/HtmlWriter.java
-0	484	itext/src/core/com/lowagie/text/html/Markup.java
-0	270	itext/src/core/com/lowagie/text/html/SAXmyHtmlHandler.java
-0	257	itext/src/core/com/lowagie/text/html/WebColors.java
-0	53	itext/src/core/com/lowagie/text/html/simpleparser/ALink.java
-0	130	itext/src/core/com/lowagie/text/html/simpleparser/ChainedProperties.java
-0	408	itext/src/core/com/lowagie/text/html/simpleparser/FactoryProperties.java
-0	731	itext/src/core/com/lowagie/text/html/simpleparser/HTMLWorker.java
-0	52	itext/src/core/com/lowagie/text/html/simpleparser/ImageProvider.java
-0	57	itext/src/core/com/lowagie/text/html/simpleparser/Img.java
-0	141	itext/src/core/com/lowagie/text/html/simpleparser/IncCell.java
-0	119	itext/src/core/com/lowagie/text/html/simpleparser/IncTable.java
-0	106	itext/src/core/com/lowagie/text/html/simpleparser/StyleSheet.java
-0	2630	itext/src/core/com/lowagie/text/pdf/AcroFields.java
-0	770	itext/src/core/com/lowagie/text/pdf/ArabicLigaturizer.java
-0	97	itext/src/core/com/lowagie/text/pdf/AsianFontMapper.java
-0	80	itext/src/core/com/lowagie/text/pdf/BadPdfFormatException.java
-0	474	itext/src/core/com/lowagie/text/pdf/Barcode.java
-0	822	itext/src/core/com/lowagie/text/pdf/Barcode128.java
-0	389	itext/src/core/com/lowagie/text/pdf/Barcode39.java
-0	342	itext/src/core/com/lowagie/text/pdf/BarcodeCodabar.java
-0	1283	itext/src/core/com/lowagie/text/pdf/BarcodeDatamatrix.java
-0	717	itext/src/core/com/lowagie/text/pdf/BarcodeEAN.java
-0	152	itext/src/core/com/lowagie/text/pdf/BarcodeEANSUPP.java
-0	335	itext/src/core/com/lowagie/text/pdf/BarcodeInter25.java
-0	1610	itext/src/core/com/lowagie/text/pdf/BarcodePDF417.java
-0	231	itext/src/core/com/lowagie/text/pdf/BarcodePostnet.java
-0	676	itext/src/core/com/lowagie/text/pdf/BaseField.java
-0	1558	itext/src/core/com/lowagie/text/pdf/BaseFont.java
-0	942	itext/src/core/com/lowagie/text/pdf/BidiLine.java
-0	1291	itext/src/core/com/lowagie/text/pdf/BidiOrder.java
-0	616	itext/src/core/com/lowagie/text/pdf/ByteBuffer.java
-0	1183	itext/src/core/com/lowagie/text/pdf/CFFFont.java
-0	1637	itext/src/core/com/lowagie/text/pdf/CFFFontSubset.java
-0	664	itext/src/core/com/lowagie/text/pdf/CJKFont.java
-0	123	itext/src/core/com/lowagie/text/pdf/CMYKColor.java
-0	220	itext/src/core/com/lowagie/text/pdf/CMapAwareDocumentFont.java
-0	93	itext/src/core/com/lowagie/text/pdf/ColorDetails.java
-0	1636	itext/src/core/com/lowagie/text/pdf/ColumnText.java
-0	308	itext/src/core/com/lowagie/text/pdf/DefaultFontMapper.java
-0	101	itext/src/core/com/lowagie/text/pdf/DefaultSplitCharacter.java
-0	678	itext/src/core/com/lowagie/text/pdf/DocumentFont.java
-0	113	itext/src/core/com/lowagie/text/pdf/EnumerateTTC.java
-0	116	itext/src/core/com/lowagie/text/pdf/ExtendedColor.java
-0	79	itext/src/core/com/lowagie/text/pdf/ExtraEncoding.java
-0	211	itext/src/core/com/lowagie/text/pdf/FdfReader.java
-0	354	itext/src/core/com/lowagie/text/pdf/FdfWriter.java
-0	301	itext/src/core/com/lowagie/text/pdf/FontDetails.java
-0	76	itext/src/core/com/lowagie/text/pdf/FontMapper.java
-0	145	itext/src/core/com/lowagie/text/pdf/FontSelector.java
-0	117	itext/src/core/com/lowagie/text/pdf/GlyphList.java
-0	80	itext/src/core/com/lowagie/text/pdf/GrayColor.java
-0	121	itext/src/core/com/lowagie/text/pdf/HyphenationAuto.java
-0	74	itext/src/core/com/lowagie/text/pdf/HyphenationEvent.java
-0	476	itext/src/core/com/lowagie/text/pdf/IntHashtable.java
-0	244	itext/src/core/com/lowagie/text/pdf/LZWDecoder.java
-0	219	itext/src/core/com/lowagie/text/pdf/MappedRandomAccessFile.java
-0	604	itext/src/core/com/lowagie/text/pdf/MultiColumnText.java
-0	56	itext/src/core/com/lowagie/text/pdf/OcspClient.java
-0	179	itext/src/core/com/lowagie/text/pdf/OcspClientBouncyCastle.java
-0	167	itext/src/core/com/lowagie/text/pdf/OutputStreamCounter.java
-0	213	itext/src/core/com/lowagie/text/pdf/OutputStreamEncryption.java
-0	203	itext/src/core/com/lowagie/text/pdf/PRAcroForm.java
-0	96	itext/src/core/com/lowagie/text/pdf/PRIndirectReference.java
-0	234	itext/src/core/com/lowagie/text/pdf/PRStream.java
-0	589	itext/src/core/com/lowagie/text/pdf/PRTokeniser.java
-0	187	itext/src/core/com/lowagie/text/pdf/PageResources.java
-0	77	itext/src/core/com/lowagie/text/pdf/PatternColor.java
-0	735	itext/src/core/com/lowagie/text/pdf/PdfAcroForm.java
-0	587	itext/src/core/com/lowagie/text/pdf/PdfAction.java
-0	913	itext/src/core/com/lowagie/text/pdf/PdfAnnotation.java
-0	172	itext/src/core/com/lowagie/text/pdf/PdfAppearance.java
-0	547	itext/src/core/com/lowagie/text/pdf/PdfArray.java
-0	129	itext/src/core/com/lowagie/text/pdf/PdfBoolean.java
-0	75	itext/src/core/com/lowagie/text/pdf/PdfBorderArray.java
-0	95	itext/src/core/com/lowagie/text/pdf/PdfBorderDictionary.java
-0	904	itext/src/core/com/lowagie/text/pdf/PdfCell.java
-0	848	itext/src/core/com/lowagie/text/pdf/PdfChunk.java
-0	73	itext/src/core/com/lowagie/text/pdf/PdfColor.java
-0	3124	itext/src/core/com/lowagie/text/pdf/PdfContentByte.java
-0	199	itext/src/core/com/lowagie/text/pdf/PdfContentParser.java
-0	148	itext/src/core/com/lowagie/text/pdf/PdfContents.java
-0	770	itext/src/core/com/lowagie/text/pdf/PdfCopy.java
-0	236	itext/src/core/com/lowagie/text/pdf/PdfCopyFields.java
-0	659	itext/src/core/com/lowagie/text/pdf/PdfCopyFieldsImp.java
-0	236	itext/src/core/com/lowagie/text/pdf/PdfCopyForms.java
-0	101	itext/src/core/com/lowagie/text/pdf/PdfCopyFormsImp.java
-0	135	itext/src/core/com/lowagie/text/pdf/PdfDashPattern.java
-0	248	itext/src/core/com/lowagie/text/pdf/PdfDate.java
-0	234	itext/src/core/com/lowagie/text/pdf/PdfDestination.java
-0	120	itext/src/core/com/lowagie/text/pdf/PdfDeveloperExtension.java
-0	517	itext/src/core/com/lowagie/text/pdf/PdfDictionary.java
-0	3137	itext/src/core/com/lowagie/text/pdf/PdfDocument.java
-0	173	itext/src/core/com/lowagie/text/pdf/PdfEFStream.java
-0	794	itext/src/core/com/lowagie/text/pdf/PdfEncodings.java
-0	597	itext/src/core/com/lowagie/text/pdf/PdfEncryption.java
-0	312	itext/src/core/com/lowagie/text/pdf/PdfEncryptor.java
-0	81	itext/src/core/com/lowagie/text/pdf/PdfException.java
-0	305	itext/src/core/com/lowagie/text/pdf/PdfFileSpecification.java
-0	181	itext/src/core/com/lowagie/text/pdf/PdfFont.java
-0	344	itext/src/core/com/lowagie/text/pdf/PdfFormField.java
-0	93	itext/src/core/com/lowagie/text/pdf/PdfFormXObject.java
-0	140	itext/src/core/com/lowagie/text/pdf/PdfFunction.java
-0	149	itext/src/core/com/lowagie/text/pdf/PdfGState.java
-0	1663	itext/src/core/com/lowagie/text/pdf/PdfGraphics2D.java
-0	99	itext/src/core/com/lowagie/text/pdf/PdfICCBased.java
-0	289	itext/src/core/com/lowagie/text/pdf/PdfImage.java
-0	161	itext/src/core/com/lowagie/text/pdf/PdfImportedPage.java
-0	160	itext/src/core/com/lowagie/text/pdf/PdfIndirectObject.java
-0	126	itext/src/core/com/lowagie/text/pdf/PdfIndirectReference.java
-0	309	itext/src/core/com/lowagie/text/pdf/PdfLayer.java
-0	135	itext/src/core/com/lowagie/text/pdf/PdfLayerMembership.java
-0	537	itext/src/core/com/lowagie/text/pdf/PdfLine.java
-0	181	itext/src/core/com/lowagie/text/pdf/PdfLister.java
-0	104	itext/src/core/com/lowagie/text/pdf/PdfLiteral.java
-0	60	itext/src/core/com/lowagie/text/pdf/PdfMediaClipData.java
-0	1927	itext/src/core/com/lowagie/text/pdf/PdfName.java
-0	157	itext/src/core/com/lowagie/text/pdf/PdfNameTree.java
-0	81	itext/src/core/com/lowagie/text/pdf/PdfNull.java
-0	156	itext/src/core/com/lowagie/text/pdf/PdfNumber.java
-0	153	itext/src/core/com/lowagie/text/pdf/PdfNumberTree.java
-0	64	itext/src/core/com/lowagie/text/pdf/PdfOCG.java
-0	56	itext/src/core/com/lowagie/text/pdf/PdfOCProperties.java
-0	393	itext/src/core/com/lowagie/text/pdf/PdfObject.java
-0	535	itext/src/core/com/lowagie/text/pdf/PdfOutline.java
-0	1008	itext/src/core/com/lowagie/text/pdf/PdfPCell.java
-0	71	itext/src/core/com/lowagie/text/pdf/PdfPCellEvent.java
-0	1693	itext/src/core/com/lowagie/text/pdf/PdfPKCS7.java
-0	669	itext/src/core/com/lowagie/text/pdf/PdfPRow.java
-0	98	itext/src/core/com/lowagie/text/pdf/PdfPSXObject.java
-0	1586	itext/src/core/com/lowagie/text/pdf/PdfPTable.java
-0	87	itext/src/core/com/lowagie/text/pdf/PdfPTableEvent.java
-0	190	itext/src/core/com/lowagie/text/pdf/PdfPage.java
-0	71	itext/src/core/com/lowagie/text/pdf/PdfPageElement.java
-0	183	itext/src/core/com/lowagie/text/pdf/PdfPageEvent.java
-0	195	itext/src/core/com/lowagie/text/pdf/PdfPageEventHelper.java
-0	292	itext/src/core/com/lowagie/text/pdf/PdfPageLabels.java
-0	203	itext/src/core/com/lowagie/text/pdf/PdfPages.java
-0	96	itext/src/core/com/lowagie/text/pdf/PdfPattern.java
-0	400	itext/src/core/com/lowagie/text/pdf/PdfPatternPainter.java
-0	66	itext/src/core/com/lowagie/text/pdf/PdfPrinterGraphics2D.java
-0	77	itext/src/core/com/lowagie/text/pdf/PdfPublicKeyRecipient.java
-0	273	itext/src/core/com/lowagie/text/pdf/PdfPublicKeySecurityHandler.java
-0	3585	itext/src/core/com/lowagie/text/pdf/PdfReader.java
-0	184	itext/src/core/com/lowagie/text/pdf/PdfReaderInstance.java
-0	307	itext/src/core/com/lowagie/text/pdf/PdfRectangle.java
-0	58	itext/src/core/com/lowagie/text/pdf/PdfRendition.java
-0	84	itext/src/core/com/lowagie/text/pdf/PdfResources.java
-0	259	itext/src/core/com/lowagie/text/pdf/PdfShading.java
-0	117	itext/src/core/com/lowagie/text/pdf/PdfShadingPattern.java
-0	228	itext/src/core/com/lowagie/text/pdf/PdfSigGenericPKCS.java
-0	93	itext/src/core/com/lowagie/text/pdf/PdfSignature.java
-0	1451	itext/src/core/com/lowagie/text/pdf/PdfSignatureAppearance.java
-0	220	itext/src/core/com/lowagie/text/pdf/PdfSmartCopy.java
-0	113	itext/src/core/com/lowagie/text/pdf/PdfSpotColor.java
-0	759	itext/src/core/com/lowagie/text/pdf/PdfStamper.java
-0	1686	itext/src/core/com/lowagie/text/pdf/PdfStamperImp.java
-0	380	itext/src/core/com/lowagie/text/pdf/PdfStream.java
-0	237	itext/src/core/com/lowagie/text/pdf/PdfString.java
-0	127	itext/src/core/com/lowagie/text/pdf/PdfStructureElement.java
-0	142	itext/src/core/com/lowagie/text/pdf/PdfStructureTreeRoot.java
-0	306	itext/src/core/com/lowagie/text/pdf/PdfTable.java
-0	290	itext/src/core/com/lowagie/text/pdf/PdfTemplate.java
-0	127	itext/src/core/com/lowagie/text/pdf/PdfTextArray.java
-0	249	itext/src/core/com/lowagie/text/pdf/PdfTransition.java
-0	82	itext/src/core/com/lowagie/text/pdf/PdfTransparencyGroup.java
-0	3191	itext/src/core/com/lowagie/text/pdf/PdfWriter.java
-0	65	itext/src/core/com/lowagie/text/pdf/PdfXConformanceException.java
-0	805	itext/src/core/com/lowagie/text/pdf/Pfm2afm.java
-0	655	itext/src/core/com/lowagie/text/pdf/PushbuttonField.java
-0	415	itext/src/core/com/lowagie/text/pdf/RadioCheckField.java
-0	643	itext/src/core/com/lowagie/text/pdf/RandomAccessFileOrArray.java
-0	314	itext/src/core/com/lowagie/text/pdf/SequenceList.java
-0	80	itext/src/core/com/lowagie/text/pdf/ShadingColor.java
-0	750	itext/src/core/com/lowagie/text/pdf/SimpleBookmark.java
-0	336	itext/src/core/com/lowagie/text/pdf/SimpleNamedDestination.java
-0	80	itext/src/core/com/lowagie/text/pdf/SpotColor.java
-0	78	itext/src/core/com/lowagie/text/pdf/StampContent.java
-0	105	itext/src/core/com/lowagie/text/pdf/StandardDecryption.java
-0	73	itext/src/core/com/lowagie/text/pdf/TSAClient.java
-0	225	itext/src/core/com/lowagie/text/pdf/TSAClientBouncyCastle.java
-0	788	itext/src/core/com/lowagie/text/pdf/TextField.java
-0	1526	itext/src/core/com/lowagie/text/pdf/TrueTypeFont.java
-0	423	itext/src/core/com/lowagie/text/pdf/TrueTypeFontSubSet.java
-0	487	itext/src/core/com/lowagie/text/pdf/TrueTypeFontUnicode.java
-0	822	itext/src/core/com/lowagie/text/pdf/Type1Font.java
-0	324	itext/src/core/com/lowagie/text/pdf/Type3Font.java
-0	91	itext/src/core/com/lowagie/text/pdf/Type3Glyph.java
-0	344	itext/src/core/com/lowagie/text/pdf/VerticalText.java
-0	1135	itext/src/core/com/lowagie/text/pdf/XfaForm.java
-0	235	itext/src/core/com/lowagie/text/pdf/XfdfReader.java
-0	1697	itext/src/core/com/lowagie/text/pdf/codec/Base64.java
-0	1299	itext/src/core/com/lowagie/text/pdf/codec/BmpImage.java
-0	595	itext/src/core/com/lowagie/text/pdf/codec/CCITTG4Encoder.java
-0	603	itext/src/core/com/lowagie/text/pdf/codec/GifImage.java
-0	113	itext/src/core/com/lowagie/text/pdf/codec/JBIG2Image.java
-0	440	itext/src/core/com/lowagie/text/pdf/codec/JBIG2SegmentReader.java
-0	993	itext/src/core/com/lowagie/text/pdf/codec/PngImage.java
-0	280	itext/src/core/com/lowagie/text/pdf/codec/TIFFConstants.java
-0	673	itext/src/core/com/lowagie/text/pdf/codec/TIFFDirectory.java
-0	1508	itext/src/core/com/lowagie/text/pdf/codec/TIFFFaxDecoder.java
-0	489	itext/src/core/com/lowagie/text/pdf/codec/TIFFField.java
-0	271	itext/src/core/com/lowagie/text/pdf/codec/TIFFLZWDecoder.java
-0	575	itext/src/core/com/lowagie/text/pdf/codec/TiffImage.java
-0	107	itext/src/core/com/lowagie/text/pdf/codec/wmf/InputMeta.java
-0	87	itext/src/core/com/lowagie/text/pdf/codec/wmf/MetaBrush.java
-0	762	itext/src/core/com/lowagie/text/pdf/codec/wmf/MetaDo.java
-0	206	itext/src/core/com/lowagie/text/pdf/codec/wmf/MetaFont.java
-0	64	itext/src/core/com/lowagie/text/pdf/codec/wmf/MetaObject.java
-0	84	itext/src/core/com/lowagie/text/pdf/codec/wmf/MetaPen.java
-0	366	itext/src/core/com/lowagie/text/pdf/codec/wmf/MetaState.java
-0	109	itext/src/core/com/lowagie/text/pdf/collection/PdfCollection.java
-0	173	itext/src/core/com/lowagie/text/pdf/collection/PdfCollectionField.java
-0	162	itext/src/core/com/lowagie/text/pdf/collection/PdfCollectionItem.java
-0	65	itext/src/core/com/lowagie/text/pdf/collection/PdfCollectionSchema.java
-0	113	itext/src/core/com/lowagie/text/pdf/collection/PdfCollectionSort.java
-0	136	itext/src/core/com/lowagie/text/pdf/collection/PdfTargetDictionary.java
-0	99	itext/src/core/com/lowagie/text/pdf/crypto/AESCipher.java
-0	100	itext/src/core/com/lowagie/text/pdf/crypto/ARCFOUREncryption.java
-0	86	itext/src/core/com/lowagie/text/pdf/crypto/IVGenerator.java
-0	87	itext/src/core/com/lowagie/text/pdf/draw/DottedLineSeparator.java
-0	66	itext/src/core/com/lowagie/text/pdf/draw/DrawInterface.java
-0	197	itext/src/core/com/lowagie/text/pdf/draw/LineSeparator.java
-0	170	itext/src/core/com/lowagie/text/pdf/draw/VerticalPositionMark.java
-0	182	itext/src/core/com/lowagie/text/pdf/events/FieldPositioningEvents.java
-0	391	itext/src/core/com/lowagie/text/pdf/events/IndexEvents.java
-0	84	itext/src/core/com/lowagie/text/pdf/events/PdfPCellEventForwarder.java
-0	83	itext/src/core/com/lowagie/text/pdf/events/PdfPTableEventForwarder.java
-0	305	itext/src/core/com/lowagie/text/pdf/events/PdfPageEventForwarder.java
-0	59	itext/src/core/com/lowagie/text/pdf/fonts/FontsResourceAnchor.java
-0	162	itext/src/core/com/lowagie/text/pdf/fonts/cmaps/CMap.java
-0	491	itext/src/core/com/lowagie/text/pdf/fonts/cmaps/CMapParser.java
-0	89	itext/src/core/com/lowagie/text/pdf/fonts/cmaps/CodespaceRange.java
-0	125	itext/src/core/com/lowagie/text/pdf/hyphenation/ByteVector.java
-0	135	itext/src/core/com/lowagie/text/pdf/hyphenation/CharVector.java
-0	69	itext/src/core/com/lowagie/text/pdf/hyphenation/Hyphen.java
-0	83	itext/src/core/com/lowagie/text/pdf/hyphenation/Hyphenation.java
-0	30	itext/src/core/com/lowagie/text/pdf/hyphenation/HyphenationException.java
-0	455	itext/src/core/com/lowagie/text/pdf/hyphenation/HyphenationTree.java
-0	239	itext/src/core/com/lowagie/text/pdf/hyphenation/Hyphenator.java
-0	55	itext/src/core/com/lowagie/text/pdf/hyphenation/PatternConsumer.java
-0	285	itext/src/core/com/lowagie/text/pdf/hyphenation/SimplePatternParser.java
-0	669	itext/src/core/com/lowagie/text/pdf/hyphenation/TernaryTree.java
-0	78	itext/src/core/com/lowagie/text/pdf/interfaces/PdfAnnotations.java
-0	83	itext/src/core/com/lowagie/text/pdf/interfaces/PdfDocumentActions.java
-0	92	itext/src/core/com/lowagie/text/pdf/interfaces/PdfEncryptionSettings.java
-0	77	itext/src/core/com/lowagie/text/pdf/interfaces/PdfPageActions.java
-0	58	itext/src/core/com/lowagie/text/pdf/interfaces/PdfRunDirection.java
-0	91	itext/src/core/com/lowagie/text/pdf/interfaces/PdfVersion.java
-0	194	itext/src/core/com/lowagie/text/pdf/interfaces/PdfViewerPreferences.java
-0	67	itext/src/core/com/lowagie/text/pdf/interfaces/PdfXConformance.java
-0	240	itext/src/core/com/lowagie/text/pdf/internal/PdfAnnotationsImp.java
-0	200	itext/src/core/com/lowagie/text/pdf/internal/PdfVersionImp.java
-0	356	itext/src/core/com/lowagie/text/pdf/internal/PdfViewerPreferencesImp.java
-0	265	itext/src/core/com/lowagie/text/pdf/internal/PdfXConformanceImp.java
-0	184	itext/src/core/com/lowagie/text/pdf/internal/PolylineShape.java
-0	161	itext/src/core/com/lowagie/text/pdf/internal/PolylineShapeIterator.java
-0	63	itext/src/core/com/lowagie/text/pdf/parser/ContentOperator.java
-0	108	itext/src/core/com/lowagie/text/pdf/parser/GraphicsState.java
-0	215	itext/src/core/com/lowagie/text/pdf/parser/Matrix.java
-0	225	itext/src/core/com/lowagie/text/pdf/parser/PdfContentReaderTool.java
-0	573	itext/src/core/com/lowagie/text/pdf/parser/PdfContentStreamProcessor.java
-0	162	itext/src/core/com/lowagie/text/pdf/parser/PdfTextExtractor.java
-0	62	itext/src/core/com/lowagie/text/pdf/parser/RenderListener.java
-0	156	itext/src/core/com/lowagie/text/pdf/parser/SimpleTextExtractingPdfContentRenderListener.java
-0	55	itext/src/core/com/lowagie/text/pdf/parser/TextProvidingRenderListener.java
-0	139	itext/src/core/com/lowagie/text/pdf/parser/TextRenderInfo.java
-0	175	itext/src/core/com/lowagie/text/pdf/parser/Vector.java
-0	893	itext/src/core/com/lowagie/text/xml/SAXiTextHandler.java
-0	114	itext/src/core/com/lowagie/text/xml/SAXmyHandler.java
-0	213	itext/src/core/com/lowagie/text/xml/TagMap.java
-0	358	itext/src/core/com/lowagie/text/xml/XmlDomWriter.java
-0	356	itext/src/core/com/lowagie/text/xml/XmlParser.java
-0	176	itext/src/core/com/lowagie/text/xml/XmlPeer.java
-0	374	itext/src/core/com/lowagie/text/xml/simpleparser/EntitiesToSymbol.java
-0	431	itext/src/core/com/lowagie/text/xml/simpleparser/EntitiesToUnicode.java
-0	283	itext/src/core/com/lowagie/text/xml/simpleparser/IanaEncodings.java
-0	77	itext/src/core/com/lowagie/text/xml/simpleparser/SimpleXMLDocHandler.java
-0	56	itext/src/core/com/lowagie/text/xml/simpleparser/SimpleXMLDocHandlerComment.java
-0	761	itext/src/core/com/lowagie/text/xml/simpleparser/SimpleXMLParser.java
-0	181	itext/src/core/com/lowagie/text/xml/xmp/DublinCoreSchema.java
-0	99	itext/src/core/com/lowagie/text/xml/xmp/LangAlt.java
-0	82	itext/src/core/com/lowagie/text/xml/xmp/PdfA1Schema.java
-0	95	itext/src/core/com/lowagie/text/xml/xmp/PdfSchema.java
-0	93	itext/src/core/com/lowagie/text/xml/xmp/XmpArray.java
-0	131	itext/src/core/com/lowagie/text/xml/xmp/XmpBasicSchema.java
-0	86	itext/src/core/com/lowagie/text/xml/xmp/XmpMMSchema.java
-0	180	itext/src/core/com/lowagie/text/xml/xmp/XmpReader.java
-0	165	itext/src/core/com/lowagie/text/xml/xmp/XmpSchema.java
-0	299	itext/src/core/com/lowagie/text/xml/xmp/XmpWriter.java
-0	200	itext/src/core/com/lowagie/tools/BuildTutorial.java
-0	123	itext/src/core/com/lowagie/tools/ConcatPdf.java
-0	123	itext/src/core/com/lowagie/tools/EncryptPdf.java
-0	315	itext/src/core/com/lowagie/tools/Executable.java
-0	153	itext/src/core/com/lowagie/tools/HandoutPdf.java
-0	137	itext/src/core/com/lowagie/tools/SplitPdf.java
-0	75	itext/src/core/com/lowagie/tools/ToolboxAvailable.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/ByteVector.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/CharVector.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/Hyphen.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/Hyphenation.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/HyphenationException.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/HyphenationTree.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/Hyphenator.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/PatternConsumer.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/SimplePatternParser.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/hyphenation/TernaryTree.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfAnnotations.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfDocumentActions.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfEncryptionSettings.java
+5	5	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfPageActions.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfRunDirection.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfVersion.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfViewerPreferences.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/interfaces/PdfXConformance.java
+15	15	itext/src/core/com/{lowagie => itextpdf}/text/pdf/internal/PdfAnnotationsImp.java
+12	12	itext/src/core/com/{lowagie => itextpdf}/text/pdf/internal/PdfVersionImp.java
+10	10	itext/src/core/com/{lowagie => itextpdf}/text/pdf/internal/PdfViewerPreferencesImp.java
+20	20	itext/src/core/com/{lowagie => itextpdf}/text/pdf/internal/PdfXConformanceImp.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/internal/PolylineShape.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/internal/PolylineShapeIterator.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/ContentOperator.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/GraphicsState.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/Matrix.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/PdfContentReaderTool.java
+14	14	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/PdfContentStreamProcessor.java
+9	9	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/PdfTextExtractor.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/RenderListener.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/SimpleTextExtractingPdfContentRenderListener.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/TextProvidingRenderListener.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/TextRenderInfo.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/pdf/parser/Vector.java
+28	28	itext/src/core/com/{lowagie => itextpdf}/text/xml/SAXiTextHandler.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/xml/SAXmyHandler.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/xml/TagMap.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/XmlDomWriter.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/xml/XmlParser.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/xml/XmlPeer.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/xml/simpleparser/EntitiesToSymbol.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/simpleparser/EntitiesToUnicode.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/simpleparser/IanaEncodings.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/simpleparser/SimpleXMLDocHandler.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/simpleparser/SimpleXMLDocHandlerComment.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/xml/simpleparser/SimpleXMLParser.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/DublinCoreSchema.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/LangAlt.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/PdfA1Schema.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/PdfSchema.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/XmpArray.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/XmpBasicSchema.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/XmpMMSchema.java
+3	3	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/XmpReader.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/XmpSchema.java
+7	7	itext/src/core/com/{lowagie => itextpdf}/text/xml/xmp/XmpWriter.java
+1	1	itext/src/core/com/{lowagie => itextpdf}/tools/BuildTutorial.java
+6	6	itext/src/core/com/{lowagie => itextpdf}/tools/ConcatPdf.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/tools/EncryptPdf.java
+2	2	itext/src/core/com/{lowagie => itextpdf}/tools/Executable.java
+10	10	itext/src/core/com/{lowagie => itextpdf}/tools/HandoutPdf.java
+8	8	itext/src/core/com/{lowagie => itextpdf}/tools/SplitPdf.java
+4	4	itext/src/core/com/{lowagie => itextpdf}/tools/ToolboxAvailable.java
 
 [0abea1240] Bruno Lowagie 2009-12-01 10:17:57 +0000 Removing the toolbox
 -	-	itext/src/toolbox/com/lowagie/toolbox/1t3xt.gif
@@ -33944,9 +33301,7 @@
 0	139	itext/src/core/com/lowagie/text/rtf/GenericRtfField.java
 0	552	itext/src/core/com/lowagie/text/rtf/RtfCell.java
 0	162	itext/src/core/com/lowagie/text/rtf/RtfFont.java
-0	114	itext/src/core/com/lowagie/text/rtf/RtfHeaderFooter.java
 0	160	itext/src/core/com/lowagie/text/rtf/RtfHeaderFooters.java
-0	105	itext/src/core/com/lowagie/text/rtf/RtfPageNumber.java
 0	449	itext/src/core/com/lowagie/text/rtf/RtfRow.java
 0	187	itext/src/core/com/lowagie/text/rtf/RtfTOC.java
 0	174	itext/src/core/com/lowagie/text/rtf/RtfTOCEntry.java
@@ -33999,7 +33354,7 @@
 137	0	itext/src/rtf/com/lowagie/text/rtf/parser/RtfParserState.java
 159	0	itext/src/rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordData.java
 354	0	itext/src/rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordHandler.java
-77	0	itext/src/rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordListener.java
+27	55	itext/src/{core/com/lowagie/text/rtf/RtfPageNumber.java => rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordListener.java}
 1912	0	itext/src/rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordMap.java
 219	0	itext/src/rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordMgr.java
 94	0	itext/src/rtf/com/lowagie/text/rtf/parser/ctrlwords/RtfCtrlWordType.java
@@ -34008,8 +33363,8 @@
 664	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationDocument.java
 615	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationFontTable.java
 177	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationInfo.java
-67	59	itext/src/{core/com/lowagie/text/rtf/direct/RtfFontTableParser.java => rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationListTable.java}
-100	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationListener.java
+132	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationListTable.java
+30	54	itext/src/{core/com/lowagie/text/rtf/direct/RtfFontTableParser.java => rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationListener.java}
 234	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationMgr.java
 150	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationNull.java
 461	0	itext/src/rtf/com/lowagie/text/rtf/parser/destinations/RtfDestinationShppict.java
@@ -34019,7 +33374,7 @@
 19	0	itext/src/rtf/com/lowagie/text/rtf/parser/exceptions/RtfUnknownCtrlWordException.java
 57	0	itext/src/rtf/com/lowagie/text/rtf/parser/properties/RtfCtrlWordPropertyType.java
 585	0	itext/src/rtf/com/lowagie/text/rtf/parser/properties/RtfProperty.java
-70	0	itext/src/rtf/com/lowagie/text/rtf/parser/properties/RtfPropertyListener.java
+21	65	itext/src/{core/com/lowagie/text/rtf/RtfHeaderFooter.java => rtf/com/lowagie/text/rtf/parser/properties/RtfPropertyListener.java}
 3	34	itext/src/{core => rtf}/com/lowagie/text/rtf/style/RtfColor.java
 0	29	itext/src/{core => rtf}/com/lowagie/text/rtf/style/RtfColorList.java
 120	126	itext/src/{core => rtf}/com/lowagie/text/rtf/style/RtfFont.java

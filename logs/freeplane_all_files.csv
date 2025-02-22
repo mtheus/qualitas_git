@@ -2425,7 +2425,7 @@ entity
      61 freeplane_framework/windows-icons/freeplaneIcons.dev
     423 freeplane_framework/windows-icons/freeplaneIcons.dll
     308 freeplane_framework/windows-installer/Croatian.isl
-    159 freeplane_framework/windows-installer/Freeplane.iss
+    248 freeplane_framework/windows-installer/Freeplane.iss
      10 freeplane_framework/windows-installer/Freeplane_bee.bmp
      29 freeplane_framework/windows-installer/Setup.ico
    6871 freeplane_framework/windows-installer/WizModernImage-IS.bmp
@@ -2822,4 +2822,4 @@ entity
      17 settings.gradle
     149 src.dist.gradle
     196 win.dist.gradle
- 119501 total
+ 119590 total

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Diretório onde os repositórios foram clonados
-TARGET_DIR="repos1"
+TARGET_DIR="repos2"
 OUTPUT_DIR="logs"
 
 # Criar diretório de saída se não existir

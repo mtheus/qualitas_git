@@ -2165,7 +2165,7 @@
 0	96	quartz-plugins/pom.xml
 10	0	quartz-stubs/build.gradle
 0	24	quartz-stubs/pom.xml
-38	0	quartz-stubs/src/main/java/org/quartz/jobs/DirectoryScanListener.java
+17	10	terracotta/bootstrap/src/main/java/org/terracotta/quartz/ClusteredJobStore.java => quartz-stubs/src/main/java/org/quartz/jobs/DirectoryScanListener.java
 10	7	system-tests/src/test/java/org/terracotta/quartz/tests/ShutdownHookTest.java => quartz-stubs/src/main/java/org/quartz/jobs/FileScanListener.java
 0	42	quartz-weblogic/pom.xml
 0	5	quartz-weblogic/src/main/java/overview.html
@@ -2689,7 +2689,6 @@
 0	23	system-tests/src/test/resources/org/terracotta/quartz/tests/spring/simple-spring-client2.xml
 0	43	terracotta/bootstrap/pom.xml
 0	622	terracotta/bootstrap/src/main/java/org/terracotta/quartz/AbstractTerracottaJobStore.java
-0	31	terracotta/bootstrap/src/main/java/org/terracotta/quartz/ClusteredJobStore.java
 0	2106	terracotta/bootstrap/src/main/java/org/terracotta/quartz/DefaultClusteredJobStore.java
 0	433	terracotta/bootstrap/src/main/java/org/terracotta/quartz/PlainTerracottaJobStore.java
 0	27	terracotta/bootstrap/src/main/java/org/terracotta/quartz/TerracottaJobStore.java

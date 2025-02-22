@@ -371,7 +371,7 @@
 57	0	xalansamples/src/main/java/org/apache/xalan/samples/Validate/birds.xsl
 179	0	xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/ApplyXPathJAXP.java
 90	0	xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/ExtensionFunctionResolver.java
-26	0	xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/ExtensionTest.java
+10	14	xsltcservlet/src/site/xhtml/translets/readme.xhtml => xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/ExtensionTest.java
 158	0	xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/XPathResolver.java
 13	0	xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/foo.xml
 6	0	xalansamples/src/main/java/org/apache/xalan/samples/XPathAPI/numlist.xml
@@ -471,7 +471,6 @@
 78	0	xsltcservlet/src/main/java/samples/CompiledServlet/CompileServlet.java
 66	0	xsltcservlet/src/main/java/samples/CompiledServlet/README.servlet
 100	0	xsltcservlet/src/main/java/samples/CompiledServlet/TransformationServlet.java
-0	30	xsltcservlet/src/site/xhtml/translets/readme.xhtml
 
 [0b3ee9093] kubycsolutions 2023-12-27 13:31:50 -0500 Reorganizing some samples back out into their own jarfiles, now that I have a better sense of how Maven behaves. Still need to sanity-check contents thereof.
 1	1	distribution/pom.xml

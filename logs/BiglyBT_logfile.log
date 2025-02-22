@@ -1,3 +1,7 @@
+[50f098cad] parg 2025-02-22 10:56:34 +0000 Fix sync issue on share removal
+20	14	core/src/com/biglybt/pifimpl/local/sharing/ShareConfigImpl.java
+3	3	core/src/com/biglybt/pifimpl/local/sharing/ShareManagerImpl.java
+
 [38a747c10] parg 2025-02-18 15:49:56 +0000 Prep 3801
 2	0	ChangeLog.txt
 2	2	core/src/com/biglybt/core/util/Constants.java

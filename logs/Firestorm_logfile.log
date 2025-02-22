@@ -1,0 +1,1924 @@
+[c74cc84] Kaijie Chen 2022-07-05 16:41:27 +0800 Update README for better redirection (#214)
+9	3	README.md
+
+[b4c385c] roryqi 2022-07-01 22:40:46 +0800 Modify README for new repo (#212)
+2	2	README.md
+
+[a368304] roryqi 2022-07-01 17:16:47 +0800 Add the information about our new repo (#211)
+5	249	README.md
+
+[166f3f8] roryqi 2022-07-01 11:49:34 +0800 [Improvement] Modify configuration template (#209)
+1	1	conf/coordinator.conf
+4	12	conf/server.conf
+
+[5ec04b8] Junfan Zhang 2022-06-30 19:12:36 +0800 Support using remote fs path to specify the excludeNodesFilePath (#200)
+7	3	coordinator/src/main/java/com/tencent/rss/coordinator/ClusterManagerFactory.java
+1	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+39	29	coordinator/src/main/java/com/tencent/rss/coordinator/SimpleClusterManager.java
+4	2	coordinator/src/test/java/com/tencent/rss/coordinator/BasicAssignmentStrategyTest.java
+4	2	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategyTest.java
+8	5	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+
+[ba47aa0] Zhen Wang 2022-06-30 14:56:54 +0800 [Minor] Make clearResourceThread and processEventThread daemon (#207)
+8	4	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+1	0	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+
+[15a6ea6] Zhen Wang 2022-06-30 11:34:40 +0800 [Improvement] Close coordinatorClients when DelegationRssShuffleManager stops (#205)
+1	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+1	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+
+[6937631] roryqi 2022-06-29 10:06:31 +0800 [Improvement] Add RSS_IP environment variable support for K8S (#204)
+10	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+26	0	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+
+[2c1c554] frankliee 2022-06-28 11:02:00 +0800 [Improvement] Move detailed client configuration to individual doc (#201)
+2	20	README.md
+148	0	docs/client_guide.md
+8	0	docs/coordinator_guide.md
+8	0	docs/index.md
+0	7	docs/pageA.md
+7	0	docs/server_guide.md
+
+[392c881] cxzl25 2022-06-28 10:09:01 +0800 Support build_distribution.sh to specify different mvn build options for Spark2 and Spark3 (#203)
+1	0	.gitignore
+16	0	README.md
+49	4	build_distribution.sh
+2	2	pom.xml
+
+[8b5f363] Junfan Zhang 2022-06-27 17:34:13 +0800 [MINOR] Close clusterManager resources (#202)
+2	3	coordinator/src/main/java/com/tencent/rss/coordinator/ClusterManager.java
+1	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+8	2	coordinator/src/main/java/com/tencent/rss/coordinator/SimpleClusterManager.java
+4	1	coordinator/src/test/java/com/tencent/rss/coordinator/BasicAssignmentStrategyTest.java
+3	1	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategyTest.java
+11	2	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+1	0	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorGrpcTest.java
+
+[a253b1f] roryqi 2022-06-27 10:07:13 +0800 [Improvement] Add dynamic allocation patch for Spark 3.2 (#199)
+1	1	README.md
+92	0	spark-patches/spark-3.2.1_dynamic_allocation_support.patch
+
+[6bdf49e] xunxunmimi5577 2022-06-24 02:12:40 +0800 [Improvement] Check ADAPTIVE_EXECUTION_ENABLED in RssShuffleManager (#197)
+1	0	README.md
+3	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+
+[d92208d] Junfan Zhang 2022-06-23 15:30:19 +0800 [Minor] Remove serverNode from tags structure when heartbeart timeout (#193)
+7	0	coordinator/src/main/java/com/tencent/rss/coordinator/ServerNode.java
+7	2	coordinator/src/main/java/com/tencent/rss/coordinator/SimpleClusterManager.java
+27	0	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+
+[cf731f2] roryqi 2022-06-23 09:49:16 +0800 [Bugfix] Fix MR don't have remote storage information when we use dynamic conf and MEMORY_LOCALE_HDFS storageType (#195)
+1	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+
+[8d8e6bf] roryqi 2022-06-22 17:36:33 +0800 upgrade to 0.6.0-snapshot (#190)
+2	2	client-mr/pom.xml
+2	2	client-spark/common/pom.xml
+2	2	client-spark/spark2/pom.xml
+2	2	client-spark/spark3/pom.xml
+2	2	client/pom.xml
+1	1	common/pom.xml
+1	1	coordinator/pom.xml
+2	2	integration-test/common/pom.xml
+2	2	integration-test/mr/pom.xml
+2	2	integration-test/spark-common/pom.xml
+2	2	integration-test/spark2/pom.xml
+2	2	integration-test/spark3/pom.xml
+2	2	internal-client/pom.xml
+1	1	pom.xml
+1	1	proto/pom.xml
+1	1	server/pom.xml
+1	1	storage/pom.xml
+
+[11a8594] Colin 2022-06-22 16:38:27 +0800 [Doc] Update readme with features like multiple remote storage support etc (#191)
+34	12	README.md
+
+[924dac7] roryqi 2022-06-22 14:34:06 +0800 [Bugfix] Fix spark2 executor stop NPE problem (#186)
+[7fa8b52] roryqi 2022-06-22 14:30:15 +0800 [Bugfix] Fix spark2 executor stop NPE problem (#187)
+3	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+
+[46b62b2] Junfan Zhang 2022-06-21 14:15:59 +0800 [Improvement] Avoid using the default forkjoin pool by parallelStream directly (#180)
+4	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+4	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+4	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkConfig.java
+4	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+11	3	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+2	2	client/src/main/java/com/tencent/rss/client/factory/ShuffleClientFactory.java
+15	9	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+2	0	client/src/main/java/com/tencent/rss/client/util/RssClientConfig.java
+1	1	client/src/test/java/com/tencent/rss/client/impl/ShuffleWriteClientImplTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+
+[a67280d] Junfan Zhang 2022-06-20 21:34:05 +0800 [Minor] Prevent returning incomplete shuffle blocks (#183)
+1	1	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+
+[8c2a479] roryqi 2022-06-20 16:38:35 +0800 [Improvement] Disable flaky test (#184)
+2	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+
+[139ae6f] roryqi 2022-06-17 18:36:34 +0800 [Improvement] Add rpc timeout for  method (#178)
+2	1	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+4	2	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+
+[97a581e] Junfan Zhang 2022-06-17 00:07:44 +0800 [Minor] Remove the unnecessary data structures (#179)
+1	3	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+
+[7a5f943] Junfan Zhang 2022-06-16 22:21:44 +0800 [Improvement] Only initialize the heartbeat thread pool when the role is driver (#177)
+8	4	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+9	7	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+
+[8683254] frankliee 2022-06-16 16:52:02 +0800 [Improvement] Add extra check to avoid write data to MR's OnDiskMapOutput (#176)
+4	31	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssBypassWriter.java
+
+[18c71ba] frankliee 2022-06-15 11:13:05 +0800 [Bugfix] Add retry mechanism when reduce merger runs out of memory (#173)
+84	48	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssFetcher.java
+68	2	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+
+[be8138e] roryqi 2022-06-14 19:21:05 +0800 [Improvement] Reuse the codec from a pool (#174)
+20	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssBypassWriter.java
+22	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+
+[f55757e] roryqi 2022-06-14 19:17:37 +0800 [Improvement] Reduce the recomputation caused by bad node (#169)
+207	24	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+0	49	client-mr/src/test/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMasterTest.java
+
+[300d16e] frankliee 2022-06-13 11:52:25 +0800 [Bigfix] Fix MR ui reduce's transferRate (#171)
+4	3	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssFetcher.java
+
+[277c2d3] roryqi 2022-06-10 10:09:34 +0800 [Bugfix] Fix mapTask oom problems (#168)
+12	2	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+5	0	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBuffer.java
+41	19	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+6	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+53	3	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+2	1	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+2	1	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkConfig.java
+1	1	client/src/main/java/com/tencent/rss/client/util/RssClientConfig.java
+1	1	integration-test/mr/src/test/java/com/tencent/rss/test/MRIntegrationTestBase.java
+
+[62300ba] roryqi 2022-06-09 15:25:53 +0800 [Improvement] Optimize taskAttemptId format in MR application (#164)
+2	2	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+29	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/MRIdHelper.java
+40	8	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+3	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssShuffle.java
+18	2	client-mr/src/test/java/org/apache/hadoop/mapreduce/RssMRUtilsTest.java
+2	1	client-spark/common/src/test/java/org/apache/spark/shuffle/reader/RssShuffleDataIteratorTest.java
+1	1	client/src/main/java/com/tencent/rss/client/factory/ShuffleClientFactory.java
+6	3	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+42	4	client/src/main/java/com/tencent/rss/client/request/CreateShuffleReadClientRequest.java
+28	0	client/src/main/java/com/tencent/rss/client/util/DefaultIdHelper.java
+24	0	client/src/main/java/com/tencent/rss/client/util/IdHelper.java
+21	20	client/src/test/java/com/tencent/rss/client/impl/ShuffleReadClientImplTest.java
+3	2	integration-test/common/src/test/java/com/tencent/rss/test/DiskErrorToleranceTest.java
+2	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+8	7	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+19	18	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+6	5	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithHdfsTest.java
+3	2	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+14	13	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+
+[dde47a3] roryqi 2022-06-07 16:52:01 +0800 [Bugfix] Fix MR configuration problems (#165)
+20	20	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+2	2	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+20	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+21	20	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssShuffle.java
+
+[565cd27] roryqi 2022-06-06 16:24:38 +0800 [Improvement] Supports MR application  re-execute (#163)
+9	2	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+2	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+17	7	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+10	6	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssEventFetcher.java
+5	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssShuffle.java
+59	28	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+5	5	client-mr/src/test/java/org/apache/hadoop/mapreduce/RssMRUtilsTest.java
+17	20	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/EvenFetcherTest.java
+2	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMasterTest.java
+32	0	integration-test/mr/src/test/java/com/tencent/rss/test/FailoverAppMaster.java
+2	0	integration-test/mr/src/test/java/com/tencent/rss/test/LargeSorterTest.java
+2	0	integration-test/mr/src/test/java/com/tencent/rss/test/MRIntegrationTestBase.java
+
+[795f75a] roryqi 2022-06-01 16:02:20 +0800 [Bugfix] Map side avoid producing too many blocks (#161)
+7	1	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+1	6	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBuffer.java
+23	14	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+6	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+27	4	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+3	1	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+2	0	client/src/main/java/com/tencent/rss/client/util/RssClientConfig.java
+
+[d72677b] frankliee 2022-06-01 15:30:11 +0800 [Bugfix] MR Reduce should only fetch one attempt of each map task (#162)
+15	12	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssEventFetcher.java
+4	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssFetcher.java
+45	5	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/EvenFetcherTest.java
+
+[93eae9e] macduan 2022-05-31 14:46:29 +0800 [Bugfix] executor should get remote storage from ShuffleHandle (#160)
+13	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkShuffleUtils.java
+10	5	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+10	5	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+14	0	common/src/main/java/com/tencent/rss/common/RemoteStorageInfo.java
+1	1	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+12	0	integration-test/spark2/src/test/java/com/tencent/rss/test/GetReaderTest.java
+12	0	integration-test/spark3/src/test/java/com/tencent/rss/test/GetReaderTest.java
+
+[24ba461] Kaijie Chen 2022-05-28 13:27:46 +0800 [Improvement] Add more spark profiles in CI (#158)
+3	0	.github/workflows/parallel.yml
+1	1	.github/workflows/sequential.yml
+
+[ac18880] macduan 2022-05-27 09:55:46 +0800 [Feature] Remote storage can apply its own extra config (#143)
+2	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+12	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssShuffle.java
+7	5	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+3	2	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+3	2	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+4	3	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleHandle.java
+20	8	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+4	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+18	4	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+6	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+3	2	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+5	4	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+7	8	client/src/main/java/com/tencent/rss/client/util/ClientUtils.java
+4	0	common/pom.xml
+124	0	common/src/main/java/com/tencent/rss/common/RemoteStorageInfo.java
+2	0	common/src/main/java/com/tencent/rss/common/util/Constants.java
+58	0	common/src/test/java/com/tencent/rss/common/RemoteStorageInfoTest.java
+28	24	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+10	1	coordinator/src/main/java/com/tencent/rss/coordinator/ClientConfManager.java
+6	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+17	7	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+46	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorUtils.java
+37	23	coordinator/src/test/java/com/tencent/rss/coordinator/ApplicationManagerTest.java
+38	14	coordinator/src/test/java/com/tencent/rss/coordinator/ClientConfManagerTest.java
+51	2	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorUtilsTest.java
+17	5	integration-test/common/src/test/java/com/tencent/rss/test/FetchClientConfTest.java
+2	1	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+2	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+7	6	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+177	0	integration-test/spark2/pom.xml
+141	0	integration-test/spark2/src/test/java/com/tencent/rss/test/GetReaderTest.java
+273	0	integration-test/spark3/src/test/java/com/tencent/rss/test/GetReaderTest.java
+9	2	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+20	8	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+16	7	internal-client/src/main/java/com/tencent/rss/client/request/RssRegisterShuffleRequest.java
+9	6	internal-client/src/main/java/com/tencent/rss/client/response/RssFetchRemoteStorageResponse.java
+8	0	pom.xml
+13	3	proto/src/main/proto/Rss.proto
+13	3	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+4	4	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+19	5	server/src/main/java/com/tencent/rss/server/storage/HdfsStorageManager.java
+2	1	server/src/main/java/com/tencent/rss/server/storage/LocalStorageManager.java
+7	2	server/src/main/java/com/tencent/rss/server/storage/MultiStorageManager.java
+2	1	server/src/main/java/com/tencent/rss/server/storage/StorageManager.java
+8	7	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+2	1	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+18	8	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+93	0	server/src/test/java/com/tencent/rss/server/storage/HdfsStorageManagerTest.java
+2	1	server/src/test/java/com/tencent/rss/server/storage/MultiStorageManagerTest.java
+1	0	server/src/test/resources/confTest.conf
+5	1	storage/src/main/java/com/tencent/rss/storage/common/HdfsStorage.java
+
+[8d6d206] frankliee 2022-05-26 15:32:04 +0800 [Improvement] Update doc to configure MapReduce client (#156)
+31	1	README.md
+
+[474feec] frankliee 2022-05-25 22:51:58 +0800 [Bugfix] Use reflection to support Delegated ShuffleManager for Spark3.1/3.0 (#154)
+66	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+
+[4cb558c] Kaijie Chen 2022-05-25 20:19:21 +0800 Fix integer division in floating-point context (#153)
+1	1	server/src/main/java/com/tencent/rss/server/ShuffleUploader.java
+
+[5a47b82] Kaijie Chen 2022-05-25 18:04:43 +0800 [Improvement] Split basic checks in CI pipeline (#150)
+21	31	.github/workflows/{maven.yml => build.yml}
+92	0	.github/workflows/parallel.yml
+93	0	.github/workflows/sequential.yml
+46	45	pom.xml
+23	0	spotbugs-exclude.xml
+
+[2a644b8] roryqi 2022-05-25 11:13:24 +0800 [Bugfix] Fix taskAttemptId length error (#151)
+16	6	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+20	4	client-mr/src/test/java/org/apache/hadoop/mapreduce/RssMRUtilsTest.java
+3	3	client-spark/common/src/test/java/org/apache/spark/shuffle/writer/WriteBufferManagerTest.java
+6	6	client/src/test/java/com/tencent/rss/client/ClientUtilsTest.java
+2	2	common/src/main/java/com/tencent/rss/common/util/Constants.java
+
+[e28b8f0] Kaijie Chen 2022-05-23 22:00:27 +0800 [Minor] Upgrade checkstyle to 9.3 (#148)
+1	3	checkstyle.xml
+4	4	pom.xml
+
+[41cd69d] Kaijie Chen 2022-05-23 14:46:48 +0800 [Improvement] Migrate to JUnit 5 (#147)
+3	3	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+2	2	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferTest.java
+2	2	client-mr/src/test/java/org/apache/hadoop/mapreduce/RssMRUtilsTest.java
+2	2	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/EvenFetcherTest.java
+1	1	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+4	4	client-mr/src/test/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMasterTest.java
+4	4	client-spark/common/src/test/java/org/apache/spark/shuffle/RssSparkShuffleUtilsTest.java
+1	1	client-spark/common/src/test/java/org/apache/spark/shuffle/reader/AbstractRssReaderTest.java
+4	4	client-spark/common/src/test/java/org/apache/spark/shuffle/reader/RssShuffleDataIteratorTest.java
+3	3	client-spark/common/src/test/java/org/apache/spark/shuffle/writer/WriteBufferManagerTest.java
+2	2	client-spark/common/src/test/java/org/apache/spark/shuffle/writer/WriteBufferTest.java
+0	4	client-spark/spark2/pom.xml
+8	8	client-spark/spark2/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+1	1	client-spark/spark2/src/test/java/org/apache/spark/shuffle/reader/RssShuffleReaderTest.java
+11	16	client-spark/spark2/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+0	5	client-spark/spark3/pom.xml
+8	8	client-spark/spark3/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+1	1	client-spark/spark3/src/test/java/org/apache/spark/shuffle/reader/RssShuffleReaderTest.java
+10	15	client-spark/spark3/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+0	4	client/pom.xml
+4	4	client/src/test/java/com/tencent/rss/client/ClientUtilsTest.java
+2	2	client/src/test/java/com/tencent/rss/client/TestUtils.java
+5	9	client/src/test/java/com/tencent/rss/client/impl/ShuffleReadClientImplTest.java
+2	2	client/src/test/java/com/tencent/rss/client/impl/ShuffleWriteClientImplTest.java
+3	3	common/src/test/java/com/tencent/rss/common/ArgumentsTest.java
+2	2	common/src/test/java/com/tencent/rss/common/RssShuffleUtilsTest.java
+3	8	common/src/test/java/com/tencent/rss/common/ShufflePartitionedBlockTest.java
+6	2	common/src/test/java/com/tencent/rss/common/config/ConfigOptionTest.java
+4	4	common/src/test/java/com/tencent/rss/common/config/RssConfTest.java
+3	3	common/src/test/java/com/tencent/rss/common/metrics/MetricsManagerTest.java
+2	2	common/src/test/java/com/tencent/rss/common/util/ChecksumUtilsTest.java
+3	3	common/src/test/java/com/tencent/rss/common/util/ExitUtilsTest.java
+5	5	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+2	2	common/src/test/java/com/tencent/rss/common/util/UnitConverterTest.java
+4	4	common/src/test/java/com/tencent/rss/common/web/JettyServerTest.java
+13	16	coordinator/src/test/java/com/tencent/rss/coordinator/AccessCandidatesCheckerTest.java
+8	8	coordinator/src/test/java/com/tencent/rss/coordinator/AccessClusterLoadCheckerTest.java
+8	8	coordinator/src/test/java/com/tencent/rss/coordinator/AccessManagerTest.java
+10	10	coordinator/src/test/java/com/tencent/rss/coordinator/ApplicationManagerTest.java
+9	9	coordinator/src/test/java/com/tencent/rss/coordinator/BasicAssignmentStrategyTest.java
+13	16	coordinator/src/test/java/com/tencent/rss/coordinator/ClientConfManagerTest.java
+2	2	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorConfTest.java
+7	7	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorMetricsTest.java
+3	3	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorServerTest.java
+2	2	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorUtilsTest.java
+8	8	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategyTest.java
+3	3	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionRangeAssignmentTest.java
+3	3	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionRangeTest.java
+2	2	coordinator/src/test/java/com/tencent/rss/coordinator/ServerNodeTest.java
+7	7	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+9	9	integration-test/common/src/test/java/com/tencent/rss/test/AccessCandidatesCheckerHdfsTest.java
+6	9	integration-test/common/src/test/java/com/tencent/rss/test/AccessClusterTest.java
+5	5	integration-test/common/src/test/java/com/tencent/rss/test/ClientConfManagerHdfsTest.java
+7	7	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorGrpcTest.java
+4	4	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorTestBase.java
+9	9	integration-test/common/src/test/java/com/tencent/rss/test/DiskErrorToleranceTest.java
+8	12	integration-test/common/src/test/java/com/tencent/rss/test/FetchClientConfTest.java
+7	7	integration-test/common/src/test/java/com/tencent/rss/test/HealthCheckCoordinatorGrpcTest.java
+2	2	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+10	10	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+12	12	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+4	4	integration-test/common/src/test/java/com/tencent/rss/test/PartitionBalanceCoordinatorGrpcTest.java
+10	10	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+9	9	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+10	10	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithHdfsTest.java
+11	11	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithLocalTest.java
+11	11	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemLocalHdfsTest.java
+11	11	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemoryTest.java
+11	11	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+1	7	integration-test/mr/pom.xml
+3	3	integration-test/mr/src/test/java/com/tencent/rss/test/LargeSorterTest.java
+7	8	integration-test/mr/src/test/java/com/tencent/rss/test/MRIntegrationTestBase.java
+3	3	integration-test/mr/src/test/java/com/tencent/rss/test/SecondarySortTest.java
+3	3	integration-test/mr/src/test/java/com/tencent/rss/test/WordCountTest.java
+5	9	integration-test/spark-common/src/test/java/com/tencent/rss/test/AutoAccessTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/CombineByKeyTest.java
+4	8	integration-test/spark-common/src/test/java/com/tencent/rss/test/DynamicFetchClientConfTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/GroupByKeyTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithHdfsMultiStorageRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithLocalFileRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryMultiStorageRssTest.java
+3	3	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithUploadMultiStorageRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SimpleTestBase.java
+10	10	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+6	6	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkIntegrationTestBase.java
+3	3	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManager.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManagerFallback.java
+3	3	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithMemoryLocalTest.java
+4	4	integration-test/spark3/src/test/java/com/tencent/rss/test/AQERepartitionTest.java
+4	4	integration-test/spark3/src/test/java/com/tencent/rss/test/AQESkewedJoinTest.java
+0	4	internal-client/pom.xml
+33	9	pom.xml
+3	3	server/src/test/java/com/tencent/rss/server/HealthCheckTest.java
+15	21	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+11	11	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+7	7	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+3	3	server/src/test/java/com/tencent/rss/server/ShuffleServerTest.java
+7	7	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+37	35	server/src/test/java/com/tencent/rss/server/ShuffleUploaderTest.java
+3	4	server/src/test/java/com/tencent/rss/server/StorageCheckerTest.java
+4	4	server/src/test/java/com/tencent/rss/server/buffer/BufferTestBase.java
+8	8	server/src/test/java/com/tencent/rss/server/buffer/ShuffleBufferManagerTest.java
+6	6	server/src/test/java/com/tencent/rss/server/buffer/ShuffleBufferTest.java
+2	2	server/src/test/java/com/tencent/rss/server/storage/MultiStorageManagerTest.java
+2	2	storage/src/test/java/com/tencent/rss/storage/HdfsShuffleHandlerTestBase.java
+12	13	storage/src/test/java/com/tencent/rss/storage/HdfsTestBase.java
+13	16	storage/src/test/java/com/tencent/rss/storage/common/LocalStorageTest.java
+4	4	storage/src/test/java/com/tencent/rss/storage/common/ShuffleFileInfoTest.java
+4	4	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandlerTest.java
+8	17	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsFileReaderTest.java
+13	26	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsFileWriterTest.java
+2	7	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsHandlerTest.java
+4	4	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsShuffleReadHandlerTest.java
+28	35	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsShuffleUploadHandlerTest.java
+5	5	storage/src/test/java/com/tencent/rss/storage/handler/impl/LocalFileHandlerTest.java
+2	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandlerTest.java
+4	4	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandlerTest.java
+6	9	storage/src/test/java/com/tencent/rss/storage/util/ShuffleHdfsStorageUtilsTest.java
+4	4	storage/src/test/java/com/tencent/rss/storage/util/ShuffleStorageUtilsTest.java
+
+[eab86f7] Kaijie Chen 2022-05-21 21:02:08 +0800 [Improvement] Parallelize build to speed up CI (#145)
+12	20	.github/workflows/maven.yml
+
+[6725d6a] roryqi 2022-05-21 12:17:53 +0800 [Bugfix] If there is no shuffle, we shouldn't acess rss (#141)
+92	90	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+
+[3813181] roryqi 2022-05-20 21:39:09 +0800 [Bugfix] AppMaster configuration doesn't work (#140)
+28	10	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+47	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMasterTest.java
+
+[fc07be1] Colin 2022-05-18 11:11:11 +0800 [Bug] Update hostname to valid metric name (#142)
+10	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+18	9	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+2	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorMetrics.java
+13	8	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+2	0	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+5	0	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+
+[7ecab5c] roryqi 2022-05-16 10:28:17 +0800 [Improvement]  Filter the interface address that don't have broadcast address (#138)
+21	3	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+
+[b12f947] roryqi 2022-05-16 10:27:33 +0800 [Bugfix] Shade jar should contain lz4 jar (#139)
+1	0	client-mr/pom.xml
+
+[e550aa6] Colin 2022-05-13 12:47:20 +0800 [Bugfix] Fix NPE problem in coordinator if there has no remote storage (#137)
+29	16	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+18	0	coordinator/src/test/java/com/tencent/rss/coordinator/ApplicationManagerTest.java
+
+[62c256f] roryqi 2022-05-12 16:37:20 +0800 [Minor] Optimize maven dependency (#135)
+1	4	client-mr/pom.xml
+0	1	common/pom.xml
+
+[d3fc35c] Colin 2022-05-12 14:07:28 +0800 [Improvement] Add metrics to track Storage usage (#129)
+46	4	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+31	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorMetrics.java
+3	2	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+6	0	coordinator/src/test/java/com/tencent/rss/coordinator/AccessCandidatesCheckerTest.java
+6	0	coordinator/src/test/java/com/tencent/rss/coordinator/AccessClusterLoadCheckerTest.java
+9	2	coordinator/src/test/java/com/tencent/rss/coordinator/AccessManagerTest.java
+17	4	coordinator/src/test/java/com/tencent/rss/coordinator/ApplicationManagerTest.java
+8	1	coordinator/src/test/java/com/tencent/rss/coordinator/ClientConfManagerTest.java
+43	3	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorMetricsTest.java
+11	4	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+12	5	integration-test/common/src/test/java/com/tencent/rss/test/AccessCandidatesCheckerHdfsTest.java
+4	0	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+3	0	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+102	4	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+6	0	server/src/main/java/com/tencent/rss/server/storage/HdfsStorageManager.java
+16	5	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+65	10	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+6	0	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+15	13	server/src/test/java/com/tencent/rss/server/ShuffleUploaderTest.java
+13	4	server/src/test/java/com/tencent/rss/server/buffer/BufferTestBase.java
+20	0	storage/src/main/java/com/tencent/rss/storage/common/HdfsStorage.java
+6	0	storage/src/main/java/com/tencent/rss/storage/common/LocalStorage.java
+2	0	storage/src/main/java/com/tencent/rss/storage/common/Storage.java
+
+[09a9843] frankliee 2022-05-11 14:02:13 +0800 [Improvement] Optimize quorum write by skipping unnecessary blocks (#125)
+4	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+3	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+1	16	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+4	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkConfig.java
+8	5	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+12	7	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+2	2	client/src/main/java/com/tencent/rss/client/factory/ShuffleClientFactory.java
+98	49	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+2	0	client/src/main/java/com/tencent/rss/client/util/RssClientConfig.java
+1	1	client/src/test/java/com/tencent/rss/client/impl/ShuffleWriteClientImplTest.java
+267	23	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+
+[043d862] roryqi 2022-05-10 15:46:35 +0800 [Improvement] add build script for mr profile (#131)
+20	10	build_distribution.sh
+
+[82bfba7] roryqi 2022-05-09 22:01:58 +0800 [Bugfix] Fix problems about driver's hanging (#130)
+2	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+3	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+
+[b24a900] Colin 2022-05-09 10:48:37 +0800 [Improvement] Unify config name for RSS client (#126)
+2	2	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+76	36	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+30	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+1	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssShuffle.java
+11	2	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+87	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/RssMRUtilsTest.java
+0	101	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+131	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkConfig.java
+19	91	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkShuffleUtils.java
+22	22	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/BufferManagerOptions.java
+68	8	client-spark/common/src/test/java/org/apache/spark/shuffle/RssSparkShuffleUtilsTest.java
+6	6	client-spark/common/src/test/java/org/apache/spark/shuffle/writer/WriteBufferManagerTest.java
+7	7	client-spark/spark2/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+40	40	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+10	10	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+12	12	client-spark/spark2/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+17	17	client-spark/spark2/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+7	7	client-spark/spark3/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+51	51	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+10	10	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+13	13	client-spark/spark3/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+17	17	client-spark/spark3/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+59	0	client/src/main/java/com/tencent/rss/client/util/RssClientConfig.java
+2	1	integration-test/mr/src/test/java/com/tencent/rss/test/LargeSorterTest.java
+2	7	integration-test/mr/src/test/java/com/tencent/rss/test/MRIntegrationTestBase.java
+8	6	integration-test/mr/src/test/java/com/tencent/rss/test/SecondarySortTest.java
+9	8	integration-test/mr/src/test/java/com/tencent/rss/test/WordCountTest.java
+10	10	integration-test/spark-common/src/test/java/com/tencent/rss/test/AutoAccessTest.java
+10	8	integration-test/spark-common/src/test/java/com/tencent/rss/test/DynamicFetchClientConfTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithHdfsMultiStorageRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithLocalFileRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryMultiStorageRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithUploadMultiStorageRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SimpleTestBase.java
+3	3	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+15	16	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkIntegrationTestBase.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+3	3	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManager.java
+3	3	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManagerFallback.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithMemoryLocalTest.java
+2	2	integration-test/spark3/src/test/java/com/tencent/rss/test/AQERepartitionTest.java
+4	4	integration-test/spark3/src/test/java/com/tencent/rss/test/AQESkewedJoinTest.java
+
+[6edf5a6] roryqi 2022-05-06 10:54:10 +0800 [Feature] Firestorm supports MapReduce (Part 4 -  Integration Tests) (#115)
+165	49	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBuffer.java
+5	10	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+1	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+1	1	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssFetcher.java
+11	2	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+63	28	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferTest.java
+199	15	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+1	2	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+10	1	common/src/main/java/com/tencent/rss/common/RssShuffleUtils.java
+5	0	integration-test/mr/pom.xml
+4	3	integration-test/mr/src/test/java/{org/apache/hadoop/mapreduce => com/tencent/rss/test}/LargeSorterTest.java
+81	10	integration-test/mr/src/test/java/{org/apache/hadoop/mapreduce => com/tencent/rss/test}/MRIntegrationTestBase.java
+116	0	integration-test/mr/src/test/java/com/tencent/rss/test/SecondarySortTest.java
+110	0	integration-test/mr/src/test/java/com/tencent/rss/test/WordCountTest.java
+6	0	pom.xml
+
+[dc56f6d] Colin 2022-05-05 16:07:43 +0800 [Feature] Support multiple HDFS in Firestorm (Part2 for Shuffle Server & Driver) (#121)
+3	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+15	3	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+6	2	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+0	37	client-spark/common/src/main/java/org/apache/spark/shuffle/RssSparkShuffleUtils.java
+12	6	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+7	3	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+6	2	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+8	3	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+37	0	client/src/main/java/com/tencent/rss/client/util/ClientUtils.java
+1	1	common/src/main/java/com/tencent/rss/common/util/Constants.java
+14	13	integration-test/common/src/test/java/com/tencent/rss/test/DiskErrorToleranceTest.java
+7	16	integration-test/common/src/test/java/com/tencent/rss/test/FetchClientConfTest.java
+45	9	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+18	18	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+56	45	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+16	13	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+48	21	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+17	14	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithHdfsTest.java
+18	18	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithLocalTest.java
+16	14	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemLocalHdfsTest.java
+12	11	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemoryTest.java
+16	15	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+7	0	integration-test/mr/pom.xml
+11	2	integration-test/mr/src/test/java/org/apache/hadoop/mapreduce/LargeSorterTest.java
+12	8	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithHdfsMultiStorageRssTest.java
+5	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithLocalFileRssTest.java
+11	8	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryMultiStorageRssTest.java
+6	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryRssTest.java
+12	7	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithUploadMultiStorageRssTest.java
+11	4	integration-test/spark-common/src/test/java/com/tencent/rss/test/SimpleTestBase.java
+13	12	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+14	12	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+13	7	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+10	7	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManager.java
+10	5	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManagerFallback.java
+13	8	integration-test/spark-common/src/test/java/com/tencent/rss/test/{SparkSQLWithLocalFileRssTest.java => SparkSQLWithMemoryLocalTest.java}
+0	62	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithMemoryRssTest.java
+6	2	integration-test/spark3/src/test/java/com/tencent/rss/test/AQERepartitionTest.java
+6	0	integration-test/spark3/src/test/java/com/tencent/rss/test/AQESkewedJoinTest.java
+14	4	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+11	1	internal-client/src/main/java/com/tencent/rss/client/request/RssRegisterShuffleRequest.java
+1	0	proto/src/main/proto/Rss.proto
+0	6	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+4	2	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+9	1	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+35	18	server/src/main/java/com/tencent/rss/server/storage/HdfsStorageManager.java
+4	0	server/src/main/java/com/tencent/rss/server/storage/LocalStorageManager.java
+5	0	server/src/main/java/com/tencent/rss/server/storage/MultiStorageManager.java
+2	0	server/src/main/java/com/tencent/rss/server/storage/StorageManager.java
+89	75	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+25	24	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+10	6	server/src/test/java/com/tencent/rss/server/storage/MultiStorageManagerTest.java
+5	0	storage/src/main/java/com/tencent/rss/storage/common/HdfsStorage.java
+5	0	storage/src/main/java/com/tencent/rss/storage/common/LocalStorage.java
+2	0	storage/src/main/java/com/tencent/rss/storage/common/Storage.java
+
+[8fa8dd5] dgzdot 2022-04-29 15:17:46 +0800 [Bug Fix] Remove duplicate servlets map (#123)
+0	17	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+
+[5f3c338] frankliee 2022-04-28 11:04:05 +0800 [Feature] Firestorm supports MapReduce (Part 3 - Reduce Side) (#113)
+11	1	client-mr/pom.xml
+1	10	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+2	9	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+10	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+35	2	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+82	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssBypassWriter.java
+154	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssEventFetcher.java
+229	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssFetcher.java
+205	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/task/reduce/RssShuffle.java
+9	9	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+279	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/EvenFetcherTest.java
+230	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/task/reduce/FetcherTest.java
+5	0	client-spark/common/pom.xml
+3	26	client-spark/common/src/main/java/org/apache/spark/shuffle/{RssShuffleUtils.java => RssSparkShuffleUtils.java}
+1	1	client-spark/common/src/main/java/org/apache/spark/shuffle/reader/RssShuffleDataIterator.java
+1	1	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+6	28	client-spark/common/src/test/java/org/apache/spark/shuffle/{RssShuffleUtilsTest.java => RssSparkShuffleUtilsTest.java}
+1	1	client-spark/common/src/test/java/org/apache/spark/shuffle/reader/AbstractRssReaderTest.java
+3	3	client-spark/spark2/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+4	4	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+5	6	client-spark/spark2/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+3	3	client-spark/spark3/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+4	4	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+5	5	client-spark/spark3/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+6	0	common/pom.xml
+51	0	common/src/main/java/com/tencent/rss/common/RssShuffleUtils.java
+47	0	common/src/test/java/com/tencent/rss/common/RssShuffleUtilsTest.java
+5	0	integration-test/common/pom.xml
+65	0	integration-test/mr/pom.xml
+5	0	integration-test/spark-common/pom.xml
+5	1	integration-test/spark3/pom.xml
+11	5	pom.xml
+
+[1a89399] Colin 2022-04-27 10:16:47 +0800 [Feature] Support multiple HDFS in Firestorm (Part1 for Coordinator &… (#110)
+17	11	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+9	1	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleHandle.java
+32	9	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+31	6	client-spark/common/src/test/java/org/apache/spark/shuffle/RssShuffleUtilsTest.java
+12	7	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+14	6	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+2	0	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+19	0	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+6	0	common/src/main/java/com/tencent/rss/common/util/Constants.java
+144	0	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+21	26	coordinator/src/main/java/com/tencent/rss/coordinator/ClientConfManager.java
+5	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+33	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+1	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+166	0	coordinator/src/test/java/com/tencent/rss/coordinator/ApplicationManagerTest.java
+85	17	coordinator/src/test/java/com/tencent/rss/coordinator/ClientConfManagerTest.java
+8	14	integration-test/common/src/test/java/com/tencent/rss/test/ClientConfManagerHdfsTest.java
+78	3	integration-test/common/src/test/java/com/tencent/rss/test/FetchClientConfTest.java
+6	25	integration-test/spark-common/src/test/java/com/tencent/rss/test/DynamicFetchClientConfTest.java
+1	14	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionTest.java
+6	4	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithLocalFileRssTest.java
+19	4	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryRssTest.java
+4	0	internal-client/src/main/java/com/tencent/rss/client/api/CoordinatorClient.java
+22	0	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+32	0	internal-client/src/main/java/com/tencent/rss/client/request/RssFetchRemoteStorageRequest.java
+33	0	internal-client/src/main/java/com/tencent/rss/client/response/RssFetchRemoteStorageResponse.java
+12	0	proto/src/main/proto/Rss.proto
+
+[175086c] roryqi 2022-04-24 19:25:30 +0800 [Bug] Fix NPE problems occasionally (#117)
+4	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+4	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+
+[c48799a] roryqi 2022-04-22 20:46:30 +0800 upgrade to 0.5.0-snapshot (#116)
+1	1	client-mr/pom.xml
+2	2	client-spark/common/pom.xml
+2	2	client-spark/spark2/pom.xml
+2	2	client-spark/spark3/pom.xml
+2	2	client/pom.xml
+1	1	common/pom.xml
+1	1	coordinator/pom.xml
+2	2	integration-test/common/pom.xml
+1	1	integration-test/mr/pom.xml
+2	2	integration-test/spark-common/pom.xml
+2	2	integration-test/spark3/pom.xml
+2	2	internal-client/pom.xml
+1	1	pom.xml
+1	1	proto/pom.xml
+1	1	server/pom.xml
+1	1	storage/pom.xml
+
+[28c0ce8] roryqi 2022-04-22 17:49:41 +0800 [Feature] Firestorm supports MapReduce (Part 2 - Map Side) (#108)
+8	0	client-mr/pom.xml
+190	0	client-mr/src/main/java/org/apache/hadoop/mapred/RssMapOutputCollector.java
+205	0	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBuffer.java
+356	0	client-mr/src/main/java/org/apache/hadoop/mapred/SortWriteBufferManager.java
+13	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+63	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRUtils.java
+248	0	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferManagerTest.java
+127	0	client-mr/src/test/java/org/apache/hadoop/mapred/SortWriteBufferTest.java
+38	0	client-mr/src/test/java/org/apache/hadoop/mapreduce/RssMRUtilsTest.java
+13	53	integration-test/mr/src/test/java/org/apache/hadoop/mapreduce/LargeSorterTest.java
+94	2	integration-test/mr/src/test/java/org/apache/hadoop/mapreduce/MRIntegrationTestBase.java
+10	0	pom.xml
+
+[2ef73ef] frankliee 2022-04-20 21:39:37 +0800 [Bugfix] Update QuorumTest to avoid faked failures (#111)
+10	10	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+
+[fee5b26] frankliee 2022-04-19 11:30:25 +0800 [Bugfix] Fix quorum bug in blockIds report (#107)
+10	5	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+54	4	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+
+[5dea64c] roryqi 2022-04-14 12:35:30 +0800 [Feature] Firestorm supports MapReduce (Part 1 - AppMaster) (#104)
+8	0	.github/workflows/maven.yml
+189	0	client-mr/pom.xml
+42	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/RssMRConfig.java
+159	0	client-mr/src/main/java/org/apache/hadoop/mapreduce/v2/app/RssMRAppMaster.java
+96	0	integration-test/mr/pom.xml
+94	0	integration-test/mr/src/test/java/org/apache/hadoop/mapreduce/LargeSorterTest.java
+76	0	integration-test/mr/src/test/java/org/apache/hadoop/mapreduce/MRIntegrationTestBase.java
+25	1	pom.xml
+
+[0fa10e2] roryqi 2022-04-07 09:54:00 +0800 upgrade to 0.4.0 (#102)
+2	2	client-spark/common/pom.xml
+2	2	client-spark/spark2/pom.xml
+2	2	client-spark/spark3/pom.xml
+2	2	client/pom.xml
+1	1	common/pom.xml
+1	1	coordinator/pom.xml
+2	2	integration-test/common/pom.xml
+2	2	integration-test/spark-common/pom.xml
+2	2	integration-test/spark3/pom.xml
+2	2	internal-client/pom.xml
+1	1	pom.xml
+1	1	proto/pom.xml
+1	1	server/pom.xml
+1	1	storage/pom.xml
+
+[17c9172] frankliee 2022-03-25 11:13:26 +0800 [Feature] Firestorm supports quorum write/read (#96)
+4	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+20	4	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+35	12	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+1	1	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+4	2	client/src/main/java/com/tencent/rss/client/factory/ShuffleClientFactory.java
+50	19	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+1	1	client/src/test/java/com/tencent/rss/client/impl/ShuffleWriteClientImplTest.java
+9	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+7	0	integration-test/common/pom.xml
+5	0	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+498	0	integration-test/common/src/test/java/com/tencent/rss/test/QuorumTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+14	12	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+12	3	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+8	2	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+8	0	server/src/main/java/com/tencent/rss/server/ShuffleServerFactory.java
+35	0	server/src/test/java/com/tencent/rss/server/MockedGrpcServer.java
+30	0	server/src/test/java/com/tencent/rss/server/MockedShuffleServer.java
+45	0	server/src/test/java/com/tencent/rss/server/MockedShuffleServerFactory.java
+77	0	server/src/test/java/com/tencent/rss/server/MockedShuffleServerGrpcService.java
+
+[25bf903] frankliee 2022-03-18 11:22:10 +0800 [Improvement] Remove some integration tests with StorageType.HDFS to accelerate CI pipeline (#97)
+0	43	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithHdfsRssTest.java
+0	56	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithHdfsRssTest.java
+
+[b729165] frankliee 2022-03-16 11:59:30 +0800 [Bugfix] Add timestamp to avoid the conflicts of gc.log after server restart (#99)
+1	1	bin/start-shuffle-server.sh
+
+[272762f] roryqi 2022-03-14 19:48:00 +0800 [Bugfix] Exist memory leak when we use aqe (#98)
+3	3	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+2	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+
+[708132c] roryqi 2022-03-09 15:37:11 +0800 [Doc] Add the support information (#95)
+5	0	README.md
+-	-	docs/asset/wechat.png
+
+[d7f02ea] roryqi 2022-03-08 16:31:33 +0800 [Bugfix] Fix uncorrect index file (#92)
+2	4	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriter.java
+17	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/LocalFileHandlerTest.java
+
+[84410a4] macduan 2022-03-04 10:32:13 +0800 upgrade to 0.3.0 (#89)
+2	2	client-spark/common/pom.xml
+2	2	client-spark/spark2/pom.xml
+2	2	client-spark/spark3/pom.xml
+2	2	client/pom.xml
+1	1	common/pom.xml
+1	1	coordinator/pom.xml
+2	2	integration-test/common/pom.xml
+2	2	integration-test/spark-common/pom.xml
+2	2	integration-test/spark3/pom.xml
+2	2	internal-client/pom.xml
+1	1	pom.xml
+1	1	proto/pom.xml
+1	1	server/pom.xml
+1	1	storage/pom.xml
+
+[c462965] roryqi 2022-03-03 17:54:19 +0800 [Feature] corrupted LocalStorage can be excluded (#85)
+145	0	integration-test/common/src/test/java/com/tencent/rss/test/DiskErrorToleranceTest.java
+0	3	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithLocalTest.java
+14	11	server/src/main/java/com/tencent/rss/server/HealthCheck.java
+73	9	server/src/main/java/com/tencent/rss/server/LocalStorageChecker.java
+5	1	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+2	2	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+4	25	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+6	0	server/src/main/java/com/tencent/rss/server/storage/HdfsStorageManager.java
+60	2	server/src/main/java/com/tencent/rss/server/storage/LocalStorageManager.java
+6	0	server/src/main/java/com/tencent/rss/server/storage/MultiStorageManager.java
+3	0	server/src/main/java/com/tencent/rss/server/storage/StorageManager.java
+9	10	server/src/test/java/com/tencent/rss/server/HealthCheckTest.java
+13	4	server/src/test/java/com/tencent/rss/server/StorageCheckerTest.java
+4	2	server/src/test/java/com/tencent/rss/server/storage/MultiStorageManagerTest.java
+34	6	storage/src/main/java/com/tencent/rss/storage/common/AbstractStorage.java
+7	0	storage/src/main/java/com/tencent/rss/storage/common/HdfsStorage.java
+29	5	storage/src/main/java/com/tencent/rss/storage/common/LocalStorage.java
+4	0	storage/src/main/java/com/tencent/rss/storage/common/Storage.java
+0	18	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+4	13	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileServerReadHandler.java
+2	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/LocalFileHandlerTest.java
+
+[6c0d736] roryqi 2022-03-01 19:21:00 +0800 [Feature] Support Spark 3.2 (#86)
+1	1	README.md
+2	1	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+5	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+4	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkIntegrationTestBase.java
+2	0	integration-test/spark3/pom.xml
+105	1	pom.xml
+
+[975ca9d] macduan 2022-02-24 16:41:35 +0800 add access metrics (#84)
+1	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessCandidatesChecker.java
+1	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessClusterLoadChecker.java
+1	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessManager.java
+9	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorMetrics.java
+6	0	coordinator/src/test/java/com/tencent/rss/coordinator/AccessClusterLoadCheckerTest.java
+1	1	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorMetricsTest.java
+7	0	integration-test/common/src/test/java/com/tencent/rss/test/AccessCandidatesCheckerHdfsTest.java
+
+[459acff] macduan 2022-02-22 17:54:24 +0800 [Feature] add the dynamic client conf fetching and updating (#81)
+10	2	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+45	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+18	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+5	1	client-spark/spark2/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+18	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+5	2	client-spark/spark3/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+2	0	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+20	2	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+2	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+17	7	coordinator/src/main/java/com/tencent/rss/coordinator/AccessCandidatesChecker.java
+151	0	coordinator/src/main/java/com/tencent/rss/coordinator/ClientConfManager.java
+16	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+30	2	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+11	5	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+59	9	coordinator/src/test/java/com/tencent/rss/coordinator/AccessCandidatesCheckerTest.java
+138	0	coordinator/src/test/java/com/tencent/rss/coordinator/ClientConfManagerTest.java
+1	0	coordinator/src/test/resources/coordinator.conf
+60	12	integration-test/common/src/test/java/com/tencent/rss/test/AccessCandidatesCheckerHdfsTest.java
+130	0	integration-test/common/src/test/java/com/tencent/rss/test/ClientConfManagerHdfsTest.java
+89	0	integration-test/common/src/test/java/com/tencent/rss/test/FetchClientConfTest.java
+188	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/AutoAccessTest.java
+147	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/DynamicFetchClientConfTest.java
+6	2	internal-client/src/main/java/com/tencent/rss/client/api/CoordinatorClient.java
+27	3	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+31	0	internal-client/src/main/java/com/tencent/rss/client/request/RssFetchClientConfRequest.java
+43	0	internal-client/src/main/java/com/tencent/rss/client/response/RssFetchClientConfResponse.java
+14	0	proto/src/main/proto/Rss.proto
+
+[55a74f7] frankliee 2022-02-18 16:30:36 +0800 [Improvement] Update some default values of parameters (#82)
+3	3	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+
+[a92530b] frankliee 2022-02-17 16:52:59 +0800 [Improvement] Update spark.rss.client.read.buffer.size to avoid JVM humongous alloc… (#80)
+3	1	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+
+[9623fc1] macduan 2022-02-17 13:31:06 +0800 addHdfsConfFile (#79)
+20	2	bin/start-coordinator.sh
+3	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+13	4	client-spark/spark2/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+3	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+14	4	client-spark/spark3/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+4	0	coordinator/pom.xml
+52	20	coordinator/src/main/java/com/tencent/rss/coordinator/AccessCandidatesChecker.java
+11	3	coordinator/src/main/java/com/tencent/rss/coordinator/AccessManager.java
+2	2	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+2	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+27	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorUtils.java
+8	8	coordinator/src/test/java/com/tencent/rss/coordinator/AccessCandidatesCheckerTest.java
+8	6	coordinator/src/test/java/com/tencent/rss/coordinator/AccessClusterLoadCheckerTest.java
+9	7	coordinator/src/test/java/com/tencent/rss/coordinator/AccessManagerTest.java
+1	1	coordinator/src/test/resources/coordinator.conf
+80	0	integration-test/common/src/test/java/com/tencent/rss/test/AccessCandidatesCheckerHdfsTest.java
+
+[b404997] frankliee 2022-02-17 11:54:12 +0800 [Feature] Add the metrics of requireBuffer failures (#78)
+13	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+1	0	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+3	0	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+1	1	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+
+[ece77d1] macduan 2022-01-26 17:13:37 +0800 [Feature]Access check in client (#66)
+5	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+26	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+180	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+143	0	client-spark/spark2/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+190	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/DelegationRssShuffleManager.java
+143	0	client-spark/spark3/src/test/java/org/apache/spark/shuffle/DelegationRssShuffleManagerTest.java
+2	0	common/src/main/java/com/tencent/rss/common/util/Constants.java
+5	3	coordinator/src/main/java/com/tencent/rss/coordinator/AccessCandidatesChecker.java
+5	2	coordinator/src/main/java/com/tencent/rss/coordinator/AccessClusterLoadChecker.java
+2	1	coordinator/src/main/java/com/tencent/rss/coordinator/AccessManager.java
+1	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+108	0	integration-test/common/src/test/java/com/tencent/rss/test/AccessClusterTest.java
+77	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManager.java
+75	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithDelegationShuffleManagerFallback.java
+19	0	integration-test/spark-common/src/test/resources/candidates
+4	0	internal-client/src/main/java/com/tencent/rss/client/api/CoordinatorClient.java
+32	1	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+46	0	internal-client/src/main/java/com/tencent/rss/client/request/RssAccessClusterRequest.java
+12	1	internal-client/src/main/java/com/tencent/rss/client/response/ClientResponse.java
+2	1	internal-client/src/main/java/com/tencent/rss/client/response/ResponseStatusCode.java
+26	0	internal-client/src/main/java/com/tencent/rss/client/response/RssAccessClusterResponse.java
+
+[9ae5440] frankliee 2022-01-20 09:48:28 +0800 [Improvement] Add detailed logging for read client (#72)
+3	0	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+11	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemLocalHdfsTest.java
+11	0	storage/src/main/java/com/tencent/rss/storage/handler/api/ClientReadHandler.java
+9	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/AbstractClientReadHandler.java
+85	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/ComposedClientReadHandler.java
+21	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+21	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileQuorumClientReadHandler.java
+
+[23ecbdf] roryqi 2022-01-19 15:30:31 +0800 [Bug] Register operation will be blocked for long time sometimes (#75)
+1	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+1	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+
+[2cd2175] macduan 2022-01-19 14:17:27 +0800 [Feature] Add AccessManager (#61)
+31	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+62	0	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+4	0	coordinator/pom.xml
+112	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessCandidatesChecker.java
+38	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessCheckResult.java
+35	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessChecker.java
+84	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessClusterLoadChecker.java
+53	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessInfo.java
+85	0	coordinator/src/main/java/com/tencent/rss/coordinator/AccessManager.java
+29	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+29	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+9	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+4	0	coordinator/src/main/java/com/tencent/rss/coordinator/ServerNode.java
+83	0	coordinator/src/test/java/com/tencent/rss/coordinator/AccessCandidatesCheckerTest.java
+98	0	coordinator/src/test/java/com/tencent/rss/coordinator/AccessClusterLoadCheckerTest.java
+102	0	coordinator/src/test/java/com/tencent/rss/coordinator/AccessManagerTest.java
+4	1	coordinator/src/test/resources/coordinator.conf
+14	0	proto/src/main/proto/Rss.proto
+
+[65b8393] Colin 2022-01-17 15:53:13 +0800 [Doc] Update readme for new configuration (#73)
+9	7	README.md
+
+[a332d3a] Colin 2022-01-17 14:21:46 +0800 Update version to 0.2.0 (#74)
+2	2	client-spark/common/pom.xml
+2	2	client-spark/spark2/pom.xml
+2	2	client-spark/spark3/pom.xml
+2	2	client/pom.xml
+1	1	common/pom.xml
+1	1	coordinator/pom.xml
+2	2	integration-test/common/pom.xml
+2	2	integration-test/spark-common/pom.xml
+2	2	integration-test/spark3/pom.xml
+2	2	internal-client/pom.xml
+1	1	pom.xml
+1	1	proto/pom.xml
+1	1	server/pom.xml
+1	1	storage/pom.xml
+
+[4b5389f] roryqi 2022-01-13 17:42:53 +0800 [Bug] Replace parallelStream with stream except for the method `sendDataAsync` (#69)
+2	2	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+1	1	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+1	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+41	22	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+1	1	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+
+[0c33ce0] frankliee 2022-01-13 11:41:17 +0800 [Follow Up] Support to skip unexpected and processed segments in HDFS (#64)
+1	1	client/src/test/java/com/tencent/rss/client/impl/ShuffleReadClientImplTest.java
+118	0	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+235	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemLocalHdfsTest.java
+5	2	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+4	3	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+12	0	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+18	12	storage/src/main/java/com/tencent/rss/storage/handler/impl/ComposedClientReadHandler.java
+18	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+23	36	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleReadHandler.java
+23	8	storage/src/main/java/com/tencent/rss/storage/handler/impl/UploadedHdfsClientReadHandler.java
+8	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/UploadedStorageHdfsShuffleReadHandler.java
+6	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandlerTest.java
+4	3	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsHandlerTest.java
+6	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsShuffleReadHandlerTest.java
+53	18	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandlerTest.java
+11	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandlerTest.java
+
+[0cac013] roryqi 2022-01-12 21:17:04 +0800 [Feature] Add the data size of metrics HDFS and LOCALFILE (#68)
+6	0	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+7	0	server/src/main/java/com/tencent/rss/server/storage/HdfsStorageManager.java
+7	0	server/src/main/java/com/tencent/rss/server/storage/LocalStorageManager.java
+1	1	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+
+[ad5edda] roryqi 2022-01-11 20:27:21 +0800 [Bug] LocalStorageChecker should support MEMORY_LOCALFILE and MEMORY_LOCALFILE_HDFS (#65)
+3	5	server/src/main/java/com/tencent/rss/server/LocalStorageChecker.java
+2	5	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+8	0	storage/src/main/java/com/tencent/rss/storage/util/ShuffleStorageUtils.java
+
+[f443cb5] roryqi 2022-01-11 16:01:30 +0800 [Bug] Support to read incomplete index data (#67)
+26	21	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+6	0	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+
+[4631bbe] roryqi 2022-01-10 15:22:52 +0800 [Feature] Support StorageType MEMORY_LOCALFILE_HDFS (#63)
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/HealthCheckCoordinatorGrpcTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+2	2	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+11	11	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+58	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithHdfsMultiStorageRssTest.java
+58	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryMultiStorageRssTest.java
+7	5	integration-test/spark-common/src/test/java/com/tencent/rss/test/{RepartitionWithMultiStorageRssTest.java => RepartitionWithUploadMultiStorageRssTest.java}
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+3	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+3	2	server/src/main/java/com/tencent/rss/server/LocalStorageChecker.java
+5	3	server/src/main/java/com/tencent/rss/server/storage/StorageManagerFactory.java
+1	6	storage/src/main/java/com/tencent/rss/storage/common/LocalStorageMeta.java
+75	39	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+1	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/ComposedClientReadHandler.java
+2	1	storage/src/main/java/com/tencent/rss/storage/util/StorageType.java
+
+[683d13a] roryqi 2022-01-10 11:27:24 +0800 [Feature] Hdfs write fail, the data will write to localfile (#60)
+0	2	client-spark/spark3/src/test/java/org/apache/spark/shuffle/reader/RssShuffleReaderTest.java
+0	3	client/src/test/java/com/tencent/rss/client/impl/ShuffleReadClientImplTest.java
+3	1	common/src/main/java/com/tencent/rss/common/config/ConfigUtils.java
+3	3	integration-test/common/src/test/java/com/tencent/rss/test/HealthCheckCoordinatorGrpcTest.java
+22	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+2	2	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+1	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMultiStorageRssTest.java
+19	9	server/src/main/java/com/tencent/rss/server/ShuffleDataFlushEvent.java
+8	28	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+7	0	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+29	0	server/src/main/java/com/tencent/rss/server/storage/MultiStorageManager.java
+40	0	server/src/main/java/com/tencent/rss/server/storage/SingleStorageManager.java
+5	0	server/src/main/java/com/tencent/rss/server/storage/StorageManager.java
+18	1	storage/src/main/java/com/tencent/rss/storage/common/AbstractStorage.java
+2	1	storage/src/main/java/com/tencent/rss/storage/common/HdfsStorage.java
+2	1	storage/src/main/java/com/tencent/rss/storage/common/LocalStorage.java
+2	0	storage/src/main/java/com/tencent/rss/storage/common/Storage.java
+
+[a1b5a3a] Colin 2022-01-05 19:00:47 +0800 [Improvement] Reduce memory cost in spark executor (#59)
+1	1	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+1	1	client-spark/common/src/main/java/org/apache/spark/shuffle/reader/RssShuffleDataIterator.java
+11	6	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+28	25	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+23	17	client-spark/spark2/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+9	3	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+12	9	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+3	5	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+5	4	client/src/test/java/com/tencent/rss/client/TestUtils.java
+
+[f25927f] frankliee 2022-01-05 16:05:39 +0800 Fix log4j-core dependabot, upgrade to 2.17.1 (#62)
+1	1	pom.xml
+
+[87dcf3e] roryqi 2022-01-05 14:19:57 +0800 [Feature] Support read from localfile, hdfs and uploaded hdfs (#56)
+74	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+41	6	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+88	28	storage/src/main/java/com/tencent/rss/storage/handler/impl/ComposedClientReadHandler.java
+0	122	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageReadHandler.java
+4	4	storage/src/main/java/com/tencent/rss/storage/handler/impl/{MultiStorageHdfsClientReadHandler.java => UploadedHdfsClientReadHandler.java}
+3	3	storage/src/main/java/com/tencent/rss/storage/handler/impl/{MultiStorageHdfsShuffleReadHandler.java => UploadedStorageHdfsShuffleReadHandler.java}
+2	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandlerTest.java
+2	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandlerTest.java
+
+[7417d54] frankliee 2022-01-04 16:45:58 +0800 [Feature] Support to skip unexpected and processed segments in LocalFileReadClient (#55)
+120	18	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemoryTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+32	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+14	11	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+93	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/DataSkippableReadHandler.java
+31	81	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileClientReadHandler.java
+88	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileQuorumClientReadHandler.java
+13	24	storage/src/main/java/com/tencent/rss/storage/handler/impl/MemoryClientReadHandler.java
+76	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/MemoryQuorumClientReadHandler.java
+
+[87ce91b] Colin 2022-01-04 11:10:50 +0800 [Bug]Fix memory leak in spark executor (#58)
+7	0	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+2	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+2	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+1	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionTest.java
+
+[1f62563] frankliee 2021-12-30 18:43:13 +0800 [Build] Only upload logs when test cases are failed (#57)
+2	0	.github/workflows/maven.yml
+
+[ab3eae5] roryqi 2021-12-30 15:57:19 +0800 [Feature] MultiStorageManager can write both localfile and hdfs directly (#43)
+1	0	common/src/main/java/com/tencent/rss/common/config/ConfigOptions.java
+3	0	common/src/main/java/com/tencent/rss/common/config/ConfigUtils.java
+0	6	common/src/main/java/com/tencent/rss/common/config/RssBaseConf.java
+4	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+1	2	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+4	4	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+34	21	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+2	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMultiStorageRssTest.java
+2	2	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+0	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+0	319	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+44	0	server/src/main/java/com/tencent/rss/server/ShuffleDataReadEvent.java
+52	106	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+12	27	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+41	6	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+7	6	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+12	10	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+97	117	server/src/main/java/com/tencent/rss/server/ShuffleUploader.java
+1	1	server/src/main/java/com/tencent/rss/server/buffer/ShuffleBuffer.java
+77	0	server/src/main/java/com/tencent/rss/server/storage/HdfsStorageManager.java
+106	0	server/src/main/java/com/tencent/rss/server/storage/LocalStorageManager.java
+110	0	server/src/main/java/com/tencent/rss/server/storage/MultiStorageManager.java
+100	0	server/src/main/java/com/tencent/rss/server/storage/SingleStorageManager.java
+43	0	server/src/main/java/com/tencent/rss/server/storage/StorageManager.java
+46	0	server/src/main/java/com/tencent/rss/server/storage/StorageManagerFactory.java
+0	223	server/src/test/java/com/tencent/rss/server/MultiStorageManagerTest.java
+45	17	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+0	2	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+1	0	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+8	7	server/src/test/java/com/tencent/rss/server/ShuffleServerTest.java
+5	2	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+256	265	server/src/test/java/com/tencent/rss/server/ShuffleUploaderTest.java
+5	1	server/src/test/java/com/tencent/rss/server/buffer/ShuffleBufferManagerTest.java
+12	0	server/src/test/java/com/tencent/rss/server/buffer/ShuffleBufferTest.java
+50	0	server/src/test/java/com/tencent/rss/server/storage/MultiStorageManagerTest.java
+59	0	storage/src/main/java/com/tencent/rss/storage/common/AbstractStorage.java
+92	0	storage/src/main/java/com/tencent/rss/storage/common/HdfsStorage.java
+98	103	storage/src/main/java/com/tencent/rss/storage/common/{DiskItem.java => LocalStorage.java}
+2	2	storage/src/main/java/com/tencent/rss/storage/common/{DiskMetaData.java => LocalStorageMeta.java}
+48	0	storage/src/main/java/com/tencent/rss/storage/common/Storage.java
+44	0	storage/src/main/java/com/tencent/rss/storage/common/StorageReadMetrics.java
+77	0	storage/src/main/java/com/tencent/rss/storage/common/StorageWriteMetrics.java
+0	24	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+1	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriteHandler.java
+1	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandler.java
+0	298	storage/src/test/java/com/tencent/rss/storage/common/DiskItemTest.java
+167	0	storage/src/test/java/com/tencent/rss/storage/common/LocalStorageTest.java
+2	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/LocalFileHandlerTest.java
+
+[2b3807d] Colin 2021-12-30 11:20:05 +0800 [Improvement] Remove unnecssary logic to calculate bitmap split number (#53)
+6	4	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+7	14	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+7	15	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+0	37	client/src/main/java/com/tencent/rss/client/util/ClientUtils.java
+4	28	client/src/test/java/com/tencent/rss/client/ClientUtilsTest.java
+
+[b41afa1] frankliee 2021-12-29 19:11:47 +0800 upload unit test log in github CI (#54)
+10	0	.github/workflows/maven.yml
+
+[4463b80] Colin 2021-12-28 17:16:44 +0800 Fix time unit from micro to mill (#52)
+2	2	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+2	2	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+8	8	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategyTest.java
+1	1	server/src/main/java/com/tencent/rss/server/HealthCheck.java
+
+[7c94c6c] toujours33 2021-12-25 20:23:06 +0800 Shutdown non-daemon executor service to avoid hang when jvm destroy (#47)
+2	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+2	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+
+[9da5caf] frankliee 2021-12-24 18:47:49 +0800 [Improvement] Update import style in the Spark-like way (#45)
+4	2	checkstyle.xml
+4	2	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleHandle.java
+2	1	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+6	4	client-spark/common/src/main/java/org/apache/spark/shuffle/reader/RssShuffleDataIterator.java
+2	1	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/AddBlockEvent.java
+10	8	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+2	1	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriterBuffer.java
+16	15	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+7	5	client-spark/spark2/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+15	14	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+19	18	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+7	6	client-spark/spark3/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+16	15	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+3	3	client-spark/spark3/src/test/java/org/apache/spark/shuffle/TestUtils.java
+10	7	client-spark/spark3/src/test/java/org/apache/spark/shuffle/reader/RssShuffleReaderTest.java
+11	9	client-spark/spark3/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+6	4	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+11	10	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+12	11	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+3	1	client/src/main/java/com/tencent/rss/client/request/CreateShuffleReadClientRequest.java
+2	1	common/src/main/java/com/tencent/rss/common/ShuffleDataResult.java
+4	4	common/src/main/java/com/tencent/rss/common/config/ConfigUtils.java
+4	4	common/src/main/java/com/tencent/rss/common/config/RssConf.java
+2	2	common/src/main/java/com/tencent/rss/common/metrics/GRPCMetrics.java
+8	8	common/src/main/java/com/tencent/rss/common/rpc/GrpcServer.java
+2	1	common/src/main/java/com/tencent/rss/common/rpc/MonitoringServerCall.java
+2	1	common/src/main/java/com/tencent/rss/common/rpc/MonitoringServerInterceptor.java
+9	8	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+2	2	common/src/main/java/com/tencent/rss/common/util/UnitConverter.java
+6	5	common/src/main/java/com/tencent/rss/common/web/CommonMetricsServlet.java
+5	3	common/src/main/java/com/tencent/rss/common/web/JettyServer.java
+4	3	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+3	1	coordinator/src/main/java/com/tencent/rss/coordinator/BasicAssignmentStrategy.java
+3	2	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+13	10	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+2	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorMetrics.java
+7	6	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+3	3	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorUtils.java
+8	7	coordinator/src/main/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategy.java
+5	3	coordinator/src/main/java/com/tencent/rss/coordinator/PartitionRangeAssignment.java
+2	1	coordinator/src/main/java/com/tencent/rss/coordinator/ServerNode.java
+6	5	coordinator/src/main/java/com/tencent/rss/coordinator/SimpleClusterManager.java
+6	4	internal-client/src/main/java/com/tencent/rss/client/factory/CoordinatorClientFactory.java
+3	1	internal-client/src/main/java/com/tencent/rss/client/factory/ShuffleServerClientFactory.java
+11	9	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+2	1	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/GrpcClient.java
+8	7	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+2	1	internal-client/src/main/java/com/tencent/rss/client/request/RssRegisterShuffleRequest.java
+2	1	internal-client/src/main/java/com/tencent/rss/client/request/RssSendShuffleDataRequest.java
+2	2	internal-client/src/main/java/com/tencent/rss/client/response/RssGetInMemoryShuffleDataResponse.java
+3	2	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleAssignmentsResponse.java
+3	1	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleResultResponse.java
+5	5	server/src/main/java/com/tencent/rss/server/HealthCheck.java
+4	3	server/src/main/java/com/tencent/rss/server/LocalStorageChecker.java
+9	8	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+8	6	server/src/main/java/com/tencent/rss/server/RegisterHeartBeat.java
+3	3	server/src/main/java/com/tencent/rss/server/ShuffleDataFlushEvent.java
+13	12	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+8	7	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+3	2	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+9	8	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+2	1	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+16	15	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+15	13	server/src/main/java/com/tencent/rss/server/ShuffleUploader.java
+8	7	server/src/main/java/com/tencent/rss/server/buffer/ShuffleBuffer.java
+11	10	server/src/main/java/com/tencent/rss/server/buffer/ShuffleBufferManager.java
+10	8	storage/src/main/java/com/tencent/rss/storage/common/DiskItem.java
+1	2	storage/src/main/java/com/tencent/rss/storage/common/DiskMetaData.java
+3	2	storage/src/main/java/com/tencent/rss/storage/common/ShuffleFileInfo.java
+3	3	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+2	1	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleUploadHandlerFactory.java
+2	1	storage/src/main/java/com/tencent/rss/storage/handler/api/ShuffleUploadHandler.java
+2	1	storage/src/main/java/com/tencent/rss/storage/handler/api/ShuffleWriteHandler.java
+3	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/ComposedClientReadHandler.java
+4	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/DataFileSegment.java
+7	6	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+4	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileReader.java
+4	3	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileWriter.java
+3	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleDeleteHandler.java
+8	6	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleReadHandler.java
+6	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleUploadHandler.java
+7	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleWriteHandler.java
+5	4	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileClientReadHandler.java
+4	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileDeleteHandler.java
+3	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileReader.java
+6	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileServerReadHandler.java
+7	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriteHandler.java
+2	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriter.java
+5	4	storage/src/main/java/com/tencent/rss/storage/handler/impl/MemoryClientReadHandler.java
+4	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandler.java
+3	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandler.java
+6	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageReadHandler.java
+5	4	storage/src/main/java/com/tencent/rss/storage/handler/impl/ShuffleIndexHeader.java
+4	2	storage/src/main/java/com/tencent/rss/storage/request/CreateShuffleReadHandlerRequest.java
+2	1	storage/src/main/java/com/tencent/rss/storage/request/CreateShuffleUploadHandlerRequest.java
+7	7	storage/src/main/java/com/tencent/rss/storage/util/ShuffleStorageUtils.java
+
+[4f63ee2] Colin 2021-12-24 15:24:17 +0800 Update Readme with memory shuffle support (#46)
+9	11	README.md
+
+[c838158] Colin 2021-12-24 11:42:48 +0800 Support store shuffle data in memory (#36)
+8	13	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+26	12	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+21	15	client-spark/spark2/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+24	12	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+20	15	client-spark/spark3/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+6	8	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+1	0	common/src/main/java/com/tencent/rss/common/rpc/GrpcServer.java
+3	1	common/src/main/java/com/tencent/rss/common/util/Constants.java
+8	4	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+3	4	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+9	27	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+11	3	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+225	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithMemoryTest.java
+10	8	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+57	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMemoryRssTest.java
+8	7	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+62	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithMemoryRssTest.java
+5	0	internal-client/src/main/java/com/tencent/rss/client/api/ShuffleServerClient.java
+63	10	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+56	0	internal-client/src/main/java/com/tencent/rss/client/request/RssGetInMemoryShuffleDataRequest.java
+44	0	internal-client/src/main/java/com/tencent/rss/client/response/RssGetInMemoryShuffleDataResponse.java
+22	6	proto/src/main/proto/Rss.proto
+10	12	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+0	87	server/src/main/java/com/tencent/rss/server/ShuffleBuffer.java
+10	18	server/src/main/java/com/tencent/rss/server/ShuffleDataFlushEvent.java
+10	5	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+1	0	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+16	12	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+14	6	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcMetrics.java
+116	20	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+35	26	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+23	7	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+1	1	server/src/main/java/com/tencent/rss/server/{ => buffer}/PreAllocatedBufferInfo.java
+287	0	server/src/main/java/com/tencent/rss/server/buffer/ShuffleBuffer.java
+192	54	server/src/main/java/com/tencent/rss/server/{ => buffer}/ShuffleBufferManager.java
+1	1	server/src/test/java/com/tencent/rss/server/MultiStorageManagerTest.java
+0	74	server/src/test/java/com/tencent/rss/server/ShuffleBufferTest.java
+4	4	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+6	18	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+2	4	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+3	5	server/src/test/java/com/tencent/rss/server/ShuffleServerTest.java
+41	37	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+51	0	server/src/test/java/com/tencent/rss/server/buffer/BufferTestBase.java
+170	85	server/src/test/java/com/tencent/rss/server/{ => buffer}/ShuffleBufferManagerTest.java
+453	0	server/src/test/java/com/tencent/rss/server/buffer/ShuffleBufferTest.java
+70	0	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+1	1	storage/src/main/java/com/tencent/rss/storage/handler/api/ClientReadHandler.java
+12	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/{AbstractFileClientReadHandler.java => AbstractClientReadHandler.java}
+109	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/ComposedClientReadHandler.java
+6	8	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+8	10	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileClientReadHandler.java
+3	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileServerReadHandler.java
+88	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/MemoryClientReadHandler.java
+6	7	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageReadHandler.java
+4	2	storage/src/main/java/com/tencent/rss/storage/util/StorageType.java
+8	7	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandlerTest.java
+8	7	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsHandlerTest.java
+1	3	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandlerTest.java
+
+[42fd608] frankliee 2021-12-24 10:57:02 +0800 [Improvement] Support Firestorm with Spark 2.3 & 3.0 (#41)
+5	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+4	2	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+6	7	client-spark/spark2/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+113	18	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+1	1	integration-test/spark3/src/test/java/com/tencent/rss/test/AQERepartitionTest.java
+121	0	pom.xml
+
+[52c4680] dependabot[bot] 2021-12-23 15:46:49 +0800 Bump log4j-core from 2.16.0 to 2.17.0 (#44)
+1	1	pom.xml
+
+[394d2f3] frankliee 2021-12-21 10:29:37 +0800 Check blockIds in read client to allow early return (#39)
+16	0	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+26	1	client/src/test/java/com/tencent/rss/client/impl/ShuffleReadClientImplTest.java
+
+[5629783] frankliee 2021-12-17 19:18:02 +0800 [minor] Fix flaky testes in HealthCheckCoordinatorGrpcTest (#38)
+3	3	integration-test/common/src/test/java/com/tencent/rss/test/HealthCheckCoordinatorGrpcTest.java
+
+[f1f856e] macduan 2021-12-16 17:44:28 +0800 [Feature] Read handler refactor (#34)
+3	9	storage/src/main/java/com/tencent/rss/storage/api/{ShuffleReader.java => FileReader.java}
+0	235	storage/src/main/java/com/tencent/rss/storage/handler/impl/AbstractHdfsClientReadHandler.java
+70	76	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+7	76	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileReader.java
+150	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleReadHandler.java
+4	39	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileReader.java
+2	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileServerReadHandler.java
+23	135	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandler.java
+94	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandler.java
+59	8	storage/src/main/java/com/tencent/rss/storage/handler/impl/ShuffleIndexHeader.java
+141	0	storage/src/test/java/com/tencent/rss/storage/HdfsShuffleHandlerTestBase.java
+12	0	storage/src/test/java/com/tencent/rss/storage/HdfsTestBase.java
+15	67	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandlerTest.java
+3	164	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsFileReaderTest.java
+0	5	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsHandlerTest.java
+89	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsShuffleReadHandlerTest.java
+2	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandlerTest.java
+246	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsShuffleReadHandlerTest.java
+
+[d7684ec] macduan 2021-12-15 20:10:48 +0800 [Improvement] fix log4j Dependabot alerts (#37)
+1	1	pom.xml
+
+[af18432] roryqi 2021-12-15 15:13:47 +0800 [Improvement] Avoid speculative tasks causing writing errors after shuffle is uploaded and deleted (#31)
+23	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+4	0	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+9	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriteHandler.java
+
+[983fc7b] macduan 2021-12-13 11:34:41 +0800 Remove useless code in test base (#33)
+0	3	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+
+[af5d603] macduan 2021-12-10 16:42:17 +0800 Fix log4j-core dependabot (#32)
+1	1	pom.xml
+
+[c1f07c3] roryqi 2021-12-09 10:21:59 +0800 [Improvement] Modify some configuration's names and default values (#27)
+2	1	conf/coordinator.conf
+12	14	conf/server.conf
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMultiStorageRssTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+1	1	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+2	2	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+9	9	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+1	1	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+1	1	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+2	2	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+1	1	server/src/test/resources/confTest.conf
+
+[bd5fadd] macduan 2021-12-08 15:00:06 +0800 Read index first in hdfs handler (#21)
+2	0	storage/src/main/java/com/tencent/rss/storage/api/ShuffleReader.java
+2	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/AbstractHdfsClientReadHandler.java
+102	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+12	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileReader.java
+6	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleWriteHandler.java
+12	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileReader.java
+2	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandler.java
+154	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandlerTest.java
+
+[1cf3c57] frankliee 2021-12-08 11:17:08 +0800 [Feature] Add doc system based on Jekyll (#22)
+3	3	README.md
+28	0	docs/_config.yml
+-	-	{asset => docs/asset}/rss_architecture.png
+-	-	{asset => docs/asset}/rss_data_format.png
+-	-	{asset => docs/asset}/rss_shuffle_write.png
+30	0	docs/gen-doc.sh
+18	0	docs/index.md
+7	0	docs/pageA.md
+1	0	pom.xml
+
+[da50d3e] frankliee 2021-12-07 22:25:28 +0800 [Improvement] Support to config byte sizes by readable string (e.g., kb/mb/gb) (#26)
+22	1	common/src/main/java/com/tencent/rss/common/config/ConfigUtils.java
+5	3	common/src/main/java/com/tencent/rss/common/config/RssBaseConf.java
+72	0	common/src/main/java/com/tencent/rss/common/config/RssConf.java
+3	3	common/src/main/java/com/tencent/rss/common/rpc/GrpcServer.java
+198	0	common/src/main/java/com/tencent/rss/common/util/UnitConverter.java
+66	0	common/src/test/java/com/tencent/rss/common/util/UnitConverterTest.java
+5	5	conf/server.conf
+1	1	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+2	2	server/src/main/java/com/tencent/rss/server/ShuffleBuffer.java
+5	5	server/src/main/java/com/tencent/rss/server/ShuffleBufferManager.java
+4	4	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+2	2	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+58	1	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+1	1	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+29	0	server/src/test/resources/confBySizeStringTest.conf
+
+[29b9867] roryqi 2021-12-07 19:02:20 +0800 [Improvement] Fix the flaky test (#29)
+13	3	integration-test/common/src/test/java/com/tencent/rss/test/HealthCheckCoordinatorGrpcTest.java
+
+[e091b1f] Colin 2021-12-06 12:03:28 +0800 Add metrics to collect connection info of grpc (#25)
+7	0	common/src/main/java/com/tencent/rss/common/config/RssBaseConf.java
+91	0	common/src/main/java/com/tencent/rss/common/metrics/GRPCMetrics.java
+24	9	common/src/main/java/com/tencent/rss/common/rpc/GrpcServer.java
+47	0	common/src/main/java/com/tencent/rss/common/rpc/MonitoringServerCall.java
+36	0	common/src/main/java/com/tencent/rss/common/rpc/MonitoringServerCallListener.java
+50	0	common/src/main/java/com/tencent/rss/common/rpc/MonitoringServerInterceptor.java
+4	3	coordinator/src/main/java/com/tencent/rss/coordinator/{CoordinatorRpcServerFactory.java => CoordinatorFactory.java}
+50	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcMetrics.java
+33	5	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+21	22	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorMetricsTest.java
+38	9	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorGrpcTest.java
+157	8	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+18	7	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+4	3	server/src/main/java/com/tencent/rss/server/{RemoteServerFactory.java => ShuffleServerFactory.java}
+108	0	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcMetrics.java
+3	17	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+0	13	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+31	28	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+
+[a071d88] macduan 2021-11-30 17:10:19 +0800 Add max upload expire time and size (#23)
+0	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+18	0	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+6	0	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+34	7	server/src/main/java/com/tencent/rss/server/ShuffleUploader.java
+164	28	server/src/test/java/com/tencent/rss/server/ShuffleUploaderTest.java
+12	0	storage/src/main/java/com/tencent/rss/storage/common/DiskItem.java
+
+[dc619f6] roryqi 2021-11-30 17:08:55 +0800 [Feature] Add the metrics for the number of total partitions (#24)
+2	0	server/src/main/java/com/tencent/rss/server/ShuffleBufferManager.java
+3	0	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+5	0	server/src/test/java/com/tencent/rss/server/ShuffleBufferManagerTest.java
+1	1	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+
+[cce8824] roryqi 2021-11-23 11:41:49 +0800 [Feature] Firestorm supports node's  health check (#14)
+7	0	common/src/main/java/com/tencent/rss/common/config/ConfigUtils.java
+6	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+19	4	coordinator/src/main/java/com/tencent/rss/coordinator/ServerNode.java
+3	1	coordinator/src/main/java/com/tencent/rss/coordinator/SimpleClusterManager.java
+5	5	coordinator/src/test/java/com/tencent/rss/coordinator/BasicAssignmentStrategyTest.java
+2	1	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategyTest.java
+1	1	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionRangeAssignmentTest.java
+3	3	coordinator/src/test/java/com/tencent/rss/coordinator/ServerNodeTest.java
+11	11	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+1	20	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorGrpcTest.java
+41	0	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorTestBase.java
+143	0	integration-test/common/src/test/java/com/tencent/rss/test/HealthCheckCoordinatorGrpcTest.java
+1	0	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+10	10	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+11	11	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+1	21	integration-test/common/src/test/java/com/tencent/rss/test/PartitionBalanceCoordinatorGrpcTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMultiStorageRssTest.java
+10	10	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+14	3	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+26	11	internal-client/src/main/java/com/tencent/rss/client/request/RssSendHeartBeatRequest.java
+2	1	proto/src/main/proto/Rss.proto
+4	0	server/pom.xml
+30	0	server/src/main/java/com/tencent/rss/server/Checker.java
+98	0	server/src/main/java/com/tencent/rss/server/HealthCheck.java
+136	0	server/src/main/java/com/tencent/rss/server/LocalStorageChecker.java
+15	15	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+22	17	server/src/main/java/com/tencent/rss/server/RegisterHeartBeat.java
+2	2	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+21	2	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+60	16	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+1	1	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+2	2	server/src/main/java/com/tencent/rss/server/ShuffleUploader.java
+91	0	server/src/test/java/com/tencent/rss/server/HealthCheckTest.java
+31	0	server/src/test/java/com/tencent/rss/server/HealthyMockChecker.java
+30	30	server/src/test/java/com/tencent/rss/server/MultiStorageManagerTest.java
+4	4	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+9	10	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+3	0	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+126	0	server/src/test/java/com/tencent/rss/server/StorageCheckerTest.java
+31	0	server/src/test/java/com/tencent/rss/server/UnHealthyMockChecker.java
+0	1	storage/src/main/java/com/tencent/rss/storage/common/DiskItem.java
+
+[8906862] macduan 2021-11-19 14:46:45 +0800 [Feature] Enable NewLineAtEofChecker in checkstyle (#18)
+1	0	checkstyle.xml
+1	1	storage/src/main/java/com/tencent/rss/storage/common/ShuffleInfo.java
+
+[1782d7e] macduan 2021-11-16 18:41:41 +0800 Add modifier and import checking to checkstyle (#16)
+5	0	checkstyle.xml
+0	1	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+1	1	client-spark/spark3/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+0	1	common/src/main/java/com/tencent/rss/common/ShuffleAssignmentsInfo.java
+0	1	common/src/main/java/com/tencent/rss/common/util/ExitUtils.java
+0	1	common/src/main/java/com/tencent/rss/common/web/JettyServer.java
+0	1	coordinator/src/main/java/com/tencent/rss/coordinator/AssignmentStrategy.java
+0	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+0	1	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+0	2	storage/src/main/java/com/tencent/rss/storage/handler/impl/AbstractHdfsClientReadHandler.java
+1	15	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+0	14	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileWriter.java
+
+[cfc6c31] macduan 2021-11-16 14:15:55 +0800 [Feature] Read index file first in local mode (#6)
+1	1	.github/PULL_REQUEST_TEMPLATE
+7	4	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+8	3	common/src/main/java/com/tencent/rss/common/ShuffleDataResult.java
+49	0	common/src/main/java/com/tencent/rss/common/ShuffleDataSegment.java
+39	0	common/src/main/java/com/tencent/rss/common/ShuffleIndexResult.java
+0	1	common/src/main/java/com/tencent/rss/common/exception/RssException.java
+58	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+57	0	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+19	30	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+80	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleReadWriteBase.java
+2	2	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+12	15	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithLocalTest.java
+1	1	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+1	1	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+4	0	internal-client/src/main/java/com/tencent/rss/client/api/ShuffleServerClient.java
+43	19	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+14	14	internal-client/src/main/java/com/tencent/rss/client/request/RssGetShuffleDataRequest.java
+62	0	internal-client/src/main/java/com/tencent/rss/client/request/RssGetShuffleIndexRequest.java
+5	9	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleDataResponse.java
+35	0	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleIndexResponse.java
+1	1	pom.xml
+19	5	proto/src/main/proto/Rss.proto
+0	2	server/src/main/java/com/tencent/rss/server/ShuffleDataFlushEvent.java
+4	0	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+6	0	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+81	35	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+29	4	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+7	3	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+5	1	storage/src/main/java/com/tencent/rss/storage/handler/api/ServerReadHandler.java
+1	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileReader.java
+71	5	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileClientReadHandler.java
+1	1	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileReader.java
+26	116	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileServerReadHandler.java
+0	4	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriter.java
+1	2	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsFileReaderTest.java
+61	12	storage/src/test/java/com/tencent/rss/storage/handler/impl/LocalFileHandlerTest.java
+
+[ec56f92] macduan 2021-11-10 19:06:31 +0800 Fix dependency warning
+0	1	integration-test/common/pom.xml
+1	14	integration-test/spark3/pom.xml
+14	8	pom.xml
+
+[1cb3f35] Colin 2021-11-10 14:14:32 +0800 [Improvement] Replace runtime exception with rss related exception in… (#8)
+8	4	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+10	14	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+6	3	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+3	4	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+5	3	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+0	53	common/src/main/java/com/tencent/rss/common/RssException.java
+28	0	common/src/main/java/com/tencent/rss/common/exception/RssException.java
+2	1	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+10	9	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+
+[7275878] macduan 2021-11-09 17:42:14 +0800 Upgrade version to 0.2.0-SNAPSHOT
+2	2	client-spark/common/pom.xml
+2	2	client-spark/spark2/pom.xml
+2	2	client-spark/spark3/pom.xml
+2	2	client/pom.xml
+1	1	common/pom.xml
+1	1	coordinator/pom.xml
+2	2	integration-test/common/pom.xml
+2	2	integration-test/spark-common/pom.xml
+2	2	integration-test/spark3/pom.xml
+2	2	internal-client/pom.xml
+1	1	pom.xml
+1	1	proto/pom.xml
+1	1	server/pom.xml
+1	1	storage/pom.xml
+
+[9835b16] macduan 2021-11-09 16:13:42 +0800 Add pull request template
+44	0	.github/PULL_REQUEST_TEMPLATE
+1	0	pom.xml
+
+[7008a32] roryqi 2021-11-08 19:31:13 +0800 [Improvement] Optimize coordinator allocation algorithm (#3)
+5	2	coordinator/src/main/java/com/tencent/rss/coordinator/AssignmentStrategyFactory.java
+2	30	coordinator/src/main/java/com/tencent/rss/coordinator/BasicAssignmentStrategy.java
+1	1	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+15	8	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+25	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorUtils.java
+168	0	coordinator/src/main/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategy.java
+0	17	coordinator/src/test/java/com/tencent/rss/coordinator/BasicAssignmentStrategyTest.java
+1	1	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorConfTest.java
+45	0	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorUtilsTest.java
+190	0	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionBalanceAssignmentStrategyTest.java
+3	15	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorGrpcTest.java
+40	0	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorTestUtils.java
+121	0	integration-test/common/src/test/java/com/tencent/rss/test/PartitionBalanceCoordinatorGrpcTest.java
+
+[4b086b6] macduan 2021-11-02 20:39:54 +0800 Add license header to maven ci yaml file #1
+17	0	.github/workflows/maven.yml
+
+[91352ff] duanmeng 2021-11-02 20:16:18 +0800 Create maven.yml
+28	0	.github/workflows/maven.yml
+
+[44ff317] colinma 2021-10-29 16:05:32 +0800 Initial version
+23	0	.gitignore
+36	0	CONTRIBUTING.md
+507	0	LICENSE
+194	0	README.md
+-	-	asset/rss_architecture.png
+-	-	asset/rss_data_format.png
+-	-	asset/rss_shuffle_write.png
+95	0	bin/get-metrics.py
+35	0	bin/restart-coordinator.sh
+35	0	bin/restart-shuffle-server.sh
+29	0	bin/rss-env.sh
+66	0	bin/start-coordinator.sh
+98	0	bin/start-shuffle-server.sh
+30	0	bin/stop-coordinator.sh
+30	0	bin/stop-shuffle-server.sh
+118	0	bin/utils.sh
+134	0	build_distribution.sh
+24	0	checkstyle-suppressions.xml
+417	0	checkstyle.xml
+79	0	client-spark/common/pom.xml
+80	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssClientConfig.java
+77	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleHandle.java
+147	0	client-spark/common/src/main/java/org/apache/spark/shuffle/RssShuffleUtils.java
+146	0	client-spark/common/src/main/java/org/apache/spark/shuffle/reader/RssShuffleDataIterator.java
+46	0	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/AddBlockEvent.java
+109	0	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/BufferManagerOptions.java
+35	0	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WrappedByteArrayOutputStream.java
+281	0	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriteBufferManager.java
+117	0	client-spark/common/src/main/java/org/apache/spark/shuffle/writer/WriterBuffer.java
+72	0	client-spark/common/src/test/java/org/apache/spark/shuffle/RssShuffleUtilsTest.java
+102	0	client-spark/common/src/test/java/org/apache/spark/shuffle/reader/AbstractRssReaderTest.java
+238	0	client-spark/common/src/test/java/org/apache/spark/shuffle/reader/RssShuffleDataIteratorTest.java
+149	0	client-spark/common/src/test/java/org/apache/spark/shuffle/writer/WriteBufferManagerTest.java
+93	0	client-spark/common/src/test/java/org/apache/spark/shuffle/writer/WriteBufferTest.java
+186	0	client-spark/spark2/pom.xml
+395	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+179	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+329	0	client-spark/spark2/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+79	0	client-spark/spark2/src/test/java/org/apache/spark/shuffle/reader/RssShuffleReaderTest.java
+352	0	client-spark/spark2/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+177	0	client-spark/spark3/pom.xml
+507	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/RssShuffleManager.java
+227	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/reader/RssShuffleReader.java
+303	0	client-spark/spark3/src/main/java/org/apache/spark/shuffle/writer/RssShuffleWriter.java
+40	0	client-spark/spark3/src/test/java/org/apache/spark/shuffle/TestUtils.java
+139	0	client-spark/spark3/src/test/java/org/apache/spark/shuffle/reader/RssShuffleReaderTest.java
+361	0	client-spark/spark3/src/test/java/org/apache/spark/shuffle/writer/RssShuffleWriterTest.java
+68	0	client/pom.xml
+32	0	client/src/main/java/com/tencent/rss/client/api/ShuffleReadClient.java
+59	0	client/src/main/java/com/tencent/rss/client/api/ShuffleWriteClient.java
+50	0	client/src/main/java/com/tencent/rss/client/factory/ShuffleClientFactory.java
+222	0	client/src/main/java/com/tencent/rss/client/impl/ShuffleReadClientImpl.java
+373	0	client/src/main/java/com/tencent/rss/client/impl/ShuffleWriteClientImpl.java
+112	0	client/src/main/java/com/tencent/rss/client/request/CreateShuffleReadClientRequest.java
+40	0	client/src/main/java/com/tencent/rss/client/response/CompressedShuffleBlock.java
+40	0	client/src/main/java/com/tencent/rss/client/response/SendShuffleDataResult.java
+82	0	client/src/main/java/com/tencent/rss/client/util/ClientUtils.java
+87	0	client/src/test/java/com/tencent/rss/client/ClientUtilsTest.java
+67	0	client/src/test/java/com/tencent/rss/client/TestUtils.java
+472	0	client/src/test/java/com/tencent/rss/client/impl/ShuffleReadClientImplTest.java
+60	0	client/src/test/java/com/tencent/rss/client/impl/ShuffleWriteClientImplTest.java
+72	0	common/pom.xml
+31	0	common/src/main/java/com/tencent/rss/common/Arguments.java
+85	0	common/src/main/java/com/tencent/rss/common/BufferSegment.java
+78	0	common/src/main/java/com/tencent/rss/common/PartitionRange.java
+53	0	common/src/main/java/com/tencent/rss/common/RssException.java
+44	0	common/src/main/java/com/tencent/rss/common/ShuffleAssignmentsInfo.java
+119	0	common/src/main/java/com/tencent/rss/common/ShuffleBlockInfo.java
+49	0	common/src/main/java/com/tencent/rss/common/ShuffleDataResult.java
+116	0	common/src/main/java/com/tencent/rss/common/ShufflePartitionedBlock.java
+51	0	common/src/main/java/com/tencent/rss/common/ShufflePartitionedData.java
+59	0	common/src/main/java/com/tencent/rss/common/ShuffleRegisterInfo.java
+68	0	common/src/main/java/com/tencent/rss/common/ShuffleServerInfo.java
+170	0	common/src/main/java/com/tencent/rss/common/config/ConfigOption.java
+210	0	common/src/main/java/com/tencent/rss/common/config/ConfigOptions.java
+161	0	common/src/main/java/com/tencent/rss/common/config/ConfigUtils.java
+175	0	common/src/main/java/com/tencent/rss/common/config/RssBaseConf.java
+573	0	common/src/main/java/com/tencent/rss/common/config/RssConf.java
+84	0	common/src/main/java/com/tencent/rss/common/metrics/JvmMetrics.java
+68	0	common/src/main/java/com/tencent/rss/common/metrics/MetricsManager.java
+85	0	common/src/main/java/com/tencent/rss/common/rpc/GrpcServer.java
+30	0	common/src/main/java/com/tencent/rss/common/rpc/ServerInterface.java
+84	0	common/src/main/java/com/tencent/rss/common/util/ByteUnit.java
+54	0	common/src/main/java/com/tencent/rss/common/util/ChecksumUtils.java
+35	0	common/src/main/java/com/tencent/rss/common/util/Constants.java
+70	0	common/src/main/java/com/tencent/rss/common/util/ExitUtils.java
+138	0	common/src/main/java/com/tencent/rss/common/util/RssUtils.java
+111	0	common/src/main/java/com/tencent/rss/common/web/CommonMetricsServlet.java
+159	0	common/src/main/java/com/tencent/rss/common/web/JettyServer.java
+48	0	common/src/test/java/com/tencent/rss/common/ArgumentsTest.java
+47	0	common/src/test/java/com/tencent/rss/common/ShufflePartitionedBlockTest.java
+83	0	common/src/test/java/com/tencent/rss/common/config/ConfigOptionTest.java
+92	0	common/src/test/java/com/tencent/rss/common/config/RssConfTest.java
+77	0	common/src/test/java/com/tencent/rss/common/metrics/MetricsManagerTest.java
+46	0	common/src/test/java/com/tencent/rss/common/metrics/TestUtils.java
+92	0	common/src/test/java/com/tencent/rss/common/util/ChecksumUtilsTest.java
+55	0	common/src/test/java/com/tencent/rss/common/util/ExitUtilsTest.java
+67	0	common/src/test/java/com/tencent/rss/common/util/RssUtilsTest.java
+91	0	common/src/test/java/com/tencent/rss/common/web/JettyServerTest.java
+26	0	common/src/test/resources/rss-defaults.conf
+19	0	common/src/test/resources/server.conf
+23	0	conf/coordinator.conf
+30	0	conf/log4j.properties
+38	0	conf/server.conf
+159	0	coordinator/pom.xml
+79	0	coordinator/src/main/java/com/tencent/rss/coordinator/ApplicationManager.java
+29	0	coordinator/src/main/java/com/tencent/rss/coordinator/AssignmentStrategy.java
+44	0	coordinator/src/main/java/com/tencent/rss/coordinator/AssignmentStrategyFactory.java
+109	0	coordinator/src/main/java/com/tencent/rss/coordinator/BasicAssignmentStrategy.java
+54	0	coordinator/src/main/java/com/tencent/rss/coordinator/ClusterManager.java
+32	0	coordinator/src/main/java/com/tencent/rss/coordinator/ClusterManagerFactory.java
+96	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorConf.java
+212	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorGrpcService.java
+63	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorMetrics.java
+46	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorRpcServerFactory.java
+163	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorServer.java
+36	0	coordinator/src/main/java/com/tencent/rss/coordinator/CoordinatorUtils.java
+90	0	coordinator/src/main/java/com/tencent/rss/coordinator/PartitionRangeAssignment.java
+124	0	coordinator/src/main/java/com/tencent/rss/coordinator/ServerNode.java
+189	0	coordinator/src/main/java/com/tencent/rss/coordinator/SimpleClusterManager.java
+163	0	coordinator/src/test/java/com/tencent/rss/coordinator/BasicAssignmentStrategyTest.java
+51	0	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorConfTest.java
+79	0	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorMetricsTest.java
+76	0	coordinator/src/test/java/com/tencent/rss/coordinator/CoordinatorServerTest.java
+61	0	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionRangeAssignmentTest.java
+39	0	coordinator/src/test/java/com/tencent/rss/coordinator/PartitionRangeTest.java
+47	0	coordinator/src/test/java/com/tencent/rss/coordinator/ServerNodeTest.java
+211	0	coordinator/src/test/java/com/tencent/rss/coordinator/SimpleClusterManagerTest.java
+27	0	coordinator/src/test/resources/coordinator.conf
+0	0	coordinator/src/test/resources/empty
+141	0	integration-test/common/pom.xml
+314	0	integration-test/common/src/test/java/com/tencent/rss/test/CoordinatorGrpcTest.java
+114	0	integration-test/common/src/test/java/com/tencent/rss/test/IntegrationTestBase.java
+245	0	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageFaultToleranceTest.java
+607	0	integration-test/common/src/test/java/com/tencent/rss/test/MultiStorageTest.java
+110	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleReadWriteBase.java
+430	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerGrpcTest.java
+165	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithHdfsTest.java
+173	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleServerWithLocalTest.java
+270	0	integration-test/common/src/test/java/com/tencent/rss/test/ShuffleWithRssClientTest.java
+189	0	integration-test/spark-common/pom.xml
+44	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/CombineByKeyTest.java
+49	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/GroupByKeyTest.java
+114	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionTest.java
+43	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithHdfsRssTest.java
+51	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithLocalFileRssTest.java
+65	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/RepartitionWithMultiStorageRssTest.java
+42	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SimpleTestBase.java
+389	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkClientWithLocalTest.java
+152	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkFallbackReadTest.java
+106	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkIntegrationTestBase.java
+82	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLMultiStorageRssTest.java
+98	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLTest.java
+56	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithHdfsRssTest.java
+69	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/SparkSQLWithLocalFileRssTest.java
+50	0	integration-test/spark-common/src/test/java/com/tencent/rss/test/TestUtils.java
+138	0	integration-test/spark3/pom.xml
+98	0	integration-test/spark3/src/test/java/com/tencent/rss/test/AQERepartitionTest.java
+110	0	integration-test/spark3/src/test/java/com/tencent/rss/test/AQESkewedJoinTest.java
+49	0	internal-client/pom.xml
+39	0	internal-client/src/main/java/com/tencent/rss/client/api/CoordinatorClient.java
+61	0	internal-client/src/main/java/com/tencent/rss/client/api/ShuffleServerClient.java
+75	0	internal-client/src/main/java/com/tencent/rss/client/factory/CoordinatorClientFactory.java
+61	0	internal-client/src/main/java/com/tencent/rss/client/factory/ShuffleServerClientFactory.java
+269	0	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/CoordinatorGrpcClient.java
+69	0	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/GrpcClient.java
+471	0	internal-client/src/main/java/com/tencent/rss/client/impl/grpc/ShuffleServerGrpcClient.java
+38	0	internal-client/src/main/java/com/tencent/rss/client/request/RssAppHeartBeatRequest.java
+38	0	internal-client/src/main/java/com/tencent/rss/client/request/RssFinishShuffleRequest.java
+65	0	internal-client/src/main/java/com/tencent/rss/client/request/RssGetShuffleAssignmentsRequest.java
+69	0	internal-client/src/main/java/com/tencent/rss/client/request/RssGetShuffleDataRequest.java
+44	0	internal-client/src/main/java/com/tencent/rss/client/request/RssGetShuffleResultRequest.java
+47	0	internal-client/src/main/java/com/tencent/rss/client/request/RssRegisterShuffleRequest.java
+60	0	internal-client/src/main/java/com/tencent/rss/client/request/RssReportShuffleResultRequest.java
+38	0	internal-client/src/main/java/com/tencent/rss/client/request/RssSendCommitRequest.java
+83	0	internal-client/src/main/java/com/tencent/rss/client/request/RssSendHeartBeatRequest.java
+55	0	internal-client/src/main/java/com/tencent/rss/client/request/RssSendShuffleDataRequest.java
+32	0	internal-client/src/main/java/com/tencent/rss/client/response/ClientResponse.java
+30	0	internal-client/src/main/java/com/tencent/rss/client/response/ResponseStatusCode.java
+26	0	internal-client/src/main/java/com/tencent/rss/client/response/RssAppHeartBeatResponse.java
+26	0	internal-client/src/main/java/com/tencent/rss/client/response/RssFinishShuffleResponse.java
+52	0	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleAssignmentsResponse.java
+38	0	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleDataResponse.java
+37	0	internal-client/src/main/java/com/tencent/rss/client/response/RssGetShuffleResultResponse.java
+26	0	internal-client/src/main/java/com/tencent/rss/client/response/RssRegisterShuffleResponse.java
+26	0	internal-client/src/main/java/com/tencent/rss/client/response/RssReportShuffleResultResponse.java
+36	0	internal-client/src/main/java/com/tencent/rss/client/response/RssSendCommitResponse.java
+38	0	internal-client/src/main/java/com/tencent/rss/client/response/RssSendHeartBeatResponse.java
+47	0	internal-client/src/main/java/com/tencent/rss/client/response/RssSendShuffleDataResponse.java
+23	0	internal-client/src/main/java/com/tencent/rss/client/util/ClientType.java
+1070	0	pom.xml
+152	0	proto/pom.xml
+292	0	proto/src/main/proto/Rss.proto
+184	0	server/pom.xml
+302	0	server/src/main/java/com/tencent/rss/server/MultiStorageManager.java
+44	0	server/src/main/java/com/tencent/rss/server/PreAllocatedBufferInfo.java
+133	0	server/src/main/java/com/tencent/rss/server/RegisterHeartBeat.java
+46	0	server/src/main/java/com/tencent/rss/server/RemoteServerFactory.java
+87	0	server/src/main/java/com/tencent/rss/server/ShuffleBuffer.java
+304	0	server/src/main/java/com/tencent/rss/server/ShuffleBufferManager.java
+117	0	server/src/main/java/com/tencent/rss/server/ShuffleDataFlushEvent.java
+388	0	server/src/main/java/com/tencent/rss/server/ShuffleFlushManager.java
+245	0	server/src/main/java/com/tencent/rss/server/ShuffleServer.java
+291	0	server/src/main/java/com/tencent/rss/server/ShuffleServerConf.java
+499	0	server/src/main/java/com/tencent/rss/server/ShuffleServerGrpcService.java
+143	0	server/src/main/java/com/tencent/rss/server/ShuffleServerMetrics.java
+422	0	server/src/main/java/com/tencent/rss/server/ShuffleTaskManager.java
+485	0	server/src/main/java/com/tencent/rss/server/ShuffleUploader.java
+40	0	server/src/main/java/com/tencent/rss/server/StatusCode.java
+223	0	server/src/test/java/com/tencent/rss/server/MultiStorageManagerTest.java
+308	0	server/src/test/java/com/tencent/rss/server/ShuffleBufferManagerTest.java
+74	0	server/src/test/java/com/tencent/rss/server/ShuffleBufferTest.java
+325	0	server/src/test/java/com/tencent/rss/server/ShuffleFlushManagerTest.java
+85	0	server/src/test/java/com/tencent/rss/server/ShuffleServerConfTest.java
+136	0	server/src/test/java/com/tencent/rss/server/ShuffleServerMetricsTest.java
+80	0	server/src/test/java/com/tencent/rss/server/ShuffleServerTest.java
+361	0	server/src/test/java/com/tencent/rss/server/ShuffleTaskManagerTest.java
+574	0	server/src/test/java/com/tencent/rss/server/ShuffleUploaderTest.java
+30	0	server/src/test/resources/confTest.conf
+27	0	server/src/test/resources/gcTest.conf
+29	0	server/src/test/resources/server.conf
+90	0	spark-patches/spark-2.4.6_dynamic_allocation_support.patch
+115	0	spark-patches/spark-3.1.2_dynamic_allocation_support.patch
+91	0	storage/pom.xml
+30	0	storage/src/main/java/com/tencent/rss/storage/api/ShuffleReader.java
+323	0	storage/src/main/java/com/tencent/rss/storage/common/DiskItem.java
+262	0	storage/src/main/java/com/tencent/rss/storage/common/DiskMetaData.java
+122	0	storage/src/main/java/com/tencent/rss/storage/common/FileBasedShuffleSegment.java
+109	0	storage/src/main/java/com/tencent/rss/storage/common/ShuffleFileInfo.java
+37	0	storage/src/main/java/com/tencent/rss/storage/common/ShuffleInfo.java
+23	0	storage/src/main/java/com/tencent/rss/storage/common/ShuffleSegment.java
+135	0	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleHandlerFactory.java
+54	0	storage/src/main/java/com/tencent/rss/storage/factory/ShuffleUploadHandlerFactory.java
+28	0	storage/src/main/java/com/tencent/rss/storage/handler/api/ClientReadHandler.java
+26	0	storage/src/main/java/com/tencent/rss/storage/handler/api/ServerReadHandler.java
+29	0	storage/src/main/java/com/tencent/rss/storage/handler/api/ShuffleDeleteHandler.java
+41	0	storage/src/main/java/com/tencent/rss/storage/handler/api/ShuffleUploadHandler.java
+35	0	storage/src/main/java/com/tencent/rss/storage/handler/api/ShuffleWriteHandler.java
+29	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/AbstractFileClientReadHandler.java
+237	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/AbstractHdfsClientReadHandler.java
+46	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/DataFileSegment.java
+44	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/FileSegment.java
+71	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsClientReadHandler.java
+153	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileReader.java
+163	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsFileWriter.java
+70	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleDeleteHandler.java
+268	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleUploadHandler.java
+135	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/HdfsShuffleWriteHandler.java
+82	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileClientReadHandler.java
+47	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileDeleteHandler.java
+97	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileReader.java
+250	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileServerReadHandler.java
+130	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriteHandler.java
+73	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/LocalFileWriter.java
+212	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandler.java
+122	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/MultiStorageReadHandler.java
+79	0	storage/src/main/java/com/tencent/rss/storage/handler/impl/ShuffleIndexHeader.java
+40	0	storage/src/main/java/com/tencent/rss/storage/request/CreateShuffleDeleteHandlerRequest.java
+158	0	storage/src/main/java/com/tencent/rss/storage/request/CreateShuffleReadHandlerRequest.java
+157	0	storage/src/main/java/com/tencent/rss/storage/request/CreateShuffleUploadHandlerRequest.java
+91	0	storage/src/main/java/com/tencent/rss/storage/request/CreateShuffleWriteHandlerRequest.java
+242	0	storage/src/main/java/com/tencent/rss/storage/util/ShuffleStorageUtils.java
+78	0	storage/src/main/java/com/tencent/rss/storage/util/ShuffleUploadResult.java
+26	0	storage/src/main/java/com/tencent/rss/storage/util/StorageType.java
+74	0	storage/src/test/java/com/tencent/rss/storage/HdfsTestBase.java
+298	0	storage/src/test/java/com/tencent/rss/storage/common/DiskItemTest.java
+48	0	storage/src/test/java/com/tencent/rss/storage/common/ShuffleFileInfoTest.java
+257	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsFileReaderTest.java
+178	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsFileWriterTest.java
+139	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsHandlerTest.java
+461	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/HdfsShuffleUploadHandlerTest.java
+132	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/LocalFileHandlerTest.java
+341	0	storage/src/test/java/com/tencent/rss/storage/handler/impl/MultiStorageHdfsClientReadHandlerTest.java
+65	0	storage/src/test/java/com/tencent/rss/storage/util/ShuffleHdfsStorageUtilsTest.java
+269	0	storage/src/test/java/com/tencent/rss/storage/util/ShuffleStorageUtilsTest.java

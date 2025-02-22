@@ -661,7 +661,7 @@ entity
       72 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/PrintableString.java
      142 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/SetReplication.java
      175 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/SnapshotCommands.java
-     156 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/Stat.java
+     154 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/Stat.java
      123 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/Tail.java
      123 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/Test.java
      197 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/TouchCommands.java
@@ -1362,7 +1362,7 @@ entity
       79 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/protocolPB/RefreshUserMappingsProtocolClientSideTranslatorPB.java
       37 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/protocolPB/RefreshUserMappingsProtocolPB.java
       74 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/protocolPB/RefreshUserMappingsProtocolServerSideTranslatorPB.java
- 1353626 total
+ 1353624 total
      304 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/ssl/DelegatingSSLSocketFactory.java
      352 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/ssl/FileBasedKeyStoresFactory.java
      113 hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/ssl/FileMonitoringTimerTask.java

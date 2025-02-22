@@ -3896,7 +3896,6 @@
 1	1	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/DebugTreeParser.cs
 0	141	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/JavaExtensions/DictionaryExtensions.cs
 8	57	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/JavaExtensions/ExceptionExtensions.cs
-0	94	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/JavaExtensions/IOExtensions.cs
 4	5	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/Misc/DoubleKeyMap`3.cs
 9	28	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/Misc/Stats.cs
 1	2	runtime/CSharp3/Sources/Antlr3.Runtime.Debug/ParseTreeBuilder.cs
@@ -3919,7 +3918,7 @@
 0	0	runtime/CSharp3/Sources/{Antlr3.Runtime.Debug/JavaExtensions => Antlr3.Runtime.JavaExtensions}/TypeExtensions.cs
 4	5	runtime/CSharp3/Sources/Antlr3.Runtime/Antlr3.Runtime.csproj
 2	4	runtime/CSharp3/Sources/Antlr3.Runtime/LegacyCommonTokenStream.cs
-40	0	runtime/CSharp3/Sources/Antlr3.Runtime/Misc/FunctionDelegates.cs
+7	61	runtime/CSharp3/Sources/{Antlr3.Runtime.Debug/JavaExtensions/IOExtensions.cs => Antlr3.Runtime/Misc/FunctionDelegates.cs}
 4	5	runtime/CSharp3/Sources/Antlr3.Runtime/MismatchedTokenException.cs
 10	7	runtime/CSharp3/Sources/Antlr3.Runtime/Tree/CommonTree.cs
 5	3	runtime/CSharp3/Sources/Antlr3.Runtime/Tree/ITreeVisitorAction.cs
