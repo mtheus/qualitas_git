@@ -171,3 +171,38 @@ The treemap provides a **hierarchical view** of the repository structure, where:
 - **Folders** are represented as nested rectangles.
 - **File sizes** determine the relative area of each rectangle.
 - This visualization can be used to **assess file distributions, detect anomalies, or analyze architectural trends** in the repository.
+
+## Commit Parsing and Classification
+
+### Overview
+
+`run_parser_commits.ipynb` processes Git logs to extract **commit metadata, file changes, and classify commit types** using a FastText model. The output is structured CSV files for further analysis.
+
+### Process
+
+1. **Parse Git Logs**: Extracts commit and file change information.
+2. **Classify Commits**: Uses a FastText model to categorize commit messages.
+3. **Transform Data**: Converts dates to UTC format and sorts commits chronologically.
+4. **Save as CSV**: Outputs two datasets:
+   - `commits/{task_id}-commits.csv`
+   - `commits/{task_id}-files.csv`
+
+### Data Structure
+
+#### `commits.csv`
+| Column      | Description             |
+|------------|-------------------------|
+| commit_id  | Unique commit identifier |
+| author     | Commit author's name     |
+| date       | Timestamp in UTC         |
+| message    | Commit message text      |
+| change_type | Predicted commit type  |
+
+#### `files.csv`
+| Column     | Description              |
+|------------|--------------------------|
+| commit_id  | Associated commit ID      |
+| added      | Lines added               |
+| deleted    | Lines removed             |
+| filepath   | Full file path            |
+| filename   | Extracted file name       |

@@ -4,3 +4,4 @@ analysis
 *.zip
 *.model
 maps/*.csv
+commits/*.csv
