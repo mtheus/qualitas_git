@@ -37,6 +37,129 @@ Ensure Git is installed and run the scripts:
 ./download_repos2.sh
 ```
 
+### Projects List
+
+| Projeto                  | GitHub Link                                                       |
+|--------------------------|-------------------------------------------------------------------|
+| BiglyBT                   | https://github.com/BiglySoftware/BiglyBT.git                       |
+| cglib                     | https://github.com/cglib/cglib.git                                 |
+| giraph                    | https://github.com/apache/giraph.git                               |
+| java-design-patterns      | https://github.com/iluwatar/java-design-patterns.git               |
+| opengrok                  | https://github.com/oracle/opengrok.git                             |
+| takes                     | https://github.com/yegor256/takes.git                              |
+| Firestorm                 | https://github.com/Tencent/Firestorm.git                           |
+| checkstyle                | https://github.com/checkstyle/checkstyle.git                       |
+| glide                     | https://github.com/bumptech/glide.git                              |
+| javaparser                | https://github.com/javaparser/javaparser.git                       |
+| opennlp                   | https://github.com/apache/opennlp.git                              |
+| tika                      | https://github.com/apache/tika.git                                 |
+| Hystrix                   | https://github.com/Netflix/Hystrix.git                             |
+| cobertura                 | https://github.com/cobertura/cobertura.git                        |
+| gora                      | https://github.com/apache/gora.git                                 |
+| jenkins                   | https://github.com/jenkinsci/jenkins.git                           |
+| org.aspectj               | https://github.com/eclipse/org.aspectj.git                         |
+| tinker                    | https://github.com/Tencent/tinker.git                              |
+| RxJava                    | https://github.com/ReactiveX/RxJava.git                            |
+| commons-collections       | https://github.com/apache/commons-collections.git                  |
+| graal                     | https://github.com/oracle/graal.git                                |
+| jetty.project             | https://github.com/eclipse/jetty.project.git                      |
+| pdfbox                    | https://github.com/apache/pdfbox.git                               |
+| tomcat                    | https://github.com/apache/tomcat.git                               |
+| SimianArmy                | https://github.com/Netflix/SimianArmy.git                          |
+| commons-io                | https://github.com/apache/commons-io.git                           |
+| groovy                    | https://github.com/apache/groovy.git                               |
+| jfreechart                | https://github.com/jfree/jfreechart.git                            |
+| phoenix                   | https://github.com/apache/phoenix.git                              |
+| tomee                     | https://github.com/apache/tomee.git                                |
+| accumulo                  | https://github.com/apache/accumulo.git                             |
+| commons-lang              | https://github.com/apache/commons-lang.git                         |
+| gson                      | https://github.com/google/gson.git                                 |
+| jmeter                    | https://github.com/apache/jmeter.git                               |
+| picasso                   | https://github.com/square/picasso.git                              |
+| truth                     | https://github.com/google/truth.git                                |
+| airflow                   | https://github.com/apache/airflow.git                              |
+| dagger                    | https://github.com/google/dagger.git                               |
+| guava                     | https://github.com/google/guava.git                                |
+| jspwiki                   | https://github.com/apache/jspwiki.git                              |
+| pmd                       | https://github.com/pmd/pmd.git                                     |
+| velocity-engine           | https://github.com/apache/velocity-engine.git                      |
+| angel                     | https://github.com/Tencent/angel.git                               |
+| derby                     | https://github.com/apache/derby.git                                |
+| hadoop                    | https://github.com/apache/hadoop.git                               |
+| junit4                    | https://github.com/junit-team/junit4.git                            |
+| poi                       | https://github.com/apache/poi.git                                  |
+| visualvm                  | https://github.com/oracle/visualvm.git                             |
+| ant                       | https://github.com/apache/ant.git                                  |
+| drjava                    | https://github.com/DrJavaAtRice/drjava.git                         |
+| hazelcast                 | https://github.com/hazelcast/hazelcast.git                         |
+| junit5                    | https://github.com/junit-team/junit5.git                            |
+| presto                    | https://github.com/prestodb/presto.git                             |
+| weka-3.8                  | https://github.com/Waikato/weka-3.8.git                            |
+| antlr3                    | https://github.com/antlr/antlr3.git                                |
+| dropwizard                | https://github.com/dropwizard/dropwizard.git                       |
+| hbase                     | https://github.com/apache/hbase.git                                |
+| kafka                     | https://github.com/apache/kafka.git                                |
+| quartz                    | https://github.com/quartz-scheduler/quartz.git                     |
+| xalan-java                | https://github.com/apache/xalan-java.git                           |
+| argouml                   | https://github.com/argouml-tigris-org/argouml.git                  |
+| druid                     | https://github.com/apache/druid.git                                |
+| heritrix3                 | https://github.com/internetarchive/heritrix3.git                   |
+| logging-log4j2            | https://github.com/apache/logging-log4j2.git                      |
+| redisson                  | https://github.com/redisson/redisson.git                           |
+| xerces2-j                 | https://github.com/apache/xerces2-j.git                            |
+| auto                      | https://github.com/google/auto.git                                 |
+| dubbo                     | https://github.com/apache/dubbo.git                                |
+| hibernate-orm             | https://github.com/hibernate/hibernate-orm.git                     |
+| lucene                    | https://github.com/apache/lucene.git                               |
+| retrofit                  | https://github.com/square/retrofit.git                             |
+| xmlgraphics-batik         | https://github.com/apache/xmlgraphics-batik.git                    |
+| bc-java                   | https://github.com/bcgit/bc-java.git                               |
+| elasticsearch             | https://github.com/elastic/elasticsearch.git                       |
+| hsqldb                    | https://github.com/hsqldb/hsqldb.git                               |
+| maven                     | https://github.com/apache/maven.git                                |
+| rocketmq                  | https://github.com/apache/rocketmq.git                             |
+| xstream                   | https://github.com/x-stream/xstream.git                            |
+| beam                      | https://github.com/apache/beam.git                                 |
+| error-prone               | https://github.com/google/error-prone.git                          |
+| htmlunit                  | https://github.com/HtmlUnit/htmlunit.git                           |
+| microprofile              | https://github.com/eclipse/microprofile.git                       |
+| shardingsphere            | https://github.com/apache/shardingsphere.git                       |
+| zeppelin                  | https://github.com/apache/zeppelin.git                             |
+| bitcoinj                  | https://github.com/bitcoinj/bitcoinj.git                           |
+| eureka                    | https://github.com/Netflix/eureka.git                              |
+| ignite                    | https://github.com/apache/ignite.git                               |
+| mockito                   | https://github.com/mockito/mockito.git                             |
+| skywalking                | https://github.com/apache/skywalking.git                           |
+| zookeeper                 | https://github.com/apache/zookeeper.git                            |
+| byte-buddy                | https://github.com/raphw/byte-buddy.git                            |
+| findbugs                  | https://github.com/findbugsproject/findbugs.git                    |
+| itextpdf                  | https://github.com/itext/itextpdf.git                              |
+| mybatis-3                 | https://github.com/mybatis/mybatis-3.git                           |
+| spark                     | https://github.com/perwendel/spark.git                             |
+| zuul                      | https://github.com/Netflix/zuul.git                                |
+| camel                     | https://github.com/apache/camel.git                                |
+| flink                     | https://github.com/apache/flink.git                                |
+| j2objc                    | https://github.com/google/j2objc.git                              |
+| netbeans                  | https://github.com/apache/netbeans.git                             |
+| spring-boot               | https://github.com/spring-projects/spring-boot.git                 |
+| cassandra                 | https://github.com/apache/cassandra.git                            |
+| freecol                   | https://github.com/FreeCol/freecol.git                             |
+| jOOQ                      | https://github.com/jOOQ/jOOQ.git                                   |
+| netty                     | https://github.com/netty/netty.git                                 |
+| spring-framework          | https://github.com/spring-projects/spring-framework.git            |
+| castor                    | https://github.com/castor-data-binding/castor.git                  |
+| freeplane                 | https://github.com/freeplane/freeplane.git                         |
+| jackson                   | https://github.com/FasterXML/jackson.git                           |
+| nifi                      | https://github.com/apache/nifi.git                                 |
+| storm                     | https://github.com/apache/storm.git                                |
+| cayenne                   | https://github.com/apache/cayenne.git                              |
+| ganttproject              | https://github.com/bardsoftware/ganttproject.git                   |
+| jasperreports             | https://github.com/TIBCOSoftware/jasperreports.git                 |
+| okhttp                    | https://github.com/square/okhttp.git                               |
+| struts                    | https://github.com/apache/struts.git                               |
+
+
+
 ## extract_logs.sh - Log Extraction and Line Counting Script
 
 ### Overview
