@@ -3,3 +3,4 @@ logs/kotlin_logfile.log
 analysis
 *.zip
 *.model
+maps/*.csv

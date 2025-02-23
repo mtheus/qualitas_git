@@ -129,3 +129,45 @@ To run the analysis, use the following command:
 ```bash
 ./run_analysis.sh      
 ```
+
+## classification.ipynb - Commit Classification Using FastText
+
+### Overview
+
+The `classification.ipynb` notebook trains a machine learning model using **FastText** to classify commit messages into predefined categories. This helps in analyzing software evolution by distinguishing different types of code changes.
+
+### Model Training and Evaluation
+
+The model is trained on a labeled dataset of commit messages and validated using a separate test set. Its performance is measured using **Precision, Recall, and F1-score**, where the overall metrics are:
+
+- **Precision**: 0.81  
+- **Recall**: 0.81  
+- **F1-score**: 0.81  
+
+### Commit Categories
+
+The model classifies commits into five categories:
+
+- **Corrective**: Bug fixes and defect corrections.
+- **Features**: New functionalities and enhancements.
+- **Non-functional**: Performance, security, or documentation improvements.
+- **Perfective**: Code refactoring and maintainability updates.
+- **Unknown**: Unclassified or ambiguous commits.
+
+### Usage
+
+The `classification.ipynb` notebook can be used to **train, evaluate, and apply the model** for commit classification. It allows researchers to fine-tune the model using different training datasets and parameters, facilitating software maintenance and evolution analysis.
+
+
+## Generating a Treemap of the Logical Architecture
+
+### Overview
+
+The Jupyter Notebook `run_files_maps.ipynb` processes the `all_files.csv` file from the **logs** directory and generates a **treemap** representing the logical architecture of the software repositories. This visualization helps analyze the **folder structure and file sizes**, allowing for an intuitive understanding of the repository's composition.
+
+### Purpose
+
+The treemap provides a **hierarchical view** of the repository structure, where:
+- **Folders** are represented as nested rectangles.
+- **File sizes** determine the relative area of each rectangle.
+- This visualization can be used to **assess file distributions, detect anomalies, or analyze architectural trends** in the repository.
