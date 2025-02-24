@@ -5,3 +5,5 @@ analysis
 *.model
 maps/*.csv
 commits/*.csv
+reliability/*.csv
+reliability/*.png
