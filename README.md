@@ -329,3 +329,82 @@ The treemap provides a **hierarchical view** of the repository structure, where:
 | deleted    | Lines removed             |
 | filepath   | Full file path            |
 | filename   | Extracted file name       |
+
+## run_reliability_analysis.ipynb - Software Reliability Analysis
+
+### Overview
+
+The `run_reliability_analysis.ipynb` notebook analyzes software reliability by evaluating **Time Between Failures (TBF)** and estimating system dependability based on historical commit data. It focuses on **corrective changes** to compute key reliability metrics.
+
+### Key Analysis Steps
+
+1. **Extracting Failure Data**  
+   - Identifies commit timestamps for **bug fixes** and computes the time intervals between them.
+
+2. **Statistical Reliability Modeling**  
+   - Visualizes **TBF distributions** and failure trends.
+   - Calculates **Mean Time Between Failures (MTBF)** and the failure rate (λ).
+
+3. **Reliability Estimation**  
+   - Computes the probability of the system **operating without failure (R(t))** over time.
+   - Generates a **Reliability Curve** for predictive maintenance insights.
+
+4. **File-Level Reliability Mapping**  
+   - Evaluates **file-specific failure patterns**.
+   - Creates an interactive **treemap visualization** to highlight critical components.
+
+## Project Report (`run_project_report.ipynb`)
+
+This notebook generates a consolidated report on the analyzed repositories, producing a spreadsheet with detailed metrics related to reliability, source code evolution, and developer contributions. It analyzes commits, authors, and modification patterns to provide a comprehensive view of the projects' quality and maintenance.
+
+### **Documented Metrics**
+
+#### **General Information**
+- **`project`** – Name of the analyzed project.
+- **`GitHub`** – URL of the repository on GitHub.
+
+#### **Reliability Metrics**
+- **`R1`** – Probability that a file will not require corrections within 1 day.
+- **`R5`** – Probability that a file will not require corrections within 5 days.
+- **`R10`** – Probability that a file will not require corrections within 10 days.
+- **`MTBF`** – Mean Time Between Failures.
+
+#### **Code Evolution Metrics**
+- **`number-of-commits`** – Total number of commits made to the repository.
+- **`number-of-entities`** – Total number of files monitored in the repository.
+- **`number-of-entities-changed`** – Total number of files that were modified.
+- **`number-of-authors`** – Total number of developers who contributed to the project.
+- **`number-of-months`** – Total number of months analyzed in the repository's history.
+- **`number-of-refactorings`** – Total number of commits classified as refactorings.
+
+#### **Code Churn Metrics**
+- **`avg-entity-churn-added`** – Average number of lines added per file.
+- **`avg-entity-churn-deleted`** – Average number of lines removed per file.
+- **`avg-entity-churn-commits`** – Average number of commits affecting each file.
+- **`avg-entity-ownership`** – Average lines of code for each entity owned by a developer.
+- **`avg-entity-ownership-unique-authors`** – Average number of developers contributing to each entity.
+
+#### **Developer Contribution Metrics**
+- **`avg-author-churn-commits`** – Average number of commits made by each author.
+- **`avg-main-dev-ownership`** – Average percentage of code controlled by the main developer of the project.
+- **`avg-refactoring-main-dev-ownership`** – Average percentage of refactorings made by the main developer.
+- **`avg-soc`** – Average level of code dispersion among different developers (Spread of Contribution).
+- **`avg-fragmentation-fractal-value`** – Indicator of code fragmentation changes (fractal value).
+- **`avg-fragmentation-total-revs`** – Average number of revisions affected by each change.
+- **`avg-revisions`** – Average number of revisions per file in the repository.
+
+#### **Project Report (`run_project_report.ipynb`)**
+
+This notebook generates a consolidated report on the analyzed repositories, producing a spreadsheet with detailed metrics related to reliability, source code evolution, and developer contributions. It analyzes commits, authors, and modification patterns to provide a comprehensive view of the projects' quality and maintenance.
+
+The final report is saved as **`report-analysis.csv`**.
+
+#### **Statistical Analysis (`report-analysis.omv`)**
+
+The file **`report-analysis.omv`** is a **Jamovi** analysis project that imports the **`report-analysis.csv`** dataset to perform various statistical methods for software reliability and quality evaluation.
+
+##### **Performed Analyses**
+- **Regression Analysis** – Investigates relationships between software metrics.
+- **Exploratory Data Analysis (EDA)** – Identifies distributions and patterns.
+- **Correction Analysis** – Applies adjustments to refine statistical models.
+
